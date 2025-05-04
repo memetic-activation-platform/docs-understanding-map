@@ -9,6 +9,7 @@ theme:
     - navigation.instant
     - search.highlight
     - navigation.top
+    - navigation.footer
     - content.action.edit
   palette:
     - scheme: default
@@ -26,6 +27,8 @@ theme:
 
 plugins:
   - search
+  - pdf-export:
+      combined: true
 
 markdown_extensions:
   - toc:
@@ -41,16 +44,44 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - MAP Foundations:
-      - A New MAP Overview: overview.md
-      - Collective Governance Scaffolds: collective-governance.md
-      - MAP Promises: promises.md
-      - Promise Weaves: promise-weaves.md
-      - Vital Capital Flows: vital-capital-flows.md
-      - MAP Security Model: security-model.md
-      - Greet the DAHN: DAHN.md
-      - Promise Agreements: promise-agreements.md
-      - Uniform API (Dances): uniform-api.md
-      - Ethical AI & RAG: ethical-ai-rag.md
-      - Agreements, Agent Spaces and LifeCodes: agreements-spec.md
-      - Glossary: glossary.md
+  - Understanding the MAP:
+    - Prologue: understanding-the-map/prologue.md
+    - Overview: understanding-the-map/overview.md
+    - Principles: understanding-the-map/principles.md
+
+    # Personal & Agent Foundations
+    - From Data Grove to Exosphere: understanding-the-map/private-data-grove.md
+    - Agreements, Agent Spaces and LifeCodes: understanding-the-map/agreements-spec.md
+    - MAP Promises: understanding-the-map/promises.md
+    - Promise Agreements: understanding-the-map/promise-agreements.md
+    - Promise Weaves: understanding-the-map/promise-weaves.md
+
+    # Value Flows and Governance
+    - Vital Capital Flows: understanding-the-map/vital-capital-flows.md
+    - Collective Governance Scaffolds: understanding-the-map/collective-governance.md
+
+    # Choreography, Protocols & Platform Intelligence
+    - Choreographing Dance Flows: understanding-the-map/choreographer.md
+    - Uniform API (Dances): understanding-the-map/uniform-api.md
+
+    # Security, AI, and Experience
+    - MAP Security Model: understanding-the-map/security-model.md
+    - Greet the DAHN: understanding-the-map/DAHN.md
+    - Ethical AI & RAG: understanding-the-map/ethical-ai-rag.md
+
+    # Reference
+    - Glossary: understanding-the-map/glossary.md
+
+  - Journeys:
+    - Personal Journaling: journeys/personal-journal.md
+    - Web-Conference: journeys/web-conference.md
+    - Commoning Journey:
+        - Opening: journeys/commoning-journey/0.2-opening.md
+        - Commoning Lifecycle: journeys/commoning-journey/0.3-commoning-lifecycle.md
+        - MAP Orientation: journeys/commoning-journey/0.5-map-orientation.md
+        - Inception: journeys/commoning-journey/1-inception.md
+        - Formation: journeys/commoning-journey/2-formation.md
+        - Stewardship: journeys/commoning-journey/3-stewardship.md
+        - Regeneration: journeys/commoning-journey/4-regeneration.md
+        - Completion: journeys/commoning-journey/5-completion.md
+        - Commoning on MAP: journeys/commoning-journey/commoning-on-map.md

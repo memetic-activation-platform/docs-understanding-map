@@ -97,6 +97,26 @@ And the `DanceResponse` returns:
 
 ---
 
+### Dance Flow
+
+A **Dance Flow** is a named, context-aware sequence of individual dances that collectively coordinate a process across agents, promises, or Agent Spaces.
+
+Each *dance* within the flow performs a discrete task or role and emits a signal upon completion. The **MAP Choreographer** responds to these signals by invoking the next appropriate dance in the flow, guided by shared agreements and contextual conditions.
+
+**Key Characteristics**:
+- **Composable**: Built from modular, reusable dances.
+- **Declarative**: Specifies *what should unfold*, not *how each dance works* internally.
+- **Membrane-aware**: Executes within or across Agent Spaces while respecting boundaries and permissions.
+- **Promise-aligned**: Flows often reflect and reinforce explicit promises among participants.
+
+**Purpose**:  
+Dance Flows enable complex behaviors to emerge through the orchestration of simple, intelligible steps — making collaborative processes legible, adaptable, and agency-respecting.
+
+**Related Concepts**:  
+→ *Dance*, *Choreographer*, *Promise Weave*, *Agent Space*
+
+---
+
 ## Dance Interface Protocol
 
 The **Dance Interface Protocol** is the universal invocation protocol in the MAP. It replaces traditional REST or RPC calls with a more expressive, memetic, and composable request model.

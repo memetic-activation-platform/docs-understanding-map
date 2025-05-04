@@ -54,7 +54,7 @@ As more Cells make and accept compatible Promises, the weave grows:
 
 ---
 
-## 🪢 4. From Weave to Collective Cell: Membrane Formation
+## 🪢 4. From Weave to Agent Space: Membrane Formation
 
 Once a Promise Weave has sufficient:
 
@@ -63,7 +63,7 @@ Once a Promise Weave has sufficient:
 - **Reciprocity** (balanced capital flows)
 - **Memory** (shared agreements, shared Data Groves)
 
-…it can form a new membrane — a **Collective Cell**.
+…it can form a new membrane — a **Agent Space**.
 
 This new Cell:
 
@@ -81,7 +81,7 @@ Here’s how it can evolve:
 
 - **New Promises** can be added, accepted, or withdrawn
 - **Trust Channels** can be opened or closed
-- **Governance Scaffolds** may be adopted by the forming Collective Cell
+- **Governance Scaffolds** may be adopted by the forming Agent Space
 - **Vital Capital Flows** may be rebalanced or rerouted
 - The **membrane** becomes more defined as flows stabilize and roles clarify
 - **Nested Weaves** can emerge (Weaves within Weaves)
@@ -96,7 +96,7 @@ Imagine a visual like this:
 
 - Individual Cells **glowing** with distinct Life Codes, surrounded by membranes
 - Colored threads representing **Vital Capital Promises** linking them
-- Overlapping zones where Promise **density and alignment** create membrane folds — the beginning of a **Collective Cell**
+- Overlapping zones where Promise **density and alignment** create membrane folds — the beginning of a **Agent Space**
 - A **living, breathing network** where flows pulse, membranes flex, and Cells evolve
 
 ---

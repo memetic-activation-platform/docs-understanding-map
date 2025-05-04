@@ -93,8 +93,8 @@ These patterns shape how Vital Capital is **activated**, **trusted**, and **rest
 
 To support meaningful regenerative coordination, the MAP integrates key ideas from **Context-Based Sustainability (CBS)**, including:
 
-- **Sustainability Thresholds**: Concrete boundaries (ecological, social, economic) that define what constitutes a *sustainable state* for a Cell.
-- **Sustainability Quotients**: Measurements that relate a Cell’s actual performance to its sustainability thresholds.
+- **Sustainability Thresholds**: Concrete boundaries (ecological, social, economic) that define what constitutes a *sustainable state* for an Agent.
+- **Sustainability Quotients**: Measurements that relate an Agent’s actual performance to its sustainability thresholds.
 - **Dashboards**: Interfaces in DAHN that surface these metrics to support awareness, feedback, and intentional design.
 
 > 🧠 *A Cell is sustainable to the extent that its resource flows and behaviors remain within the thresholds that define what it can justly and safely take, give, or impact — in context.*
@@ -110,7 +110,7 @@ A **Threshold** defines the **contextually appropriate limit** for a particular 
 - **Economic**: What resource balances ensure viability without extraction?
 
 Thresholds are defined **per capital type**, and may be set by:
-- Collective Cell governance
+- Agent Space governance
 - Commons stewardship policies
 - Scientific or traditional knowledge
 - Memetic codes embedded in Life Code
@@ -119,7 +119,7 @@ Thresholds are defined **per capital type**, and may be set by:
 
 ### 🔹 Sustainability Quotient (SQ)
 
-The **Sustainability Quotient** is calculated by comparing a Cell’s **actual Vital Capital usage or contribution** against its **threshold**:
+The **Sustainability Quotient** is calculated by comparing an Agent’s **actual Vital Capital usage or contribution** against its **threshold**:
 
 ```
 Sustainability Quotient (SQ) = Actual Impact / Contextual Threshold
@@ -211,7 +211,7 @@ Vital Capital Flows can be:
 
 - **Observed** by peers or stewards
 - **Visualized** using DAHN modules (e.g. the Capital Compass)
-- **Summarized** in Weaves or Collective Cell dashboards
+- **Summarized** in Weaves or Agent Space dashboards
 - **Visualized** with timelines, Sankey diagrams, or graph overlays
 
 ### Impact Awareness
@@ -236,7 +236,7 @@ This allows **capital-aware decision-making**, such as:
 How do we model subjective capital (e.g. trust, care, presence) without oversimplifying or abstracting away its richness?
 
 ### 2. **Capital Health & Balance**
-What tools or visualizations help a Cell or Collective Cell know:
+What tools or visualizations help an Agent Space:
 - What’s flowing in/out?
 - What’s depleted or thriving?
 - What needs replenishment?

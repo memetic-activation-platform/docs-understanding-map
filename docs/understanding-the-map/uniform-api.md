@@ -10,10 +10,10 @@
 In MAP, every action — every invocation of service, affordance, or coordination — is a **Dance**.
 
 - A **Dance** is the invocation of a Promise.
-- A **Dance** is the interface through which a Cell interacts with another.
+- A **Dance** is the interface through which an Agent interacts with another.
 - A **Dance** is the language of agency across the MAP.
 
-Whether requesting information, triggering a service, exchanging Vital Capital, or engaging a Collective Cell — it happens through a **Dance interface**.
+Whether requesting information, triggering a service, exchanging Vital Capital, or engaging an Agent Space — it happens through a **Dance interface**.
 
 > A Dance is not just a call to an API.  
 > It is a ritual of activation — formal, expressive, contextual, consent-based.
@@ -63,7 +63,7 @@ Because every element in MAP is a **self-describing, active holon**, all request
 
 This means:
 
-- A single query language can retrieve a Life Code, trigger a Capital Flow, or mutate a Collective Cell state
+- A single query language can retrieve a Life Code, trigger a Capital Flow, or mutate the state of a holon
 - AI agents and human Cells use the **same interface**
 - DAHN visualizers can represent any interaction — because it all flows from holonic self-description
 

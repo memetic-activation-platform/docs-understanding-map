@@ -1,6 +1,6 @@
 # Understanding the Memetic Activation Platform
 
-The **Memetic Activation Platform (MAP)** is not a traditional application — it is a regenerative coordination framework that enables people, communities, and ecosystems to **organize, act, and evolve** based on shared values, mutual trust, and vital flows of capital.
+The **Memetic Activation Platform (MAP)** is not an application — it is a regenerative coordination framework that enables people, communities, and ecosystems to **organize, act, and evolve** based on shared values, mutual trust, and vital flows of capital.
 
 This documentation provides a comprehensive introduction to MAP’s purpose, design, and potential.
 

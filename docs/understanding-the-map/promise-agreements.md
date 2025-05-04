@@ -7,13 +7,13 @@
 
 ## 🌐 What is a Promise Weave?
 
-A **Promise Weave** is a **living network of Promises** among Cells that forms when:
+A **Promise Weave** is a **living network of Promises** among Agents that forms when:
 
 - Multiple Promises are **accepted and activated**
 - Those Promises involve **shared capital flows**, **compatible memetic signatures**, and **agreed protocols**
-- The participating Cells consent to **relational interdependence** under shared governance
+- The participating Agents consent to **relational interdependence** under shared governance
 
-> 🌱 *A Promise Weave is how Cells self-organize into coherent systems of mutual support, purpose, and value flow.*
+> 🌱 *A Promise Weave is how Agents self-organize into coherent systems of mutual support, purpose, and value flow.*
 
 Promise Weaves are the **memetic and relational fabric** out of which **Agent Spaces** emerge.
 
@@ -23,7 +23,7 @@ Promise Weaves are the **memetic and relational fabric** out of which **Agent Sp
 
 Each Promise Weave is a **self-describing holon**, containing:
 
-- `participants`: List of Cell IDs and their roles
+- `participants`: List of Agent IDs and their roles
 - `componentPromises`: References to the individual Promises comprising the weave
 - `sharedMemeticSignature`: Aggregated values and intentions
 - `governanceScaffold`: Agreed decision-making and participation model
@@ -83,13 +83,13 @@ Each lifecycle stage may emit **events** (e.g. `weave.activated`, `weave.split`,
 
 In DAHN, Promise Weaves appear as **interactive constellations** or **weblike graphs**, showing:
 
-- Participating Cells (nodes)
+- Participating Agents (nodes)
 - Capital flows (edges)
 - Agreement status (active, paused, at risk)
 - Alignment resonance (color-coded or heatmapped)
 - Promises as pulses or orbits within the system
 
-This allows Cells to **sense into the health of their collective coordination** at a glance.
+This allows Agents to **sense into the health of their collective coordination** at a glance.
 
 ---
 
@@ -112,7 +112,7 @@ This allows Weaves to **self-manage** while remaining open to **evolution and di
 | **MAP Structure**      | **Relation to Weave**                                          |
 |------------------------|----------------------------------------------------------------|
 | **Cell**               | Cells are the agents making Promises within the Weave          |
-| **Collective Cell**    | Emerges from sustained Weave coherence                         |
+| **Agent Space**    | Emerges from sustained Weave coherence                         |
 | **Agreement**          | Each Promise in the Weave is backed by one or more Agreements  |
 | **Trust Channel**      | Controls visibility and flow permissions across Weave members  |
 | **Dance Protocol**     | Defines how services, interactions, and flows are invoked      |
@@ -138,7 +138,7 @@ How do Promise Weaves nest inside each other — e.g. family Weave inside a bior
 How do Weaves evolve scaffolds in response to shifting flows and contexts?
 
 ### 5. **Public Discovery**
-What visibility models allow Cells to browse or join Weaves, while honoring privacy and sovereignty?
+What visibility models allow Agents to browse or join Weaves, while honoring privacy and sovereignty?
 
 ---
 
@@ -160,7 +160,7 @@ Promise Weaves are the **connective tissue** of MAP. They allow:
 
 # 🔧 Promise Weave Protocol
 
-A **Promise Weave** is a dynamic coordination structure formed when multiple MAP Cells enter into active, interdependent Promises that are backed by Agreements, aligned by shared values, and scaffolded by governance protocols.
+A **Promise Weave** is a dynamic coordination structure formed when multiple MAP Agents enter into active, interdependent Promises that are backed by Agreements, aligned by shared values, and scaffolded by governance protocols.
 
 The Promise Weave Protocol specifies how Weaves:
 
@@ -169,7 +169,7 @@ The Promise Weave Protocol specifies how Weaves:
 - Govern shared capital flows
 - Support emergence of Agent Spaces
 
-> The protocol ensures that Cells retain full sovereignty while enabling coherent multi-agent action through consent, clarity, and contextual awareness.
+> The protocol ensures that Agents retain full sovereignty while enabling coherent multi-agent action through consent, clarity, and contextual awareness.
 
 ---
 
@@ -177,10 +177,10 @@ The Promise Weave Protocol specifies how Weaves:
 
 | **Element**            | **Description** |
 |------------------------|-----------------|
-| **Promise**            | A unilateral declaration of intent by a Cell, possibly referencing services, capital flows, or access. |
+| **Promise**            | A unilateral declaration of intent by an Agent, possibly referencing services, capital flows, or access. |
 | **Agreement**          | A consent-based contract between two or more Cells that activates one or more Promises. |
 | **Weave**              | A holonic structure containing interconnected Promises, shared capital flows, governance scaffolds, and active relationships. |
-| **Collective Cell**    | A higher-order holon that can emerge from a sufficiently cohesive and governed Promise Weave. |
+| **Agent Space**    | A higher-order holon that can emerge from a sufficiently cohesive and governed Promise Weave. |
 | **Governance Scaffold**| A formalized structure for decision-making, participation, role assignment, and amendment within the Weave. |
 | **Vital Capital**      | The value types (Human, Natural, Social, etc.) flowing across the Weave, tracked and governed in context. |
 

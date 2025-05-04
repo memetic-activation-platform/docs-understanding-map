@@ -93,7 +93,7 @@ MAP is for anyone building or participating in **regenerative systems** — syst
 
 ## 🌐 Want to Go Deeper?
 
-- [Collective Cell Governance Scaffolds](collective-governance.md)
+- [Agent Space Governance Scaffolds](collective-governance.md)
 - [MAP Promises](promises.md)
 - [Collaboration at Scale — The Emergence of Promise Weaves](promise-weaves.md)
 - [Vital Capital Flows in the MAP](vital-capital-flows.md)

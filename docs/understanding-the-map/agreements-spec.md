@@ -10,7 +10,7 @@ Each AgentSpace is enclosed by a **semi-permeable membrane**—defined by the **
 
 ## LifeCodes (Memetic Signatures)
 
-A **LifeCode**—formerly referred to as a *memetic signature*—is a declaration of the values, principles, and behavioral norms that characterize an Agent or AgentSpace. It may include:
+A **LifeCode**— also referred to as a *memetic signature — is a declaration of the values, principles, and behavioral norms that characterize an Agent or AgentSpace. It may include:
 
 - A statement of purpose or identity
 - Governance and decision-making models
@@ -26,13 +26,13 @@ In shared or collective AgentSpaces, the LifeCode defines the **culture and coor
 
 ## The MAP AgentSpace
 
-Upon joining the MAP, every agent is added to the default **MAP AgentSpace**—the largest public sphere for interaction. It has:
+Upon joining the MAP, every agent is added to the **Exosphere** the outermost MAP AgentSpace offering the largest public sphere for interaction. It has:
 
 - The lowest threshold for membership
 - The highest potential reach
 - The lowest built-in trust
 
-It serves as a global commons for agents to discover one another, broadcast offers, or initiate higher-trust subspaces.
+It serves as a global interaction space for agents to discover one another, broadcast offers, or initiate higher-trust subspaces.
 
 ---
 
