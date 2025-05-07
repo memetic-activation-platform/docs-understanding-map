@@ -3,13 +3,9 @@
 ---
 
 ## Context:
-You are hosting a **live web conference** in your shared **Bioregional Organizing Space** — a Space created to support mutual aid, coordination, and regenerative action across your region.  
-The gathering today includes organizers, community leaders, and regenerative project stewards.
+You are hosting a **live web conference** in your shared **Bioregional Organizing Space** — a Space created to support mutual aid, coordination, and regenerative action across your region. The gathering today includes organizers, community leaders, and regenerative project stewards.
 
-At the start of the meeting, you want to **ground the participants** in shared **principles** — the "group promises" — that will guide how you move through the session together.
-
-Because this is a live event, you are running the session through the **Meeting Center mapp** inside the shared Space.  
-(As always in MAP, everything occurs **inside the membrane** of the Space — maintaining sovereignty, trust, and control.)
+At the start of the meeting, you want to **ground the participants** in shared **principles** — "group promises" — that will guide how you move through the session together. Because this is a live event, you are running the session through the **Meeting Center mapp** inside the shared Space. (As always in MAP, everything occurs **inside the membrane** of the Space — maintaining sovereignty, trust, and control.)
 
 ---
 
@@ -48,12 +44,11 @@ You open the **Meeting Center mapp** inside the **Bioregional Organizing Space**
 - After (or during) the meeting:
     - The **live transcript** is treated as a **Knowledge Source**.
     - It is fed into the **Space's Knowledge Curation Pipeline**:
-        - The **Notification Center** issues a new "Transcript Captured" event.
-        - The **Knowledge Assistant mapp** wakes up, scans the transcript.
-        - It cross-references content against the **Space’s Salience-Landscaped Categories** (principles, dates, projects, practices).
-        - **Timestamped links** are created:
-            - E.g., discussion about "Flow Funding Pilot" links to "Flow Funding Agreements" practice.
-            - E.g., a reminder to finalize "Regenerative Finance Workshop" links to "Important Date: April 15."
+        - The **MAP Choreographer** handles the new "Transcript Captured" event and queues it up for processing by the **Knowledge Assistant mapp**
+        - The _Knowledge Assistant_ wakes up, scans the transcript, and cross-references its content against the **Space’s Salience-Landscaped Categories** (principles, dates, projects, practices).
+        - **Timestamped links** are created, e.g.,:
+            - Discussion about "Flow Funding Pilot" _links to_ "Flow Funding Agreements" practice.
+            - Reminder to finalize "Regenerative Finance Workshop" _links to_ "Important Date: April 15."
 
 ---
 
@@ -86,20 +81,21 @@ You open the **Meeting Center mapp** inside the **Bioregional Organizing Space**
 ---
 
 # 🔹 System Touchpoints:
-| Step | MAP Component | Action |
-|:---|:---|:---|
-| Ritual Launch | Meeting Center mapp | Initiate principle selection ritual |
-| Visualize (Live) | Salience Visualizer | Show pulsing principles during meeting |
-| Host | Meeting Center mapp | Run full web conference, capture transcript |
-| Notify | Notification Center | Issue "New Transcript Captured" event |
-| Curate | Knowledge Assistant mapp | Categorize and link key transcript elements |
-| Visualize (Post) | Salience Visualizer | Show updated salience landscape |
-| Protect | Space Membrane | Enforce group trust boundaries |
+| Step             | MAP Component            | Action                                           |
+|:-----------------|:-------------------------|:-------------------------------------------------|
+| Ritual Launch    | Meeting Center mapp      | Initiate principle selection ritual              |
+| Visualize (Live) | Salience Visualizer      | Show pulsing principles during meeting           |
+| Host             | Meeting Center mapp      | Run full web conference, capture transcript      |
+| Handle event     | Choreographer mapp       | Manage process flow during and after the meeting |
+| Curate           | Knowledge Assistant mapp | Categorize and link key transcript elements      |
+| Visualize (Post) | Salience Visualizer      | Show updated salience landscape                  |
+| Protect          | Space Membrane           | Enforce group trust boundaries                   |
 
 ---
 
 # 🛡️ Sovereign Group Flow:
 The group’s shared experience is:
+
 - Grounded in real-time awareness of what matters most,
 - Captured and curated as shared memory,
 - Reflected visually in both the moment and the aftermath,
@@ -108,11 +104,7 @@ The group’s shared experience is:
 ---
 
 # 🧭 Summary:
-A single live meeting —  
-grounded in shared principles, hosted within the Space membrane,  
-captured and curated into living knowledge,  
-and reflected back to the group in real time —  
-becomes a dynamic expression of collective coherence and care.
+A single live meeting — grounded in shared principles, hosted within the Space membrane, captured and curated into living knowledge, and reflected back to the group in real time —  becomes a dynamic expression of collective coherence and care.
 
 ---
 
@@ -121,13 +113,10 @@ This meeting scenario — with principles voting, transcript capture, curation, 
 relies on the **exact same core components** used in personal journaling:
 
 - The **Knowledge Curation Pipeline**
-- The **Notification Center**
+- The **Choreographer**
 - The **Knowledge Assistant mapp**
 - The **Salience Visualizer**
 
-This shows the **generative power** of MAP’s design:  
-a **small number of composable, membrane-respecting components**  
-can support deeply personal reflection *and* highly coordinated group process —  
-with elegance, integrity, and minimal cognitive overhead.
+This shows the **generative power** of MAP’s design: a **small number of composable, membrane-respecting components**  can support deeply personal reflection *and* highly coordinated group process —  with elegance, integrity, and minimal cognitive overhead.
 
 ---

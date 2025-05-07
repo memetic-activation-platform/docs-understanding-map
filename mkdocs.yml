@@ -27,8 +27,6 @@ theme:
 
 plugins:
   - search
-  - pdf-export:
-      combined: true
 
 markdown_extensions:
   - toc:
@@ -51,9 +49,8 @@ nav:
 
     # Personal & Agent Foundations
     - From Data Grove to Exosphere: understanding-the-map/private-data-grove.md
-    - Agreements, Agent Spaces and LifeCodes: understanding-the-map/agreements-spec.md
     - MAP Promises: understanding-the-map/promises.md
-    - Promise Agreements: understanding-the-map/promise-agreements.md
+    - Offers and Agreements: understanding-the-map/offers-and-agreements.md
     - Promise Weaves: understanding-the-map/promise-weaves.md
 
     # Value Flows and Governance
@@ -67,7 +64,7 @@ nav:
     # Security, AI, and Experience
     - MAP Security Model: understanding-the-map/security-model.md
     - Greet the DAHN: understanding-the-map/DAHN.md
-    - Ethical AI & RAG: understanding-the-map/ethical-ai-rag.md
+    - Ethical AI Knowledge Assistants: understanding-the-map/ethical-ai-rag.md
 
     # Reference
     - Glossary: understanding-the-map/glossary.md
@@ -75,10 +72,11 @@ nav:
   - Journeys:
     - Personal Journaling: journeys/personal-journal.md
     - Web-Conference: journeys/web-conference.md
+    - Case Study -- Sharing an AirBnB: journeys/sharing-lodging.md
     - Commoning Journey:
-        - Opening: journeys/commoning-journey/0.2-opening.md
-        - Commoning Lifecycle: journeys/commoning-journey/0.3-commoning-lifecycle.md
+        - Prologue: journeys/commoning-journey/0.2-prologue.md
         - MAP Orientation: journeys/commoning-journey/0.5-map-orientation.md
+        - Commoning Lifecycle: journeys/commoning-journey/0.3-commoning-lifecycle.md
         - Inception: journeys/commoning-journey/1-inception.md
         - Formation: journeys/commoning-journey/2-formation.md
         - Stewardship: journeys/commoning-journey/3-stewardship.md

@@ -119,7 +119,7 @@ Thresholds are defined **per capital type**, and may be set by:
 
 ### 🔹 Sustainability Quotient (SQ)
 
-The **Sustainability Quotient** is calculated by comparing an Agent’s **actual Vital Capital usage or contribution** against its **threshold**:
+The **Sustainability Quotient** is calculated by comparing a Space’s **actual Vital Capital usage or contribution** against its **threshold**:
 
 ```
 Sustainability Quotient (SQ) = Actual Impact / Contextual Threshold
@@ -147,9 +147,9 @@ In DAHN, this would show up in the **Capital Compass Dashboard** as:
 
 ---
 
-### 🔹 Capital Dashboards for Every Cell
+### 🔹 Capital Dashboards for Every Agent Space
 
-Every Cell — individual or collective — can activate **Dashboards** in DAHN to monitor:
+Every Space — individual or collective — can activate **Dashboards** in DAHN to monitor:
 
 | **Dimension**          | **What It Shows**                                            |
 |------------------------|--------------------------------------------------------------|
@@ -169,7 +169,7 @@ These Dashboards are **configurable**, **privacy-respecting**, and may be:
 
 ### 🔹 Sources of Threshold Definitions
 
-MAP enables Cells to **define or adopt threshold models** appropriate to their context:
+MAP enables Agents to **define or adopt threshold models** appropriate to their context:
 
 - **Ecological**: planetary boundaries, bioregional thresholds, permaculture principles
 - **Social**: dignity floors, mutual aid agreements, care covenants
@@ -187,7 +187,7 @@ Thresholds are defined in **self-describing holons**, and may be:
 
 Promises and Agreements can reference thresholds:
 
-- “This Promise is only active if the Cell’s Human Capital SQ is < 1”
+- “This Promise is only active if this Agent Space’s Human Capital SQ is < 1”
 - “This Agreement includes a clause for restorative flows if Memetic Capital falls below threshold”
 - “Water sharing will be paused when SQ > 1.1 and restored when SQ < 0.9”
 

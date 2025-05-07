@@ -3,18 +3,14 @@
 ---
 
 ## Context:
-You’re on your morning walk, reflecting on an upcoming **Spiritual Retreat** scheduled in two weeks.  
-Recent life events have left you feeling overwhelmed and a bit out of balance. You’re wondering if attending the retreat would help reground you — but you're also concerned about logistics and finances.
+You’re on your morning walk, reflecting on an upcoming **Spiritual Retreat** scheduled in two weeks. Recent life events have left you feeling overwhelmed and a bit out of balance. You’re wondering if attending the retreat would help reground you — but you're also concerned about logistics and finances. Meanwhile, your curiosity has been piqued by a podcast you heard recently about **Flow Funding Agreements** — a regenerative practice for community-based generosity and financial resilience.
 
-Meanwhile, your curiosity has been piqued by a podcast you heard recently about **Flow Funding Agreements** — a regenerative practice for community-based generosity and financial resilience.
-
-You decide to record a personal journal entry to process all these threads.  
-At the same time, **an email arrives in your inbox** detailing **lodging and registration costs** for the retreat — new concrete information that affects your decision.
+You decide to record a personal journal entry to process all these threads. At the same time, **an email arrives in your inbox** detailing **lodging and registration costs** for the retreat — new concrete information that affects your decision.
 
 ---
 
 ## Action:
-You open your **VoiceMemo mapp** installed inside your **iSpace**.  
+You open your **VoiceMemo mapp** installed inside your **iSpace**. 
 (MAP Applications — _mapps_ — are installed inside Spaces and store their artifacts locally inside the Space membrane.)
 
 ---
@@ -27,22 +23,22 @@ You open your **VoiceMemo mapp** installed inside your **iSpace**.
     - Your initial reactions to the costs now revealed via email.
 - When you save the memo:
     - The audio file and an auto-generated transcript are stored as **holons** in your iSpace’s **Knowledge Graph**.
-    - The voice memo holon self-describes metadata: capture time, source _mapp_ (VoiceMemo), type (personal reflection).
-- No external processing occurs — the capture remains entirely within your iSpace’s membrane. Complete data sovereignty is preserved.
+    - The voice memo holon adds metadata like capture time, source _mapp_ (VoiceMemo), type (personal reflection).
+- No external processing occurs — the capture remains entirely within your iSpace’s membrane. Complete data sovereignty is preserved. _Your_ data on _your_ devices.
 
 ---
 
 ### **Phase 2: Notification**
-- - The **VoiceMemo mapp** sends a **New Knowledge Source Notification** to the **Notification Center** inside your iSpace.
-- The **Notification Center** receives the event and triggers the next steps.
-- At this point, the system is simply acknowledging:  
+
+- The **VoiceMemo mapp** sends a **New Knowledge Source Notification** to the **MAP's Choreographer** inside your iSpace.
+- The **Choreographer** receives the event and triggers the next steps. At this point, the system is simply acknowledging:  
   ➔ *"New Voice Memo Captured: Personal Reflection - Morning Walk"*
 
 ---
 
 ### **Phase 3: Knowledge Curation**
-- The **Notification Center** triggers your **Knowledge Assistant mapp** inside the iSpace.
-- The Knowledge Assistant:
+- The **Choreographer** triggers your **Knowledge Assistant mapp** inside the iSpace.
+- The _Knowledge Assistant_:
     - Processes the new voice memo’s transcript.
     - Cross-references the content against your **Salience-Landscaped Categories**, which include diverse holon types such as:
         - **Important Dates**:
@@ -62,7 +58,7 @@ You open your **VoiceMemo mapp** installed inside your **iSpace**.
 ### **Phase 4: Visualization**
 - Later, you check your **Notification Center** and activate the **Salience Visualizer**.
 - The **Salience Visualizer** is just one type of **MAP Graph Visualizer**. It filters your knowledge graph so that only holons that you've indicated are particularly important to you are shown. You can dynamically adjust the **salience threshold** to show more or fewer objects.This allows you to view either only the most vibrant, active parts of your knowledge space, or zoom out to explore deeper, quieter connections.
-- The Visualizer reads the updated Knowledge Graph and animates it:
+- The Visualizer reads the updated _Knowledge Graph_ and animates it:
     - Categories with enough timestamped links within a timeframe begin pulsing.
     - **Pulse Size**: Reflects the volume of related activity.
     - **Pulse Frequency**: Reflects the recency and density of linking events.
@@ -85,12 +81,13 @@ You open your **VoiceMemo mapp** installed inside your **iSpace**.
 ---
 
 # 🔹 System Touchpoints:
-| Step | MAP Component | Action |
-|:---|:---|:---|
-| Capture | VoiceMemo mapp | Record and store personal reflection |
-| Notify | Notification Center | Issue "New Knowledge Source" notification |
-| Curate | Knowledge Assistant mapp | Categorize and link based on salience landscape |
-| Visualize | Salience Visualizer | Surface active categories and living patterns |
+| Step                    | MAP Component            | Action                                                                           |
+|:------------------------|:-------------------------|:---------------------------------------------------------------------------------|
+| Capture                 | VoiceMemo mapp           | Record and store personal reflection                                             |
+| Event handling and Flow | Choreographer     | Handle "New Knowledge Source" notification                                       |
+| Notify                  | Notification Center      | Issue  notification only if a message meets your threshold for being interrupted |
+| Curate                  | Knowledge Assistant mapp | Categorize and link based on salience landscape                                  |
+| Visualize               | Salience Visualizer      | Surface active categories and living patterns                                    |
 
 ---
 
@@ -100,16 +97,6 @@ At no point is your private reflection or decision-making data transmitted outsi
 ---
 
 # 🧭 Summary:
-A simple act — recording a voice memo — quietly updates your living salience landscape:  
-pulling together feelings, finances, upcoming events, and emerging practices  
-into an **integrated, organic view of your life** —  
-seamlessly, privately, and meaningfully.
-
-# 🌱 Recap:
-✅ Personal reflection captured easily.  
-✅ Full membrane protection — your data never leaves your iSpace without consent.  
-✅ Salience-landscaped curation connects your action to your evolving Life Code.  
-✅ Visual feedback surfaces what's vibrant in your personal landscape.  
-✅ Modular mapps allow specialized, clean, extensible system behavior.
+A simple act — recording a voice memo — quietly updates your living salience landscape:  pulling together feelings, finances, upcoming events, and emerging practices into an **integrated, organic view of your life** —  seamlessly, privately, and meaningfully.
 
 ---
