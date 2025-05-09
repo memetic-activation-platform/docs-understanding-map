@@ -20,8 +20,8 @@ engines of global commerce.
 
 But what if we could co-create a technical infrastructure -- a platform -- as powerful, sophisticated, and far-reaching as those enjoyed by Fortune 500 corporations —  but created by and for those standing at the forefront of humanity’s evolutionary transformation? What if we could offer the unempowered and disillusioned a means to discover meaningful answers to the profound questions:
 
-- **_what can I do?_** 
-- **_what can we do?_** 
+- What can **_I_** do? 
+- What can **_we_** do?
 
 What if we could amplify the agency of those on the forefront of cultural innovation to help manifest entirely new systems and structures patterned on principles of living systems proven over the course of 4.5B years of evolution?
 

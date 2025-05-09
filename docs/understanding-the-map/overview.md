@@ -13,6 +13,19 @@ At its heart, MAP helps **agents** — people, collectives, communities — arti
 
 ---
 
+## Current Status
+
+The MAP is currently in a proof-of-concept prototyping phase. 
+
+This is a pivotal moment: the design is mature enough to demonstrate real-world potential, yet open enough to evolve through engagement. Foundational back-end service — including support for self-describing, active holons; holon relationships and spaces; and sovereign data storage on Holochain — are already functioning. However, the full MAP experience — including DAHN, visualizers, and interface layers — is still under active development.
+
+
+By sharing the MAP at this stage, we invite collaborators into an active co-design process. Rather than waiting for perfection, we’re cultivating shared learning, feedback, and iteration. The goal is not to build a fixed product, but to seed a living platform—shaped by those who use it, and aligned with the values we aspire to embody.
+
+> What follows is not yet fully implemented — but it is where the MAP is headed. This document sketches the architecture and affordances the MAP is being designed to support. It is written from the perspective of the MAP **as envisioned once delivered** — to help ground design, inspire contribution, and align shared imagination.
+> 
+---
+
 ## 🧬 What Can You Do with MAP?
 
 The MAP begins with you — not as a user of someone else’s app, but as a sovereign person with identity, values, and vision. It **embodies a person-centric architecture** designed to bring **agency to imagination** — turning visions into action, and values into flow. Through membrane-bound Spaces, it scaffolds trust, cultivates self-organizing coordination, and amplifies collective agency at every scale.

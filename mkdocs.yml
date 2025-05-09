@@ -25,10 +25,14 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+extra_css:
+  - overrides/styles.css
+
 plugins:
   - search
 
 markdown_extensions:
+  - attr_list
   - toc:
       permalink: true
   - admonition
@@ -48,6 +52,7 @@ nav:
     - Principles: understanding-the-map/principles.md
 
     # Personal & Agent Foundations
+    - Agents and Spaces: understanding-the-map/agents-and-spaces.md
     - From Data Grove to Exosphere: understanding-the-map/private-data-grove.md
     - MAP Promises: understanding-the-map/promises.md
     - Offers and Agreements: understanding-the-map/offers-and-agreements.md
@@ -70,6 +75,7 @@ nav:
     - Glossary: understanding-the-map/glossary.md
 
   - Journeys:
+    - Introduction: journeys/journeys-index.md
     - Personal Journaling: journeys/personal-journal.md
     - Web-Conference: journeys/web-conference.md
     - Case Study -- Sharing an AirBnB: journeys/sharing-lodging.md

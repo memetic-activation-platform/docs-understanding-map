@@ -25,7 +25,7 @@ Promises like:
 - “I promise to be a respectful housemate.”
 
 
-were note explicitly verbalized, but implicit in the trust relationship already established between the people involved. Roles like **Lodger** and **Payer** emerged organically. Steve exited the Lodger role while remaining in the space, showing the **role fluidity** without disrupting coherence.
+were not explicitly verbalized, but implicit in the trust relationship already established between the people involved. Roles like **Lodger** and **Payer** emerged organically. Steve exited the _Lodger_ role while remaining in the space, showing the **role fluidity** without disrupting coherence.
 
 ## 4. Prosocial Coordination Design
 
@@ -54,7 +54,7 @@ This created complexity that was resolved through dialogue and mutual calibratio
 
 The Airbnb served as a **short-lived commons**. Internally governed by mutual trust, it nonetheless had to interface with the external market. One participant took on the **Payer** role, promising to pay Airbnb in full and be reimbursed later — bridging commons coordination with fiat-based infrastructure.
 
-his coordination involved **two distinct layers of value flow**:
+This coordination involved **two distinct layers of value flow**:
 
 ### External Flow: Payer to Airbnb
 
@@ -68,13 +68,10 @@ his coordination involved **two distinct layers of value flow**:
 
 - After the lodging was secured, the rest of the group reimbursed the Payer.
 
-- In the real-world scenario, this occurred via **international financial systems** (e.g., Zelle across national boundaries), introducing friction and delay.
+- In the real-world scenario, this occurred via the **international financial systems** introducing friction and delay. 
 
-- Some members experienced challenges in transferring fiat funds, revealing the fragility of centralized financial infrastructure.
+- Some members experienced challenges in transferring fiat funds, revealing the fragility of nation-state centered financial infrastructures. Would Zelle work across international boundaries? Could large wire transfer fees be avoided? Was PayPal viable? What if your bioregion spans national borders?
 
-## 6. Commons–Market Interface
-
-The Airbnb served as a **short-lived commons**. Internally governed by mutual trust, it nonetheless had to interface with the external market. One participant took on the **Payer** role, promising to pay Airbnb in full and be reimbursed later — bridging commons coordination with fiat-based infrastructure.
 
 ---
 

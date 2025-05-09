@@ -15,7 +15,7 @@ The MAP flips this model. It is **person-centric** — placing you, the sovereig
 
 ## What Is an Agent?
 
-An **Agent** is any being or entity capable of sensing and responding to its environment. But Agents are not one-dimensional — they often span multiple aspects at once:
+An **Agent** is any being or entity capable of sensing and responding to its environment. Agents can be multi-dimensional — they often span multiple aspects at once:
 
 - **Biological**: bodies, ecosystems, watersheds
 - **Social**: families, co-ops, bioregional networks
@@ -33,11 +33,9 @@ Each Agent has an **I-Space** — a personal and private membrane-enclosed space
 
 ## Anatomy of a MAP Agent
 
-In MAP, every Agent is a living, structured whole — not a black box or a user account.
-
 Each Agent is defined by a **membrane**, a **Life Code**, and a set of **internal structures and services** that support sovereign coordination and relational flow.
 
-![Anatomy of a MAP Agent](83E53E44-855E-43E2-99AA-6C66E34CF25B.png)
+![img_1.png](agent-anatomy.png)![Anatomy of a MAP Agent](83E53E44-855E-43E2-99AA-6C66E34CF25B.png)
 
 - **Life Code (a.k.a., memetic signature)**: Encodes the values and identity of the Agent, distinguishing what is exhibited or inhibited in action.
 - **Private State**: Includes private keys, personas, app logic, sub-agents, and notification logic — all managed internally by the Agent's I-Space.
@@ -63,7 +61,10 @@ This metaphor is inspired by Diane Tegtmeier’s *Principles of Cellular (Agent)
 5. **Senses and Responds** — adapting to signals, context, and change
 6. **Interdepends** — sustaining mutual health through cooperation and autonomy
 
-![Principles of Cellular (Agent) Interactions](84EF9649-A316-4789-8B57-E5425434F43A.png)
+![Principles of Cellular (Agent) Interactions](cellular-interactions.png)
+
+*Based on the “Principles of Cellular (Agent) Interactions” from*  
+**Relationships that Heal: Skillful Practice within Nature’s Web** by Diane Tegtmeier.
 
 Each Space in MAP embodies these principles:
 
@@ -77,9 +78,6 @@ Each Space in MAP embodies these principles:
 
 > As cells form tissues and organisms,  
 > **Spaces form social and ecological organisms** — living wholes that learn, adapt, and grow.
-
-*Based on the “Principles of Cellular (Agent) Interactions” from*  
-**Relationships that Heal: Skillful Practice within Nature’s Web** by Diane Tegtmeier.
 
 ---
 

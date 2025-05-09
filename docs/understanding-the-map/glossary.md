@@ -249,7 +249,7 @@ See also: [We-Space](#we-space)
 
 ## LifeCode
 
-A **LifeCode** (also known as a [Memetic Signature](#memetic-signature)) is the values-and-identity encoding of an [Agent](#agent) or [AgentSpace](#agentspace). It defines:
+A **LifeCode** (also known as a [Memetic Signature](#memetic-signature)) is the values-and-identity encoding of an [Agent](#agent), [AgentSpace](#agentspace), [Offer](#offer) or [Agreement](#agreement). It defines:
 
 - Aspirational purpose
 - Memetic values and ethics
@@ -339,7 +339,26 @@ Because the MAP is **knowledge-graph native**, all interactions — including se
 
 ## Vital Capital
 
-**Vital Capital** refers to the many forms of value — not just financial — that flow through MAP [Agreements](#agreement). These include:
+**Vital Capital**  
+**Vital Capital**  
+A core MAP holon type representing the diverse forms of value that can flow between Agents — including knowledge, care, trust, materials, attention, and more. Vital Capital is *what flows* as a result of service invocations and fulfilled Promises. While not inherently scarce or commodified, each Vital Capital holon is definable, describable, and context-aware. When under the stewardship of a particular Agent, it may be treated as an **Asset**. The concept draws from multiple sources, including **Context-Based Sustainability (McElroy)**, the **Metacurrency Project** (which defines wealth as *"the capacity to meet the needs of a living system"*), and the **8 Forms of Capital** in permaculture theory.
+
+The MAP concept of **Vital Capital** refers to the many forms of value — not just financial — that flow through MAP [Agreements](#agreement). These include:
+
+draws heavily on the work around Context-Based Sustainability (see citation below) 
+
+| **Capital Type**         | **Description**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| **Natural Capital**      | Ecosystem services, land, water, air, biodiversity                              |
+| **Human Capital**        | Skills, labor, knowledge, health, attention                                     |
+| **Social Capital**       | Trust, reputation, relationships, group cohesion                                |
+| **Cultural Capital**     | Stories, rituals, symbols, traditions, identity                                 |
+| **Built Capital**        | Tools, infrastructure, digital systems, physical assets                         |
+| **Financial Capital**    | Currency, tokens, credit, investments                                           |
+| **Experiential Capital** | Aesthetic, emotional, and lived experiences                                     |
+| **Memetic Capital**      | Values, beliefs, narratives, memetic signatures                                 |
+| **Temporal Capital**     | Time, availability, scheduling of attention or actions                          |
+| **Spiritual Capital**    | Purpose, presence, connection to meaning (optional but supported dimension)     |
 
 - Social capital
 - Ecological contributions
@@ -347,6 +366,11 @@ Because the MAP is **knowledge-graph native**, all interactions — including se
 - Knowledge and memetic resources
 
 Vital capital flows are explicitly tracked via [Promises](#promise) and [Agreements](#agreement).
+>For more information: see 
+> **McElroy, M. W. (2008).** *Social Footprints: Measuring the Social Sustainability Performance of Organizations.*  
+> Middlebury: Center for Sustainable Innovation.  
+> [https://www.sustainableinnovation.org](https://www.sustainableinnovation.org)  
+> [ResearchGate PDF](https://www.researchgate.net/publication/239781019_Social_Footprints_Measuring_the_Social_Sustainability_Performance_of_Organizations)
 
 ---
 
