@@ -36,9 +36,7 @@ Every AgentSpace has its own [LifeCode](#lifecode), and every interaction betwee
 
 ## Agreement
 
-An **Agreement** is a structured bundle of [Promises](#promise) between [Agents](#agent). It includes mutual commitments, often encoded as [Offers](#offer) and formalized via digital signature.
-
-An Agreement may instantiate its own **AgentSpace** (an Agreement-Based AgentSpace) which becomes the interaction venue for activities governed by that agreement.
+An **Agreement** is created from an [Offer](#offer) when agents have accepted all of the mandatory roles of the Offer. An Agreement may instantiate its own [Agreement-Based AgentSpace](#agreement-based-agentspace) which becomes the interaction venue for activities governed by that agreement.
 
 ---
 
@@ -58,8 +56,13 @@ While agreements may **expire**, be **revoked**, or become **inactive**, the Age
 
 
 ---
+## Choreographer
 
-## DAHN (Dynamic Adaptive Holon Navigator)
+The **Choreographer** is the MAP’s native coordination engine. It manages the invocation and sequencing of modular dances across agents, spaces, and roles using **declarative [Dance Flows](glossary.md#dance-flow)**. 
+
+Each dance performs a single task and emits a completion signal. The Choreographer listens for these signals and, based on the active flow specification and local context, invokes the next appropriate step. By keeping sequencing logic outside of individual dances, MAP enables complex behaviors to be composed from simple, intelligible parts.
+
+## DAHN (Dynamic Adaptive Holon Navigator) {#dahn}
 
 A personalized, dynamic interface layer for exploring the MAP holon graph. DAHN empowers each agent to shape their own experience — not just by choosing settings, but by composing the very way information is seen, explored, and interacted with.
 
@@ -164,9 +167,7 @@ Like the `DanceRequest`, the `DanceResponse` is a fully self-describing Holon an
 
 ## Data Grove
 
-A **Data Grove** is the curated body of knowledge that an [AgentSpace](#agentspace) stewards. It includes both locally created and externally referenced [Holons](#holon), including data, relationships, expressions, and interactions.
-
-Each AgentSpace has its own private Data Grove. Holons are [stewarded](#stewardship) by their home AgentSpace but may be referenced in other spaces.
+A **Data Grove** is the sovereign, Holochain-based data storage area. Each [AgentSpace](#agentspace) has its own private Data Grove.  All of the [mapps](#mapps) that are imported into an Agent Space store their information in the Data Grove of that Space.
 
 ---
 
@@ -247,8 +248,14 @@ See also: [We-Space](#we-space)
 
 ---
 
-## LifeCode
+## Join Membrane
 
+The set of rules defined by an [AgentSpace's](#agentspace) [Life Code](#lifecode) that govern adding new members of the Agent Space.
+
+---
+
+## LifeCode
+<!-- summary:start -->
 A **LifeCode** (also known as a [Memetic Signature](#memetic-signature)) is the values-and-identity encoding of an [Agent](#agent), [AgentSpace](#agentspace), [Offer](#offer) or [Agreement](#agreement). It defines:
 
 - Aspirational purpose
@@ -256,6 +263,7 @@ A **LifeCode** (also known as a [Memetic Signature](#memetic-signature)) is the 
 - Governance expectations
 - Membership criteria
 - Expressed [Promises](#promise)
+<!-- summary:end -->
 
 The LifeCode is the symbolic "membrane" of an AgentSpace and plays a foundational role in trust-based interaction.
 
@@ -285,6 +293,18 @@ A **Promise** is a voluntary, sovereign commitment made by one [Agent](#agent). 
 Promises may be formal (e.g., I promise to transfer 10 units of water in exchange for 5 units of labor) or informal (e.g., I promise to show up with care and attention).
 
 All [Agreements](#agreement) are built from bundles of Promises.
+
+---
+
+## Service
+
+Services support the flow and transformation of vital capitals to/from other agents for mutual benefit. Services are the focus of [Offers](#offer), [Agreements](#agreement), and [Service Invocations](#service-invocation).
+
+---
+
+## Service Invocation
+
+A request to an offering agent to perform a requested service within the context of an active agreement.
 
 ---
 
@@ -339,8 +359,6 @@ Because the MAP is **knowledge-graph native**, all interactions — including se
 
 ## Vital Capital
 
-**Vital Capital**  
-**Vital Capital**  
 A core MAP holon type representing the diverse forms of value that can flow between Agents — including knowledge, care, trust, materials, attention, and more. Vital Capital is *what flows* as a result of service invocations and fulfilled Promises. While not inherently scarce or commodified, each Vital Capital holon is definable, describable, and context-aware. When under the stewardship of a particular Agent, it may be treated as an **Asset**. The concept draws from multiple sources, including **Context-Based Sustainability (McElroy)**, the **Metacurrency Project** (which defines wealth as *"the capacity to meet the needs of a living system"*), and the **8 Forms of Capital** in permaculture theory.
 
 The MAP concept of **Vital Capital** refers to the many forms of value — not just financial — that flow through MAP [Agreements](#agreement). These include:

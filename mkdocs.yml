@@ -25,11 +25,16 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+extra_javascript:
+  - assets/glossary-hover.js
+
 extra_css:
   - overrides/styles.css
 
 plugins:
   - search
+  - glossary-generator:
+      script: generate_glossary_json.py
 
 markdown_extensions:
   - attr_list

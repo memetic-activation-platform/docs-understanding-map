@@ -3,6 +3,9 @@
 ## Introduction
 
 The Memetic Activation Platform (MAP) provides a security model grounded in the principles of data sovereignty, agent autonomy, resilient commons governance, and trust minimization. Unlike conventional cloud-based systems where users relinquish control over their data to application providers, MAP ensures that users retain physical and logical custody of their data at all times.  
+
+The MAP relies on the strong, agent-centric foundations provided by [Holochain](https://www.holochain.org) as its storage layer.
+
 This document formalizes the MAP security model for developers, contributors, and auditors.
 
 ## 1. Physical Custody and Data Sovereignty

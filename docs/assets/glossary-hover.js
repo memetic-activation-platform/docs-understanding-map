@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const glossaryUrl = "/assets/glossary.json";
+    const glossaryUrl = "/docs-understanding-map/assets/glossary.json";
     const tooltipClass = "glossary-tooltip";
+
+    // Create reusable tooltip element
+    const tooltip = document.createElement("div");
+    tooltip.id = "glossary-tooltip";
+    document.body.appendChild(tooltip);
 
     fetch(glossaryUrl)
         .then((res) => res.json())
@@ -10,44 +15,60 @@ document.addEventListener("DOMContentLoaded", function () {
                 const hash = link.getAttribute("href").split("#")[1];
                 if (!hash) return;
                 const slug = hash.toLowerCase().replace(/[^\w]+/g, "-").replace(/(^-|-$)/g, "");
-                const def = glossary[slug];
+                let def = glossary[slug];
                 if (!def) return;
 
-                // Create and configure tooltip
-                link.setAttribute("data-tooltip", def);
-                link.classList.add(tooltipClass);
-            });
+                // Strip Markdown and format bullets with real line breaks
+                def = def
+                    .replace(/\*\*(.*?)\*\*/g, '$1')         // bold
+                    .replace(/\*(.*?)\*/g, '$1')             // italic
+                    .replace(/\[(.*?)\]\(.*?\)/g, '$1')      // links
+                    .replace(/`([^`]+)`/g, '$1')             // inline code
+                    .replace(/#+\s/g, '')                    // headers
+                    .replace(/>\s*/g, '')                    // blockquotes
+                    .replace(/-\s+/g, '• ')                  // markdown list → bullet
+                    .replace(/•\s*/g, '\n• ')                // line breaks before bullets
+                    .trim();
 
-            injectTooltipStyles();
+                // Attach event listeners
+                link.classList.add(tooltipClass);
+                link.addEventListener("mouseenter", (e) => {
+                    tooltip.innerHTML = def.replace(/\n/g, '<br>');
+                    tooltip.style.display = "block";
+                    const rect = link.getBoundingClientRect();
+                    tooltip.style.top = `${rect.top + window.scrollY - tooltip.offsetHeight - 10}px`;
+                    tooltip.style.left = `${rect.left + window.scrollX}px`;
+                });
+
+                link.addEventListener("mouseleave", () => {
+                    tooltip.style.display = "none";
+                });
+            });
         });
 
-    function injectTooltipStyles() {
+    injectStyles();
+
+    function injectStyles() {
         const style = document.createElement("style");
         style.textContent = `
-      .${tooltipClass} {
-        position: relative;
-        cursor: help;
-      }
-      .${tooltipClass}::after {
-        content: attr(data-tooltip);
+      #glossary-tooltip {
+        display: none;
         position: absolute;
-        bottom: 125%;
-        left: 0;
-        z-index: 100;
-        width: max-content;
-        max-width: 320px;
-        background: rgba(0, 0, 0, 0.85);
+        background: rgba(0, 0, 0, 0.9);
         color: white;
-        padding: 6px 10px;
-        font-size: 0.8rem;
-        border-radius: 4px;
-        opacity: 0;
+        padding: 10px 12px;
+        font-size: 0.68rem;
+        line-height: 1.5;
+        max-width: 320px;
+        white-space: pre-line;
+        border-radius: 6px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        z-index: 1000;
         pointer-events: none;
-        transition: opacity 0.2s ease-in-out;
-        white-space: normal;
       }
-      .${tooltipClass}:hover::after {
-        opacity: 1;
+
+      .${tooltipClass} {
+        cursor: help;
       }
     `;
         document.head.appendChild(style);

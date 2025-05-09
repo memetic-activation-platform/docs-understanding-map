@@ -10,7 +10,7 @@ They open a [Space](/docs-understanding-map/understanding-the-map/glossary/#agen
 Opening a Space is not just about forming a group. **Everything starts by putting yourself on the MAP** — both literally and figuratively. Each traveler first [creates their personal I-Space](/docs-understanding-map/understanding-the-map/glossary/#i-space): a sovereign space where they can anchor their emerging agency. In their I-Space, they begin the first acts of bringing imagination into reality:
 
 - Locating themselves on the Earth — anchoring place and belonging.
-- Weaving their [LifeCode](/docs-understanding-map/understanding-the-map/glossary/#lifecode) — values, principles, the living commitments that shape their choices.
+- Weaving their [LifeCode](/docs-understanding-map/understanding-the-map/glossary/#lifecode "A declaration of values and commitments.") — values, principles, the living commitments that shape their choices.
 - Cultivating their [Data Grove](/docs-understanding-map/understanding-the-map/glossary/#data-grove) — a private, personal knowledge base under their own governance.
 - Making and accepting [Promise-Based Offers](/docs-understanding-map/understanding-the-map/glossary/#offer) — proposing small threads of [Vital Capital](/docs-understanding-map/understanding-the-map/glossary/#vital-capital) exchanged with others, flowing attention, care, skill, knowledge.
 
@@ -34,7 +34,7 @@ Defaults protect new travelers from overwhelm. But as sovereignty matures, so do
 
 Seeking deeper resonance, some wander into the **Global Meme Pool** — a living reservoir of values, principles, practices, and rituals shaped by many hands across time. They discover [memes](/docs-understanding-map/understanding-the-map/glossary/#lifecode) about [stewardship](/docs-understanding-map/understanding-the-map/glossary/#stewardship), about reciprocity, about shared boundaries and collective thriving. Some memes echo ancient commons traditions; others resonate with new patterns of regenerative culture and decentralized collaboration. Each traveler selects memes that reflect their deepest callings, weaving a [LifeCode](/docs-understanding-map/understanding-the-map/glossary/#lifecode) that expresses what they bring to this shared field.
 
-As these LifeCodes surface, the group moves from loose affinity toward **felt coherence**: shared values emerge, resonances deepen, differences are named and explored with care. They recognize the need to name their edge — the membrane through which others might one day join. Using a [Join Membrane scaffold](/docs-understanding-map/understanding-the-map/glossary/#agentspace), they gently articulate a first living [agreement](/docs-understanding-map/understanding-the-map/glossary/#agreement): an invitation model, a self-selection ethos, a boundary born of care rather than control.
+As these LifeCodes surface, the group moves from loose affinity toward **felt coherence**: shared values emerge, resonances deepen, differences are named and explored with care. They recognize the need to name their edge — the membrane through which others might one day join. Using a [Join Membrane](/docs-understanding-map/understanding-the-map/glossary/#join-membrane), they gently articulate a first living [agreement](/docs-understanding-map/understanding-the-map/glossary/#agreement): an invitation model, a self-selection ethos, a boundary born of care rather than control.
 
 It is still fragile.  
 The membranes are porous.  
