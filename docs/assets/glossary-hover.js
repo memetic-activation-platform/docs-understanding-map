@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const glossaryUrl = "/docs-understanding-map/assets/glossary.json";
+    const glossaryUrl = new URL("assets/glossary.json", document.baseURI).href;
     const tooltipClass = "glossary-tooltip";
 
     // Create reusable tooltip element
