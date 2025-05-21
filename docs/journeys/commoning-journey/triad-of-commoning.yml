@@ -1,0 +1,205 @@
+
+# Classification Scheme: Commoning Dimensions
+- type: ClassificationScheme
+  name: Commoning Dimensions
+  label: Commoning Dimensions
+  description: A scheme of categories used to classify memes according to spheres and domains of commoning
+  relationships:
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+# MemeCategory: Commoning
+- type: MemeCategory
+  name: Commoning
+  label: Commoning
+  description: Memes related to shared stewardship, mutual aid, and generative cooperation
+  relationships:
+    - name: BELONGS_TO
+      target: ClassificationScheme::Commoning Dimensions
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+# MemeCategory: Governance
+- type: MemeCategory
+  name: Governance
+  label: Governance
+  description: Memes related to consent-based decision-making and power distribution
+  relationships:
+    - name: BELONGS_TO
+      target: ClassificationScheme::Commoning Dimensions
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+# MemeCategory: Provisioning
+- type: MemeCategory
+  name: Provisioning
+  label: Provisioning
+  description: Memes related to resourcing, mutual support, and contribution practices
+  relationships:
+    - name: BELONGS_TO
+      target: ClassificationScheme::Commoning Dimensions
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+# MemeCategory: Social Life
+- type: MemeCategory
+  name: Social Life
+  label: Social Life
+  description: Memes related to cultivating shared meaning, emotional connection, and cultural coherence
+  relationships:
+    - name: BELONGS_TO
+      target: ClassificationScheme::Commoning Dimensions
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Triad of Commoning
+  label: Triad of Commoning
+  description: A memeplex of three interrelated spheres of commoning practice
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::Memeplex
+    - name: INCLUDES
+      targets:
+        - Meme::Social Life
+        - Meme::Peer Governance
+        - Meme::Provisioning
+    - name: CLASSIFIED_BY
+      target: MemeCategory::Commoning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Social Life
+  label: Social Life
+  description: A sphere of commoning focused on cultivating shared meaning, purpose, and trust
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::MemePlex
+    - name: INCLUDES
+      targets:
+        - Meme::Cultivate Shared Purpose and Values
+        - Meme::Trust Situated Knowing
+        - Meme::...
+    - name: CLASSIFIED_BY
+      target: MemeCategory::Commoning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Peer Governance
+  label: Peer Governance
+  description: A sphere of commoning focused on collective authority, consent, and role clarity
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::MemeFamily
+    - name: INCLUDES
+      targets:
+        - Meme::Assure Consent in Decision Making
+        - Meme::Keep Commons and Commerce Distinct
+        - Meme::...
+    - name: CLASSIFIED_BY
+      target: MemeCategory::Commoning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Provisioning
+  label: Provisioning
+  description: A sphere of commoning focused on mutual support, contribution, and creative adaptation
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::MemeFamily
+    - name: INCLUDES
+      targets:
+        - Meme::Contribute and Share
+        - Meme::Adapt and Renew Creatively
+        - Meme::...
+    - name: CLASSIFIED_BY
+      target: MemeCategory::Commoning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Assure Consent in Decision Making
+  label: Assure Consent in Decision Making
+  description: A pattern of governance based on inclusive, consent-oriented decisions
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Governance
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Keep Commons and Commerce Distinct
+  label: Keep Commons and Commerce Distinct
+  description: A principle emphasizing the clear boundary between commons-based and market-based logic
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Governance
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Contribute and Share
+  label: Contribute and Share
+  description: A provisioning pattern encouraging open participation and value co-creation
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Provisioning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Adapt and Renew Creatively
+  label: Adapt and Renew Creatively
+  description: A practice of iterative improvement and creative evolution in provisioning contexts
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Provisioning
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Trust Situated Knowing
+  label: Trust Situated Knowing
+  description: A pattern of honoring diverse perspectives grounded in lived experience and context
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Social Life
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle
+
+- type: Meme
+  name: Cultivate Shared Purpose and Values
+  label: Cultivate Shared Purpose and Values
+  description: A pattern focused on establishing clarity of purpose and shared intention within a group
+  relationships:
+    - name: HAS_MEME_TYPE
+      target: MemeTypeVariant::AtomicMeme
+    - name: CLASSIFIED_BY
+      targets:
+        - MemeCategory::Commoning
+        - MemeCategory::Social Life
+    - name: STEWARDED_BY
+      target: Agent::Commons Stewardship Circle

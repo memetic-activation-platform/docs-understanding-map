@@ -5,6 +5,7 @@
 The **Memetic Activation Platform (MAP)** is a living, decentralized coordination platform that enables people, communities, and ecosystems to **organize, act, and evolve** based on shared values, mutual trust, and regenerative flows of value.
 
 MAP is built for the realities of this moment:
+
 - Deepening ecological and social complexity
 - Erosion of trust in centralized systems
 - Urgent need for local autonomy and planetary coherence
@@ -17,7 +18,7 @@ At its heart, MAP helps **agents** — people, collectives, communities — arti
 
 The MAP is currently in a proof-of-concept prototyping phase. 
 
-This is a pivotal moment: the design is mature enough to demonstrate real-world potential, yet open enough to evolve through engagement. Foundational back-end service — including support for self-describing, active holons; holon relationships and spaces; and sovereign data storage on Holochain — are already functioning. However, the full MAP experience — including DAHN, visualizers, and interface layers — is still under active development.
+This is a pivotal moment: the design is mature enough to demonstrate real-world potential, yet open enough to evolve through engagement. Foundational back-end services are already functioning. However, the full MAP experience — including the human interface is still under active development.
 
 
 By sharing the MAP at this stage, we invite collaborators into an active co-design process. Rather than waiting for perfection, we’re cultivating shared learning, feedback, and iteration. The goal is not to build a fixed product, but to seed a living platform—shaped by those who use it, and aligned with the values we aspire to embody.
@@ -43,7 +44,7 @@ Within your _I-Space_ you can:
 - **Claim your voice** — steward new ideas, create art, podcasts, books, or rituals, and share them in trusted Spaces.
 - Find **services aligned with your values** — surfaced through meaningful, consent-based flows.
 - Make and accept **Offers** — formal declarations of what you offer, need, or intend.
-- Form, join and participate in fractally composed **Agent Spaces** at all scales — from family groups, co-living co-ops, and book clubs, to landscapes, watersheds, communities of practice, vital resource commons, bioregions, and beyond
+- Form, join and participate in fractally composed **Agent Spaces** at all scales — from family groups, co-living co-ops, and book clubs, to landscapes, watersheds, communities of practice, vital resource commons, bioregions, and beyond.
 
 ### 🤝 For communities and networks
 
@@ -124,16 +125,4 @@ Here’s how to explore them:
 
 
 ---
-The MAP is designed to be an **ecosystem enabler** — a foundation for cultivating regenerative coordination at every level of scale.
 
-It supports the activation of five interdependent ecosystems:
-
-| Ecosystem                   | Purpose                                                        | Key Flows                             |
-|----------------------------|----------------------------------------------------------------|---------------------------------------|
-| **Empowered Agents Holarchy** | Enable sovereign identity, agency, and coordination        | Spaces, LifeCodes, Offers, Agreements |
-| **Global Meme Pool**         | Curate shared values, patterns, and cultural DNA             | Memes, Rituals, Cultural Remixing     |
-| **Global Service Registry**  | Discover, extend, and fulfill service promises               | Offers, Agreements, Service Activation|
-| **Global Visualizer Pool**   | Dynamically render experiences across the MAP                | Visualizers, DAHN Personalization     |
-| **Natural Resource Commons** | Steward shared ecological flows and assets                  | Resources, Spatial Areas, Stewardship |
-
-Each ecosystem becomes a **self-reinforcing cycle of value**, strengthening itself and the broader MAP through feedback loops of trust, service, visibility, and meaning.

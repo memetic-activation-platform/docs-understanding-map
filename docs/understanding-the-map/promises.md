@@ -1,92 +1,75 @@
-# 🤝 MAP Promises
+# 🤝 2.1 Promises — The Atomic Unit of Trust
+
 ### Consent-based coordination, powered by Promise Theory
 
+MAP builds its approach to coordination on a deceptively simple idea: **trust emerges from voluntary commitments.** At the heart of this design is the **Promise** — a sovereign, agentic declaration of intent.
 
-MAP draws from **Promise Theory** (Burgess & Bergstra) — a model for cooperation in systems composed of autonomous agents.
+MAP adapts insights from *Promise Theory* (Burgess & Bergstra), which models coordination among autonomous agents without coercion. But you don’t need to be a Promise Theory expert to understand or use the MAP. For Travelers engaging the platform, Promises are just clear, voluntary statements: _“Here’s what I’m willing to do”_ — expressed in a form others can see, respond to, and trust.
 
-**Promises** are the atomic unit of coordination — sovereign commitments made by one agent to another, forming the building blocks of all _Offers_ and _Agreements_.
-
-Promises express intent, build trust, and establish the structure upon which regenerative flows can emerge. They are grounded in **autonomy**, **transparency**, and **contextual meaning** — and they are never imposed.
-
-## 🔹 What is a Promise?
-
-**A _Promise_ is a voluntary declaration made by one Agent (the *Promisor*) to another (the *Promisee*) about an intended action, contribution, or stance.**
-
-Key components of this definition:
-
-- **Declaration**: The promise is voluntarily expressed; it is not extracted by coercion or obligation.
-- **Intent**: It represents what the agent intends to do, not what it is compelled or required to do.
-- Promises are between a _Promisor_ and a _Promisee_. But the promisor and promisee can be the same agent (i.e., I can make promises to myself)
-- **Autonomous Agency**: The promisor must have control over its own actions and is not subordinate to the promisee.
-- **Concern Its Own Behavior**: Critically, promises are about what the _promisor_ will do. They are not statements about what someone else will do or what will happen in the world.
-
-Promises are the core building blocks of trust, collaboration, and regenerative coordination in the MAP ecosystem. They define what flows, between whom, and why.
-
-> Promises are not obligations imposed by others.  
-> They are **agentic declarations**, rooted in consent and reciprocity.
+Promises are the **building blocks of all coordination** in the MAP. They underpin offers, form the foundation of agreements, and animate Agent Spaces with intent, flow, and relational meaning.
 
 ---
 
-## 🧠 Applying Promise Theory to MAP
+## 🔹 What Is a Promise?
 
- In Promise Theory:
+A **Promise** is a voluntary declaration made by one Agent (the *Promisor*) to another (the *Promisee*) about an intended action, contribution, or stance.
 
-- **Agents** are self-determined entities that can **make promises**, but not impose behavior on others.
-- A **Promise** is a **unilateral statement of intent**: "I will do X."
-- Systems form through **networks of promises**, not top-down control.
+**Key qualities of a MAP Promise:**
+- **Voluntary** — expressed freely, not imposed
+- **Autonomous** — issued by an agent with control over its own behavior
+- **Declarative** — a statement of “I will…” rather than “you must…”
+- **Grounded in Sovereignty** — even promises to oneself are valid (i.e. _“I promise to meditate daily”_)
 
-MAP adapts this foundation to:
-- Extend **offers and agreements** between Agents
-- Flow **Vital Capitals** between agents
-- Form **Promise Weaves** — networks of interdependent Promises that give rise to **Agent Spaces**
+> In MAP, promises are not obligations extracted by others — they are _agentic commitments_, rooted in consent and contextual relationship.
 
-Promises may be:
+---
 
-- **Actionable** — “I promise to deliver 10 pounds of produce every week for three months”
-- **Aspirational** — “I promise to adhere to Permaculture design principles”
-- **Informational** — “I promise to notify you within 24 hours if a service disruption occurs”
+## 🧠 MAP’s Adaptation of Promise Theory
 
-Every Promise contains:
+MAP extends Promise Theory in three key ways:
+1. **Promises are self-describing holons** — they include rich metadata, conditions, capital flows, and provenance.
+2. **Promises can flow between agents via Trust Channels**, selectively discoverable based on alignment.
+3. **Promises may carry Vital Capital** — knowledge, care, materials, social trust — not just services or tasks.
 
-- A **Promisor** (who makes the promise)
-- A **Promisee** (to whom the promise is made)
-- A **Promise Type** (a reusable, recognizable pattern drawn from the [Global Meme Pool](promise-weaves.md))
-- Optional **conditions**, **timing**, and **qualifiers**
+Systems of coordination in MAP are **networks of promises**, not chains of control.
 
-## 🔠 Candidate MAP Promise Types
+---
+
+## 🔍 Promise Anatomy
+
+Each Promise holon includes:
+
+- `promisor`: The agent making the commitment
+- `promisee`: The intended recipient (optional or reflexive)
+- `promiseType`: A structured archetype (e.g., “Data Access”, “Presence Signal”)
+- `conditions`: Preconditions, timing constraints, or trust thresholds
+- `vitalCapitalFlows`: The value being contributed or received
+- `memeticSignature`: The values or LifeCode alignment expressed
+- `revocationPolicy`: Whether and how the promise may be withdrawn
+- `protocols`: The Dances that operationalize the Promise
+- `expiresAt`: Optional end date
+
+---
+
+## 🔠 Example Promise Types
 
 | **Promise Type**         | **Description**                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------|
-| **Data Access Promise**  | "I promise to allow access to specified types of information, under stated conditions." |
-| **Service Availability** | "I promise to offer this service when invoked via a Dance, respecting flow rules."      |
-| **Presence Signal**      | "I promise to be discoverable in this context (e.g. locality, interest group)."         |
-| **Reciprocity Pattern**  | "I promise to reciprocate a flow of capital if I receive another."                      |
-| **Governance Participation** | "I promise to participate in decisions, votes, or rituals under this scaffold."         |
-| **Contribution Offer**   | "I promise to contribute time, labor, materials, or knowledge to an Agent Space."       |
-| **Trust Declaration**    | "I promise to recognize another Agent in a specific role or domain."                    |
-| **Co-Creation Commitment**| "I promise to collaborate on the creation of a shared output, resource, or experience." |
+| **Data Access Promise**  | “I promise to allow access to this type of information, under stated conditions.”       |
+| **Service Availability** | “I promise to offer this service when invoked via a Dance, respecting flow rules.”      |
+| **Presence Signal**      | “I promise to be discoverable in this context (e.g. locality, interest group).”         |
+| **Reciprocity Pattern**  | “I promise to reciprocate a flow of capital if I receive another.”                      |
+| **Governance Participation** | “I promise to participate in decisions, votes, or rituals under this scaffold.”    |
+| **Contribution Offer**   | “I promise to contribute time, labor, or knowledge to an Agent Space.”                 |
+| **Trust Declaration**    | “I promise to recognize another Agent in a specific role or domain.”                    |
+| **Co-Creation Commitment**| “I promise to help create a shared output, resource, or experience.”                  |
+
+> Promise Types are reusable archetypes drawn from the [Global Meme Pool](../glossary.md#global-meme-pool), enabling semantic clarity and shared interpretation across agents.
 
 ---
 
-## 💠 Promise Types and the Global Meme Pool
+## 🕸️ From Promises to Coordination
 
-While each Agent is free to define new Promises, MAP includes a growing library of shared **Promise Types** drawn from the Global Meme Pool. These reusable patterns make Promises:
+While individual Promises express intent, MAP enables Agents to bundle them into structured **Offers** — shareable invitations to collaborate, contribute, or exchange. Offers make Promises actionable in social space, introducing conditions, expectations, and context for uptake.
 
-- Easier to understand and adopt
-- Easier to audit and visualize
-- Easier to remix into new Offer structures
-
-Agents may also co-create new Promise Types as part of evolving community norms.
-
----
-
-## 🧱 Promises as Building Blocks
-
-All higher-order coordination in MAP is built from Promises:
-
-- They are the semantic foundation of **_Offers_**
-- They guide what becomes binding in **_Agreements_**
-- They are the commitments that animate **_Agent Spaces_**
-- They are what service interactions (**_Dances_**) fulfill
-
----
+We turn to Offers next.

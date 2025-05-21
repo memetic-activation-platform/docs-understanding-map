@@ -62,6 +62,28 @@ The **Choreographer** is the MAP’s native coordination engine. It manages the 
 
 Each dance performs a single task and emits a completion signal. The Choreographer listens for these signals and, based on the active flow specification and local context, invokes the next appropriate step. By keeping sequencing logic outside of individual dances, MAP enables complex behaviors to be composed from simple, intelligible parts.
 
+
+---
+## Commoning
+
+Commoning is the ongoing social process through which people collaboratively create, steward, and sustain shared resources (i.e., [Vital Capitals](#vital-capital)) and relationships. At its core, commoning is a relational, participatory, and adaptive practice that reclaims shared power in managing the conditions of life. It is not just a structure, but a way of being and doing together.
+
+Commoning emerges outside of — and often in resistance to — market and state logics, cultivating trust, reciprocity, and long-term ecological and social flourishing. The lived practice of mutual care, collective governance, and cultural co-creation is what enables a [commons](#commons) to thrive.
+
+“Commoning is a verb. It’s about the social practices and cultural traditions that people devise to manage shared resources in fair, inclusive, and sustainable ways.” 
+— David Bollier, “Think Like a Commoner” (2014)
+
+“There is no commons without commoning.”
+— Peter Linebaugh, “The Magna Carta Manifesto” (2008)
+
+---
+
+## Commons
+
+A **Commons** is a *social system* for the long-term stewardship of [Vital Capital](#vital-capital) that preserves shared values and community identity. A self-organized system by which communities manage *vital capital* (both depletable and replenishable) with minimal or no reliance on the Market or State. In the MAP, a *commons* is represented by an [Agent Space](#agentspace) whose  [LifeCode](#lifecode) conveys its community values, [join membrane](#join-membrane), and governance model.
+
+---
+
 ## DAHN (Dynamic Adaptive Holon Navigator) {#dahn}
 
 A personalized, dynamic interface layer for exploring the MAP holon graph. DAHN empowers each agent to shape their own experience — not just by choosing settings, but by composing the very way information is seen, explored, and interacted with.
@@ -171,6 +193,44 @@ A **Data Grove** is the sovereign, Holochain-based data storage area. Each [Agen
 
 ---
 
+## Echo
+
+An **Echo** is a signed affirmation of a [Promise](#promise) made by another [Agent](#agent), issued by an agent who chooses to align with that promise.
+
+Echoes serve as memetic endorsements—reinforcing, repeating, and extending the trustworthiness of a promise in a given [AgentSpace](#agentspace) or across spaces.
+
+An Echo is:
+
+- A **verbatim reference** to an existing Promise, not a reinterpretation
+- A **social trust gesture**—binding the echoing agent’s reputation to the original claim
+- A **signal of observability**—often grounded in direct experience, shared context, or role-based verification
+- A building block of **memetic trust networks**, used to evaluate promises, inform [Agreements](#agreement), and govern access or delegation
+
+Echoes may carry optional metadata such as **echo weight**, reasoning, or contextual scope (e.g., “within this space only”).
+
+> ✳️ Echoes are foundational to MAP’s distributed trust model—allowing agents to construct verifiable, socially-scaffolded identity and reputation without centralized authorities.
+
+---
+
+## Echo Weight
+
+An **Echo Weight** is an optional indicator attached to an [Echo](#echo), expressing the echoing [Agent](#agent)’s degree of confidence, verification, or proximity to the original [Promise](#promise).
+
+Echo Weights enable more nuanced interpretation of social signals by:
+
+- Differentiating firsthand from secondhand endorsements
+- Informing access decisions, [Agreement](#agreement) thresholds, and trust scores
+- Supporting evaluative logic in [AgentSpaces](#agentspace) and across social holarchies
+
+Weights may be numeric (e.g., 0.9), categorical (e.g., “strong,” “light”), or policy-defined by a [GroupAgent](#group-agent).
+
+> ✳️ While optional, Echo Weights help MAP spaces distinguish between weak support and strong verification—without requiring rigid central scoring systems.
+
+
+---
+
+---
+
 ## Exosphere
 
 The **Exosphere** is the outermost, most inclusive [AgentSpace](#agentspace) in the MAP. It includes all [Agents](#agent) by default and serves as the **lowest-threshold interaction venue** across the entire platform.
@@ -182,6 +242,30 @@ The Exosphere is:
 - The place where initial [Offers](#offer) may be surfaced to broad audiences
 
 It is not a commons or [Social Organism](#social-organism) — it is a **shared membrane of visibility**.
+
+---
+
+## Governance Scaffold
+<!-- summary:start -->
+A **Governance Scaffold** is a modular structure of roles, rules, and processes that guides how coordination and decision-making unfold within an [AgentSpace](#agentspace).
+<!-- summary:end -->
+
+Rather than imposing a fixed governance model, a governance scaffold provides **lightweight, composable affordances** that can evolve alongside the needs and context of the space. These scaffolds are often **memetically sourced** from the [Global Meme Pool](#meme-pool), where patterns like sociocracy, holacracy, liquid democracy, or bespoke cultural traditions can be adapted and instantiated.
+
+Governance scaffolds define:
+- **Who has voice and agency**
+- **How decisions are made and validated**
+- **What roles exist and how they are assigned or rotated**
+- **How conflicts are mediated or escalated**
+
+They can be:
+- **Hard-coded** into [Agreements](#agreement)
+- **Expressed** as [Memeplexes](#meme) in the Meme Pool
+- **Referenced dynamically** during [Dance Flows](#dance-flow)
+
+> 🧩 Governance scaffolds are to governance what protocols are to software: flexible, interoperable building blocks that support resilient, adaptive coordination.
+
+**See also:** [AgentSpace](#agentspace), [LifeCode](#lifecode), [Agreement](#agreement), [Meme Pool](#meme-pool)
 
 ---
 
@@ -269,22 +353,106 @@ The LifeCode is the symbolic "membrane" of an AgentSpace and plays a foundationa
 
 ---
 
+## Meme
+<!-- summary:start -->
+A **Meme** is a pattern, story, value, or shared practice that carries meaning and can be passed from one person or group to another.
+<!-- summary:end -->
+
+In the MAP, a meme could be a community ritual, a traditional teaching, a way of solving problems, a decision-making method, a symbol, or even a sacred story. Some memes are old and passed down through generations. Others are new, shared in conversation, taught in workshops, or built into tools and agreements.
+
+What matters is not just where a meme comes from — but that it helps people **live together with intention**, **take action**, or **share understanding**.
+
+Memes travel in many ways. Some are copied, some are taught, some are woven into daily life. In MAP, we honor all of these. Whether a meme is passed in a ceremony, a drawing, a document, or a song — it becomes part of our **living culture** when people put it into use.
+
+Memes are gathered into [Meme Pools](#meme-pool), where they can be shared, adapted, and stewarded with care — so that wisdom from one place can grow in another, without losing its roots.
+
+**See also:** [Meme Pool](#meme-pool), [Vital Capital](#vital-capital), [LifeCode](#lifecode)
+
+## Meme (technical)
+<!-- summary:start -->
+A **Meme** is a structured unit of cultural meaning that can be defined, expressed, enacted, and evolved by [Agents](#agent).
+
+In the MAP, a meme may take many forms — including values, principles, protocols, schemas, profiles, practices, rituals, governance models, economic models, or other cultural structures that guide interaction and meaning-making. Every meme is modular, stewardable, and context-aware.
+
+> In the MAP, memes are not just viral ideas — they are the living infrastructure of cultural evolution.
+<!-- summary:end -->
+
+MAP extends Richard Dawkins’ original definition — which emphasized replication through imitation — to include **agentic enactment**, **contextual re-use**, and **memetic evolution**. Memes may spread via imitation (per Dawkins), but also through instruction, documentation, or embedded use in systems and agreements. What defines a meme is not just *how* it spreads, but that it **encodes actionable meaning** and can be **activated across diverse contexts**.
+
+Memes are **replicable** and **selectable**: they persist through evolutionary dynamics, where their relevance and effectiveness are tested in lived experience. In this way, MAP supports not just cultural transmission, but the **iterative refinement and ecological adaptation** of its memetic commons.
+
+> **Epistemic rigor** — such as practices rooted in the scientific method — can strengthen the **fidelity and resilience** of a meme by making it easier to reproduce, test, and refine across contexts.  
+> However, epistemic rigor is **neither the sole pathway to replicability nor a universal standard**: many memes in MAP draw from spiritual traditions, embodied practices, or lived experience that offer their own forms of coherence, relevance, and transmission.
+
+Memes can be classified by:
+- **Type** (e.g. atomic meme, schema, protocol, visualizer)
+- **Category** (e.g. governance, economics, learning, identity)
+- **Functional structure** (e.g. memeplex, memefamily)
+
+Every Meme in MAP is a form of [Vital Capital](#vital-capital), and is stewarded within one or more [Meme Pools](#meme-pool).
+
+**See also:** [Meme Pool](#meme-pool), [Vital Capital](#vital-capital), [LifeCode](#lifecode)
+
+---
+
+## Meme Pool
+
+A Meme Pool is a collection of memes together with the agents and governance processes that steward them. In other words, a Meme Pool is a [Commons](#commons).
+
+---
+
 ## Memetic Signature
 
 Synonym for [LifeCode](#lifecode). Refers to the expressive encoding of an Agent’s identity, values, and memetic alignment.
 
 ---
 
-## Offer
+## Observability
 
+**Observability** describes the degree to which a [Promise](#promise) can be independently verified by other [Agents](#agent) within a given [AgentSpace](#agentspace).
+
+Every Promise has an implicit or explicit observability profile, which may be:
+
+- **Direct** — fulfillment is visible to others (e.g., a submitted file, a public action)
+- **Indirect** — fulfillment is verifiable through roles, logs, or trusted intermediaries
+- **Unobservable** — fulfillment is private or unverifiable (e.g., internal state, intentions)
+
+Spaces may define [Observability Profiles](#observability-profiles) that specify the kinds of promises they accept, echo, or require in [Agreements](#agreement).
+
+> ✳️ Observability governs the **memetic legibility** of a promise—what others can trust, echo, or build upon.
+
+---
+
+## Offer
+<!-- summary:start -->
 An **Offer** is a proposed bundle of [Promises](#promise), expressing both:
 
 - What the offering [Agent](#agent) is willing to do or provide
 - What reciprocal Promises it expects in return
 
 Offers are shared into specific [AgentSpaces](#agentspace) (e.g., the [Exosphere](#exosphere) or a [Social Organism](#social-organism)) and may result in [Agreements](#agreement).
+<!-- summary:end -->
 
 ---
+
+## Offer Type
+<!-- summary:start -->
+An **Offer Type** is a reusable template or pattern that defines the structure, roles, conditions, and expectations for a class of [Offers](#offer) in the MAP.
+<!-- summary:end -->
+
+Offer Types allow communities and [Agents](#agent) to create Offers with shared semantics and validated structure. Each Offer Type is a [Meme](#meme) — discoverable, remixable, and stewarded in the [Global Meme Pool](#meme-pool).
+
+Key properties of an Offer Type may include:
+- A named **purpose** or intent (e.g., “Timebank Exchange”, “Microgrant Application”, “Commons Stewardship Invitation”)
+- The required and optional **roles** (e.g., Initiator, Contributor, Verifier)
+- **Preconditions** and **fulfillment criteria**
+- Common **reciprocity patterns** (e.g., “offer of service in exchange for learning”)
+
+By standardizing structure while remaining adaptable, Offer Types reduce friction and ambiguity in peer coordination, and enable the creation of [Agreements](#agreement) that are intelligible across diverse contexts.
+
+> 📦 An Offer Type is a **memetic design pattern** for regenerative coordination — shaping how value is proposed, negotiated, and enacted.
+
+**See also:** [Offer](#offer), [Agreement](#agreement), [Meme](#meme), [Meme Pool](#meme-pool)
 
 ## Promise
 

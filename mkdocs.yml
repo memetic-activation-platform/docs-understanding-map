@@ -33,8 +33,6 @@ extra_css:
 
 plugins:
   - search
-  - glossary-generator:
-      script: generate_glossary_json.py
 
 markdown_extensions:
   - attr_list
@@ -84,6 +82,7 @@ nav:
     - Personal Journaling: journeys/personal-journal.md
     - Web-Conference: journeys/web-conference.md
     - Case Study -- Sharing an AirBnB: journeys/sharing-lodging.md
+    - Commitment Pools Example: journeys/commitment-pools.md
     - Commoning Journey:
         - Prologue: journeys/commoning-journey/0.2-prologue.md
         - MAP Orientation: journeys/commoning-journey/0.5-map-orientation.md

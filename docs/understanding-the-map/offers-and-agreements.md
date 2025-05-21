@@ -1,15 +1,70 @@
+# 🤝 Offers and Agreements
+
+**Offers** and **Agreements** are the foundational mechanisms by which Agents coordinate action, exchange value, and create shared context in the MAP.
+
+While this section explores expressive forms capable of supporting complex, multi-party, even legally significant Agreements, **many Offers in MAP will be lightweight, informal, and intuitive**. A quick pledge, a mutual aid exchange, or a casual collaboration between neighbors — all of these fit comfortably in the same model.
+
+> 🧘 *You don’t need a treaty to water your neighbor’s tomatoes.*  
+> MAP simply gives you the grammar to coordinate trustably — whether your promise is simple or sophisticated.
+
+What follows dives into the deeper architecture — not because coordination must be complex, but because the MAP must support **trustable complexity** when it matters.
+
+---
+
+## 📦 What is an Offer?
+
+An **Offer** is a structured proposal composed of reciprocal **Promises**, organized by **roles**. It serves as the **template for an Agreement** — laying out who is involved, what each party promises, and under what conditions.
+
+Each Offer defines:
+
+- A set of **roles** that participating Agents may occupy (e.g., provider, recipient, funder)
+- For each role, a set of **Promises** — specific commitments expected from Agents in that role
+- **Aspirational Promises** that express values or alignment criteria (e.g., "Fair Trade Certified")
+- **Vital Capital Flow Promises** — detailing the kinds of capital that will move (e.g., data, care, money, knowledge)
+- Optional constraints — timing, thresholds, or conditional triggers
+- **Governance Promises** — such as how disputes will be resolved, how roles may be amended, or how an agreement may be exited
+- **Interaction Protocol Promises** — specifying how agents will interact (e.g., using [JLINC](https://jlinc.org/), [JLINX](https://jlinx.dev/), [Beckn Protocol](https://becknprotocol.io/), [Secure Scuttlebutt](https://scuttlebutt.nz/), or MAP-native protocols)
+
+> When an Agent accepts an Offer, they step into a role and adopt the full set of Promises associated with it.
+
+This role-based structure allows Offers to support **multi-party Agreements**. For example, a learning cohort might include roles for facilitator, learner, and funder — each with distinct Promises and flows.
+
+Offers can span diverse types of value and coordination. A Promise might track a flow of care, reputation, presence, funds, or shared data — and do so differently for each participant.
+
+Importantly, **each Agent defines the terms of their own Offers**. This supports MAP’s commitment to **empowered agency** — enabling participants to express and exchange value on their own terms. At the same time, a shared pool of reusable **Promise Types** and **Offer Templates** (see: [Promise Weaves](promise-weaves.md)) allows new Offers to build on proven structures.
+
+---
+
+## 🛰 Where Offers Are Placed
+
+Each Offer must be extended into a specific **AgentSpace** — the context in which it is discoverable and interpretable.
+
+AgentSpaces vary widely in:
+
+- **Reach** — from small private circles to global directories
+- **Trust level** — from intimate, high-context groups to open public spaces
+- **Purpose and filtering logic** — some are commons, some are marketplaces, some are ceremonial
+
+> A single Offer might be published in a **high-reach, low-trust space** (like the Exosphere) for visibility — while being intended for execution only within **high-trust subspaces**.
+
+Agents decide where to place their Offers based on intended audience, visibility preferences, and discovery strategy.
+
+Future tooling may support Offer propagation, adaptation, or invitation across adjacent AgentSpaces — enabling ecosystems to **route Offers to the places they are most likely to be accepted**.
+
+---
+
 ## 🔁 Matching Offers to Offers
 
 In conventional platforms, we often speak of **matching “needs” to “offers.”** But the MAP model is more symmetrical: **every Offer includes both**.
 
 When an Agent posts an Offer into an AgentSpace, they specify:
 
-- **Which roles they are prepared to adopt** (i.e., which _Promises_ they are making)
-- **Which roles they seek others to fulfill** (i.e., which _Promises_ they expect to be met)
+- **Which roles they are prepared to adopt** (i.e., which Promises they are making)
+- **Which roles they seek others to fulfill** (i.e., which Promises they expect to be met)
 
-You can think of these as:
-- The **requirements** of the Offer — Promises you are looking for others to fulfill
-- The **contributions** or **attributes** of the Offer — Promises you’re committing to fulfill yourself
+> You can think of these as:
+> - The **requirements** of the Offer — Promises you are looking for others to fulfill
+> - The **contributions** or **attributes** of the Offer — Promises you’re committing to fulfill yourself
 
 For example:
 
@@ -34,8 +89,8 @@ Offers can be placed **anonymously** into an AgentSpace. In this phase:
 
 - The **Offer Matching mapp** evaluates compatibility across all Offers in the space
 - It highlights:
-    - **Over-constrained Offers** — too many requirements, resulting in zero matches
-    - **Under-specified Offers** — too few constraints, leading to too many mismatches
+  - **Over-constrained Offers** — too many requirements, resulting in zero matches
+  - **Under-specified Offers** — too few constraints, leading to too many mismatches
 
 For example:
 
@@ -68,8 +123,8 @@ Each Agent **digitally signs** the Offer to formally accept a specific role.
 - Offers may specify some roles as **mandatory** and others as **optional**
 - Once **all mandatory roles have been signed**, the **Agreement is considered Accepted**
 - At this point:
-    - A new **Agreement-Based AgentSpace** is instantiated
-    - All logic, interactions, and capital flows are governed by the terms of the Agreement
+  - A new **Agreement-Based AgentSpace** is instantiated
+  - All logic, interactions, and capital flows are governed by the terms of the Agreement
 
 > This phase marks the shift from “provisional possibility” to **active commitment**.
 
@@ -77,4 +132,49 @@ It also activates the Agreement’s LifeCode, access protocols, and any associat
 
 ---
 
-This three-phase lifecycle allows Offers to evolve from **exploratory expressions of intent** into **binding Agreements grounded in mutual trust and aligned Promises** — all while preserving sovereignty, consent, and expressive nuance at every step.
+## ✍️ What is an Agreement?
+
+An **Agreement** is formed when one or more Agents accept roles defined in an Offer — formally committing to fulfill the Promises associated with those roles.
+
+Each Agreement includes:
+
+- A reference to the originating Offer and its terms
+- A list of participating Agents and their accepted roles
+- The **governing context** for all future interactions — such as service invocations, data access, and Promise fulfillment
+- Optionally, a new **Agreement-Based AgentSpace** for coordinating action and tracking outcomes
+
+> Agreements in MAP **transcend but include the functionality of Smart Contracts**.  
+> Like Smart Contracts, they provide structured, enforceable commitments — but unlike blockchain-based contracts, they are not confined to purely software-enforceable scopes, nor do they require centralized consensus or global ledgers.  
+> Agreements can include informal social promises, legally-binding terms, and interaction protocols — all anchored in shared consent and local sovereignty.
+
+---
+
+## 🧱 Three-Layered Representation: From Offer to Agreement
+
+Both Offers and Agreements are expressed using a **three-layered architecture**, inspired by the [Creative Commons licensing model](https://creativecommons.org/licenses/). Just as Creative Commons defines a license through a human-readable deed, a machine-readable schema, and a legal code, MAP uses a layered approach to ensure legibility and enforceability across all domains of interaction.
+
+1. **Human-Readable Layer**
+  - A narrative or visual summary describing roles, Promises, and intentions
+  - Supports shared understanding and informed consent
+
+2. **Machine-Readable Layer**
+  - A structured Holon with formal types, roles, and thresholds
+  - Governs execution, trust, permissioning, and audits within the MAP infrastructure
+
+3. **Legal-Form Layer** *(optional)*
+  - A formal legal document aligned with the other layers
+  - Enables engagement with courts, insurance systems, or regulatory institutions
+
+> 🧩 *The three layers ensure Offers and Agreements are clear to humans, computable by systems, and actionable across jurisdictions.*
+
+### 🔐 Cryptographic Integrity
+
+The entire bundle — for both Offers and Agreements — is **cryptographically digested and signed** by all participating Agents. This provides:
+
+- **Immutability**: the record cannot be altered without detection
+- **Non-forgeability**: only valid Agents could have created the signature
+- **Non-repudiability**: no Agent can deny their participation
+
+---
+
+*Let me know when you're ready to weave this into the Agreement-Based AgentSpaces section, or if you'd like the remaining portions regenerated with the updated flow.*

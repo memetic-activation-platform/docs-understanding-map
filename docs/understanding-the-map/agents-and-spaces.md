@@ -1,53 +1,30 @@
 # 🧬 From Person to Planet: Sovereign Agents in Living Spaces
 
-> In the MAP, we don’t build apps.  
-> We start with sovereign people — and form living Spaces around them.
-
 ---
 
 ## Person-Centric, Not App-Centric
 
-Today’s digital world is app-centric. Each application defines its own silo — controlling the interface, data, and roles. Your **identity, data, and experience are fragmented across platforms**.  You’re treated as a user — subordinate to software, not sovereign in your own digital world.
+Today’s digital world is **_app-centric_**. Each application defines its own silo — controlling the interface, data, and roles. Apps require you to _sign-in_ -- i.e., to prove your digital identity to the app -- in order to access YOUR data that the app is hostaging. Your **identity, data, and experience are fragmented across platforms**.  You’re treated as a user — subordinate to software, not sovereign in your own digital world.
 
-The MAP flips this model. It is **person-centric** — placing you, the sovereign agent, at the center. You establish your **I-Space** — a private, membrane-bound realm where your identity, values, data, and relationships live under your control. From there, you grow outward — entering into relationships, forming agreements, and co-creating new Spaces of shared purpose.
+The MAP flips this model. It is **person-centric** — placing you, the sovereign agent, at the center. You establish your **I-Space** — a private, membrane-bound realm where your identity, values, data, and relationships live under your control. Instead of signing in to apps, they must prove their integrity to YOU in order to be allowed to run (and store their data) in your I-Space. 
+
+From there, you grow outward — entering into relationships, forming agreements, and co-creating new Spaces of shared purpose.
 
 ---
 
 ## What Is an Agent?
 
-An **Agent** is any being or entity capable of sensing and responding to its environment. Agents can be multi-dimensional — they often span multiple aspects at once:
+The MAP defines an **_Agent_ as any being or entity capable of sensing and responding to its environment. Agents can be multi-dimensional — they often span multiple aspects at once:
 
 - **Biological**: bodies, ecosystems, watersheds
 - **Social**: families, co-ops, bioregional networks
-- **Cultural**: values, narratives, rituals
 - **Technical**: services, protocols, bots
 
 You are an Agent — a biological person. But so is a **bioregion**: it has living systems (biological), communities (social), stories and traditions (cultural), and supporting infrastructure (technical).
 
-> An Agent is not a type — it’s a living whole.  
-> It may express **many aspects** at once — biological, social, cultural, and technical.
-
 Each Agent has an **I-Space** — a personal and private membrane-enclosed space where it expresses identity, stewards knowledge, and governs access.
 
 ---
-
-## Anatomy of a MAP Agent
-
-Each Agent is defined by a **membrane**, a **Life Code**, and a set of **internal structures and services** that support sovereign coordination and relational flow.
-
-![img_1.png](agent-anatomy.png)![Anatomy of a MAP Agent](83E53E44-855E-43E2-99AA-6C66E34CF25B.png)
-
-- **Life Code (a.k.a., memetic signature)**: Encodes the values and identity of the Agent, distinguishing what is exhibited or inhibited in action.
-- **Private State**: Includes private keys, personas, app logic, sub-agents, and notification logic — all managed internally by the Agent's I-Space.
-- **Assets**: Holons representing forms of **Vital Capital** (e.g., money, attention, trust, food) temporarily stewarded by the Agent.
-- **Service Implementation**: The internal logic or capacity that enables the Agent to transform or route Vital Capital.
-- **Service Offering**: What is exposed to others — the flows and promises the Agent is willing to participate in through Agreements.
-
-> The **I-Space** governs everything inside the membrane.  
-> **We-Spaces** manage the boundaries and agreements *between* membranes.
-
----
-
 ## The Cell as Metaphor
 
 A **Space** in the MAP is like a **living cell** — the foundational unit of life and agency.
@@ -66,28 +43,31 @@ This metaphor is inspired by Diane Tegtmeier’s *Principles of Cellular (Agent)
 *Based on the “Principles of Cellular (Agent) Interactions” from*  
 **Relationships that Heal: Skillful Practice within Nature’s Web** by Diane Tegtmeier.
 
-Each Space in MAP embodies these principles:
-
-- It has a **membrane** — governing flow in and out
-- It carries a **Life Code** — encoding purpose, identity, and values
-- It holds a **Data Grove** — its memory, relationships, and knowledge
-- It stewards **Vital Capital** — energy, care, reputation, and resources
-- It performs **Dances** — what it can do in relationship
-- It evolves governance — roles, protocols, and decision scaffolds
-- It expresses itself through **Visualizers** — ways of seeing, sensing, and interacting
-
-> As cells form tissues and organisms,  
-> **Spaces form social and ecological organisms** — living wholes that learn, adapt, and grow.
-
 ---
+
+## Anatomy of a MAP Agent
+
+Each Agent is defined by a **membrane**, a **Life Code**, and a set of **internal structures and services** that support sovereign coordination and relational flow.
+
+![img_1.png](agent-anatomy.png)![Anatomy of a MAP Agent](83E53E44-855E-43E2-99AA-6C66E34CF25B.png)
+
+
+- **Life Code (a.k.a., memetic signature)**: Encodes the values and identity of the Agent, distinguishing what is exhibited or inhibited in action.
+- **Data Grove**: Includes private keys, personas, app logic, sub-agents, and notification logic — all managed internally by the Agent's I-Space.
+- **Assets**: Holons representing forms of **Vital Capital** (e.g., money, attention, trust, food) temporarily stewarded by the Agent.
+- **Service Implementation**: The internal logic or capacity that enables the Agent to transform or route Vital Capital.
+- **Service Offering**: What is exposed to others — the flows and promises the Agent is willing to participate in through Agreements.
+
+> The **I-Space** governs everything inside the membrane.  
+> **We-Spaces** manage the boundaries and agreements *between* membranes.
+
 
 ## From Agents to Spaces
 
-You are an Agent — a biological person.  
+You are an Agent. 
 But you may also steward **sub-agents** — like your laptop, smartphone, desktop, or delegated services. These sub-agents operate within your sovereign boundary, coordinated through your I-Space.
 
-An **Agreement Space** is a **membrane-bound collection of Agents** and the **medium of exchange** through which they interact.  
-It enables flows of **Vital Capital** — including trust, knowledge, commitments, and resources — among the agents it encloses.
+An **Agreement Space** is a **membrane-bound collection of Agents** and the **medium of exchange** through which they interact. It enables flows of **Vital Capital** — including trust, knowledge, commitments, and resources — among the agents it encloses.
 
 In MAP, Spaces replace applications as the primary unit of coordination.
 
@@ -95,9 +75,6 @@ In MAP, Spaces replace applications as the primary unit of coordination.
 - **Governance is native.** Each Space defines its own decision-making logic.
 - **Data is whole.** Your data lives within your membrane — not scattered across clouds.
 - **Authentication flips.** Apps don’t authenticate you — *you grant them permission to act inside your Space*.
-
-> In the app world, you log into them.  
-> In the MAP, **they earn the right to work with you**.
 
 ---
 
