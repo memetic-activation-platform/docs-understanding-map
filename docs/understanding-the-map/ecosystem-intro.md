@@ -138,9 +138,6 @@ The Meme Pool enables:
 - **Recombinable coordination structures** that evolve over time
 - **Memetic certification** — lightweight ways to signal alignment without central authorities
 
-> Just as DNA enables complex life to evolve from simple patterns,  
-> the Meme Pool enables cultural complexity to emerge from shared, remixable parts.
-
 ### What’s different here?
 
 - Memes are not attention-seeking fragments — they are **structural building blocks** of trust, identity, and coordination

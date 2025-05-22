@@ -385,6 +385,7 @@ Memes are **replicable** and **selectable**: they persist through evolutionary d
 > However, epistemic rigor is **neither the sole pathway to replicability nor a universal standard**: many memes in MAP draw from spiritual traditions, embodied practices, or lived experience that offer their own forms of coherence, relevance, and transmission.
 
 Memes can be classified by:
+
 - **Type** (e.g. atomic meme, schema, protocol, visualizer)
 - **Category** (e.g. governance, economics, learning, identity)
 - **Functional structure** (e.g. memeplex, memefamily)
