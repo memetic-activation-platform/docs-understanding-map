@@ -1401,6 +1401,7 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+
                   
 
 
@@ -1598,6 +1599,8 @@ relies on the <strong>exact same core components</strong> used in personal journ
 
 
                 
+<div class="giscus" style="margin-top: 3rem;"></div>
+
               </article>
             </div>
           
@@ -1682,10 +1685,51 @@ relies on the <strong>exact same core components</strong> used in personal journ
       <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "search.highlight", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+
       <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
         <script src="../../assets/glossary-hover.js"></script>
       
     
+<script src="https://giscus.app/client.js"
+        data-repo="memetic-activation-platform/docs-understanding-map"
+        data-repo-id="R_kgDOOiaGMA"
+        data-category="Docs Comments"
+        data-category-id="DIC_kwDOOiaGMM4CtwwG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+    const updateGiscusTheme = () => {
+        const theme = document.documentElement.getAttribute("data-md-color-scheme");
+        const iframe = document.querySelector("iframe.giscus-frame");
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({
+            giscus: {
+                setConfig: {
+                    theme: theme === "default" ? "light" : "dark"
+                }
+            }
+        }, "https://giscus.app");
+    };
+
+    // Update theme on load and on palette toggle
+    document.addEventListener("DOMContentLoaded", updateGiscusTheme);
+    document.querySelectorAll("[data-md-color-toggle]").forEach((el) =>
+        el.addEventListener("click", () => {
+            // Delay to allow DOM update from MkDocs
+            setTimeout(updateGiscusTheme, 200);
+        })
+    );
+</script>
+
   </body>
 </html>
