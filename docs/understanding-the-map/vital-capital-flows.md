@@ -1,166 +1,178 @@
-# 💧 Vital Capital Flows in the MAP
-
+# 💧 Vital Capitals in the MAP
 ### Modeling value as flow in regenerative coordination
 
 ---
 
-## 🌱 What is Vital Capital?
+## 🌱 What are Vital Capitals?
 
-**Vital Capital** is what we **share, steward, and circulate** to sustain life and relationship.
+In the MAP, **Vital Capitals** refer to the **core forms of value that sustain and regenerate life** — across human, ecological, social, and technological systems.
 
-In the MAP, Vital Capital refers to the meaningful forms of value that Agents exchange and care for — including knowledge, care, trust, time, materials, presence, and (when appropriate) financial instruments. It is *what flows* as via Services (as specified in Offers and Agreements), and *what is stewarded* within commons-based coordination.
+Rather than reducing value to money or static assets, MAP enables the **flow** of diverse capital types between agents — through **Promises**, **Agreements**, and **Consent-Based Coordination**.
 
-> Vital Capital is the lifeblood of the MAP.
-> It is what moves when Agents extend Offers, form Agreements, and participate in Agent Spaces.
+> **Vital Capitals are the lifeblood of the MAP.**  
+> They are what move when Cells make Promises, activate Dances, and join Agent Spaces.
 
-MAP’s approach draws on multiple traditions:
+MAP’s capital model draws from — and extends — the work of:
 
-* **Context-Based Sustainability** (McElroy), with its emphasis on threshold-aware capital stewardship
-* **The Metacurrency Project**, where wealth is defined as *"the capacity to meet the needs of a living system"*
-* **8 Forms of Capital** from permaculture (Roland & Landua), expanding value beyond the financial
-* **Doughnut Economics** and **Regenerative Capitalism**, grounding value in planetary and social health
+- **Context-Based Sustainability (CBS)** – *Mark McElroy*
+- **Multi-Capital Frameworks** – in integrated reporting and ESG
+- **Doughnut Economics** – *Kate Raworth*
+- **Regenerative Economics** – *John Fullerton*, *Capital Institute*
 
-MAP unifies these insights into a **holon-native, consent-based value model**, where each Vital Capital holon can be tracked, exchanged, governed, and restored — within the relational flows of the commons.
-
----
-
-## 🔠 Vital Capital Types
-
-MAP supports a rich typology of Vital Capital. These can be extended by communities, but the core types include:
-
-| **Capital Type**         | **Description**                                                                 |
-| ------------------------ | ------------------------------------------------------------------------------- |
-| **Natural Capital**      | Ecosystem services, land, water, air, biodiversity                              |
-| **Human Capital**        | Skills, labor, knowledge, health, attention                                     |
-| **Social Capital**       | Trust, reputation, relationships, group cohesion                                |
-| **Cultural Capital**     | Stories, rituals, symbols, traditions, identity                                 |
-| **Built Capital**        | Tools, infrastructure, digital systems, physical assets                         |
-| **Financial Capital**    | Currency, tokens, credit — symbolic instruments that may facilitate value flows |
-| **Experiential Capital** | Aesthetic, emotional, and lived experiences                                     |
-| **Memetic Capital**      | Values, beliefs, narrative codes, memetic signatures                            |
-| **Temporal Capital**     | Time, availability, scheduling of attention or action                           |
-| **Spiritual Capital**    | Purpose, presence, connection to meaning                                        |
-
-> 📘 *Note: While financial capital is included, MAP treats it as **instrumental** — a token that may enable Vital Capital flows, but does not carry intrinsic value on its own.*
+These models offer a **multi-capital lens** for understanding value beyond financial metrics. The MAP evolves this into a **holon-native, flow-oriented implementation** where value is not just stored or measured — it is actively flowed, replenished, and aligned with context.
 
 ---
 
-## 🔁 Multi-Dimensional Capital Flows in MAP Agreements
+## 🧭 A Layered Landscape of Value
 
-Every **Agreement** in MAP is structured as a bundle of **Promises** made by each participating Agent, each of which can involve specific flows of **Vital Capital**. These Promises may reference different capital types — such as time, care, knowledge, or financial instruments — and together they define the **multi-dimensional value exchange** represented by the Agreement.
+MAP organizes value across several layers to honor different forms of meaning, coordination, and measurement:
 
-A Promise might say: "I will contribute 4 hours per week of mentoring (Human Capital)," or "I will share community data insights (Memetic Capital)," or even, "I will transfer 100 tokens upon completion (Financial Capital)." But it is the **collection of Promises** across all roles that articulates the full dimensionality of the exchange.
+| **Layer**                            | **Definition**                                                                                | **Purpose in MAP**                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
+| **Relational Value**                 | Anything an agent or Space may care about — whether or not it’s modeled.                      | Philosophical grounding (not scaffolded)   |
+| **Vital Capitals**                   | Declared types of value that may be flowed, promised, stewarded, or referenced in agreements. | Core MAP abstraction for coordination      |
+| **Sustainability-Eligible Capitals** | Subset of Vital Capitals that are **measurable** and suitable for SQ computation.             | Enables contextual thresholds and tracking |
+| **Assets / Resources**               | Specific, instantiable representations of value (where applicable).                           | Enables flow logic and operational roles   |
 
-This is a core differentiator of MAP Agreements: instead of reducing coordination to a **single monetary price**, Agreements can specify **many types of value flows** in parallel — each explicitly described, contextualized, and governed.
-
-Agreements may specify for each flow:
-
-* `capitalType`: What kind of capital is involved
-* `direction`: Incoming / outgoing (from the perspective of the Agent making the commitment)
-* `quantity`: Scalar (e.g. 10 hours), symbolic (e.g. “ongoing”), or subjective (“sufficient”)
-* `conditions`: Rules or thresholds that gate the flow
-* `impact`: Intended or observed outcomes of the flow
-
-This enables regenerative, relational coordination grounded in shared understanding — rather than abstraction into monetary equivalence.
+> Some Vital Capitals can be directly flowed or exchanged.
+Others, like love, trust, or presence, are not diminished by sharing — they are **amplified through participation.**.
 
 ---
 
-## 🔄 Patterns of Flow
+## 🔠 Vital Capital Types (Initial Set)
 
-MAP supports several **flow archetypes**, encoded in Agreement and Promise structures:
+MAP defines a common set of **Vital Capital Types** to get started. Communities are encouraged to extend this list.
 
-| **Pattern**              | **Description**                                                                   |
-| ------------------------ | --------------------------------------------------------------------------------- |
-| **Gift Flow**            | Unconditional giving (e.g. "I will share this value freely.")                     |
-| **Reciprocal Flow**      | Mutual exchange based on parity or complementarity                                |
-| **Mutualism**            | Coordinated flows for shared benefit (e.g. co-creation of a shared resource)      |
-| **Stewardship Flow**     | One party promises to care for or maintain value on behalf of others              |
-| **Commons Contribution** | Value flows into a collectively accessible pool                                   |
-| **Conditional Flow**     | Value flows only if certain criteria are met (e.g. trust, role, proposal outcome) |
+| **Capital Type**         | **Description**                                                       |
+|--------------------------|-----------------------------------------------------------------------|
+| **Natural Capital**      | Ecosystem services, land, water, air, biodiversity                   |
+| **Human Capital**        | Skills, labor, knowledge, health, attention                          |
+| **Social Capital**       | Trust, reputation, relationships, group cohesion                     |
+| **Cultural Capital**     | Stories, rituals, traditions, symbols, identity                      |
+| **Built Capital**        | Tools, infrastructure, digital systems, physical assets              |
+| **Financial Capital**    | Currency, tokens, credit, investments                                |
+| **Experiential Capital** | Aesthetic, emotional, and lived experiences                          |
+| **Memetic Capital**      | Values, beliefs, narrative codes, memetic signatures                 |
+| **Temporal Capital**     | Time, availability, scheduling of attention                          |
+| **Spiritual Capital**    | Purpose, presence, connection to meaning (optional but supported)    |
 
-These patterns shape how Vital Capital is **activated**, **trusted**, and **restored** over time.
-
----
-
-## 📏 Thresholds, Sustainability Quotients, and Dashboards
-
-To support meaningful regenerative coordination, the MAP integrates key ideas from **Context-Based Sustainability (CBS)**, including:
-
-* **Sustainability Thresholds**: Context-specific boundaries (ecological, social, economic) that define what constitutes a *sustainable state* for an Agent or Agent Space.
-* **Sustainability Quotients**: Metrics that compare actual behavior to defined thresholds.
-* **Dashboards**: DAHN modules that surface these metrics to support awareness, reflection, and adaptive coordination.
-
-> 🧠 *An Agent Space is **sustainable** to the extent that its Vital Capital flows and stocks remain within the thresholds that define what it can justly and safely take, give, or impact — in context.*
+> 🌿 **Extensible by communities** — define your own: *Ancestral Capital*, *Environmental Capital*, *Play Capital*, *Ritual Space*, *Silence*, *Emergence*, etc.
 
 ---
 
-### 🔹 What Is a Threshold?
+## 🧩 Functional Dimensions of Vital Capitals
 
-A **Threshold** defines the **contextually appropriate limit** for a particular Vital Capital flow or stock. Examples include:
+Each **Vital Capital Type** can optionally declare **functional dimensions** — flags that determine which affordances are available within MAP.
 
-* **Ecological**: How much water can be used without degrading the watershed?
-* **Social**: What level of care ensures dignity and belonging?
-* **Economic**: What balances ensure resilience without extraction?
+These dimensions are used by DAHN, Agreements, Protocols, and Dashboards to dynamically offer appropriate behaviors.
 
-Thresholds are defined per capital type and may come from:
+| **Dimension**       | **What it Describes**                                      | **Example Values** | **Enables...**                                         |
+|---------------------|------------------------------------------------------------|--------------------|--------------------------------------------------------|
+| `measurable`        | Can this capital be quantified?                            | `true` / `false`   | SQs, thresholds, dashboards, inventories               |
+| `transferable`      | Can it move between agents?                                | `true` / `false`   | Stewardship, offers, exchange                          |
+| `persistent`        | Does it persist over time (like a stock)?                  | `true` / `false`   | Stock/flow visualization, sustainability tracking      |
+| `observable`        | Can others witness or attest to it?                        | `true` / `false`   | Reputation, trust, third-party validation              |
+| `replenishable`     | Can it be restored or renewed after use?                   | `true` / `false`   | Regenerative flows, restoration rituals                |
+| `formalizable`      | Can it be governed through structured agreements or logic? | `true` / `false`   | Policy constraints, access conditions                  |
+| `tangible`          | Is it materially embodied or physical?                     | `true` / `false`   | Logistics, location, inventory                         |
+| `symbolic_only`     | Exists solely in narrative, ritual, or symbolic space      | `true` / `false`   | Ritual flows, role enactment, presence rituals         |
+| `depletes_with_use` | Is the capital diminished when shared or used?             | `true` / `false`   | Restoration logic, scarcity modeling, amplifying flows |
 
-* Governance within Agent Spaces
-* Commons stewardship principles
-* Scientific knowledge or traditional wisdom
-* Memetic codes embedded in LifeCodes
-
----
-
-### 🔹 Sustainability Quotient (SQ)
-
-The **Sustainability Quotient** compares actual behavior to the defined threshold:
-
-* If SQ ≤ 1 → the flow is within sustainable bounds
-* If SQ > 1 → the flow exceeds the sustainable threshold (overshoot)
-
-Each Vital Capital type can have its own SQ, offering a multi-dimensional portrait of sustainability. MAP doesn't collapse this into a single score — it supports holistic, context-aware feedback.
+> 🧠 These dimensions **do not constrain value** — they simply inform **what kinds of interactions are possible** in software.
 
 ---
 
-### 🔹 Example: Water Use
+## 🧰 Example Vital Capitals Across Dimensions
 
-* **Capital Type**: Natural Capital (Water)
-* **Threshold**: 50L/day/person
-* **Actual Use**: 40L/day/person
-* **Result**: SQ = 0.80 → Sustainable (20% headroom)
+Below is a curated set of examples showing how different Vital Capitals vary across **multiple functional dimensions**. These examples include edge cases that clarify what it means for something to be **replenishable**, **formalizable**, or **not**.
 
-In DAHN, this could be visualized as:
-
-* A green arc showing 80% fill
-* Narrative insight: “Usage within sustainable limits”
-* Suggestion: “Consider contributing surplus to a commons”
-
----
-
-### 🔹 Capital Dashboards for Every Agent Space
-
-Each Agent Space — whether individual or collective — can activate dashboards in DAHN to track:
-
-| **Dimension**                | **What It Shows**                                 |
-| ---------------------------- | ------------------------------------------------- |
-| **Vital Capital Flows**      | Inflows and outflows by type and period           |
-| **Capital Stocks**           | What is being stored, cultivated, or depleted     |
-| **Sustainability Quotients** | Performance relative to thresholds                |
-| **Trend Arcs**               | Direction and velocity of change                  |
-| **Alerts and Prompts**       | When nearing or exceeding safe limits             |
-| **Regenerative Insights**    | Suggestions for rebalancing or restorative action |
-
-These dashboards are configurable and privacy-aware. They can be kept private for self-awareness, shared selectively with trusted peers, or integrated into governance decisions.
+| **Vital Capital**     | `measurable` | `transferable` | `persistent` | `replenishable` | `formalizable` | `tangible` | `observable` | `symbolic_only` | `depletes_with_use` | **Notes**                     |
+|------------------------|--------------|----------------|--------------|------------------|----------------|------------|---------------|------------------|----------------------|-------------------------------|
+| **Water**              | true         | true           | true         | true             | true           | true       | true          | false            | true                 | Physical, metered             |
+| **Presence**           | false        | false          | false        | false            | false          | false      | false         | true             | false                | Emergent, relational          |
+| **Reputation**         | partial      | false          | true         | partial          | false          | false      | true          | false            | false                | Attested, social              |
+| **Love**               | false        | false          | true         | true             | false          | false      | true          | true             | false                | Grows through sharing         |
+| **Time**               | true         | false          | false        | false            | true           | false      | true          | false            | true                 | Scarce, not renewable         |
+| **Labor**              | true         | true           | true         | true             | true           | true       | true          | false            | true                 | Formalizable service          |
+| **Trust**              | partial      | false          | true         | true             | false          | false      | true          | false            | false                | Built or broken relationally  |
+| **Sacred Silence**     | false        | false          | false        | false            | false          | false      | false         | true             | false                | Symbolic, emergent            |
 
 ---
 
-## 🧷 Conclusion: Why Vital Capital Matters
+### 💡 Notes on Interpretation
 
-Most coordination systems reduce value to monetary terms, hiding the richness of what actually flows between people and across communities. The MAP elevates **Vital Capital** as a first-class, memetically expressive structure for meaningful exchange.
+- Some values (like **Love** or **Reputation**) are **non-rivalrous** and not depleted by sharing.
+- Others (like **Time** or **Labor**) are **rivalrous** and must be carefully allocated or replenished.
+- **Formalization** applies to resources that can be reliably governed by structured agreements (e.g. scheduling time, allocating funds).
+- **Symbolic-only** value types enable ritualized or narrative coordination without needing measurable quantities.
 
-- It makes visible the many forms of value that support life and relationship.
-- It invites regenerative action based on sufficiency, not extraction.
-- It enables stewardship and reciprocity within the commons.
+---
 
-> MAP doesn’t just move information or money.  
-> It makes it possible to coordinate around what really matters — in all its dimensions.
+## ⚙️ MAP Affordances Enabled by Functional Dimensions
+
+The MAP Core provides a flexible scaffold for defining and coordinating Vital Capitals —  
+but it does **not** prescribe fixed behaviors for all types.
+
+> **Extensions to the MAP Core** (e.g. DAHNs, visualizers, smart agreements) may introduce  
+> specific behaviors — such as dashboards, constraints, or rituals — **when certain functional dimensions are present**.
+
+The table below summarizes potential affordances that can be layered on *if* the relevant dimensions are true:
+
+| **Affordance**                     | **Requires...**                                  |
+|------------------------------------|--------------------------------------------------|
+| **Sustainability Quotients (SQ)**  | `measurable: true`, `persistent: true`           |
+| **Threshold-Constrained Promises** | `measurable: true`, `formalizable: true`         |
+| **Stock Dashboards**               | `persistent: true`                               |
+| **Transfer & Stewardship Flows**   | `transferable: true`                             |
+| **Restoration Protocols**          | `replenishable: true`, `depletes_with_use: true` |
+| **Observer Attestations**          | `observable: true`                               |
+| **Ritual-Based Agreements**        | `symbolic_only: true`                            |
+---
+
+## 🔗 Example Holon Declaration
+
+```json
+{
+  "type": "#VitalCapitalType",
+  "key": "Love",
+  "display_name": "Love",
+  "description": "A generative, relational force that increases through sharing",
+  "functional_dimensions": {
+    "measurable": false,
+    "transferable": false,
+    "persistent": true,
+    "observable": true,
+    "replenishable": false,
+    "formalizable": false,
+    "tangible": false,
+    "symbolic_only": true,
+    "depletes_with_use": false
+  }
+}
+```
+
+---
+
+## 🪞 Summary
+
+- **Vital Capitals** are plural, diverse, and community-defined.
+- They are modeled in MAP as **flows between agents and Spaces** — not just static resources.
+- **Sustainability Quotients (SQs)** are fully supported where appropriate, grounding coordination in CBS’s context-aware model.
+- Communities can define their own capital types, declare functional behaviors, and use MAP to coordinate **what they value — in their own terms**.
+
+> **Wealth in MAP is not what you store.**  
+> It is **how richly and regeneratively you participate in flows** — and whom you nourish along the way.
+
+---
+
+## 📚 Acknowledgements
+
+The MAP concept of **Vital Capitals** is directly inspired by the work of  
+**Mark W. McElroy** and the **Center for Sustainable Innovation**,  
+especially the framework of **Context-Based Sustainability (CBS)**:
+
+> McElroy, M. W. (2008) [Social Footprints: Measuring the Social Sustainability Performance of Organizations.](https://research.rug.nl/en/publications/social-footprints-measuring-the-social-sustainability-performance)  
+> [Essence of Context-Based Sustainability](https://www.sustainableorganizations.org/Essence_of_CBS.pdf)
+
+MAP extends CBS with a holonic, flow-native, consent-based coordination layer —  
+preserving its rigor while opening to ritual, meaning, and regeneration.
