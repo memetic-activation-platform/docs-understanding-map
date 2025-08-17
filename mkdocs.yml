@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - search.highlight
@@ -54,6 +55,7 @@ nav:
 
   - Understanding the MAP:
     - Prologue: understanding-the-map/prologue.md
+    - Ecosystems Overview: understanding-the-map/ecosystem-intro.md
     - Overview: understanding-the-map/overview.md
     - Principles: understanding-the-map/principles.md
 
@@ -62,7 +64,7 @@ nav:
     - From Data Grove to Exosphere: understanding-the-map/private-data-grove.md
     - MAP Promises: understanding-the-map/promises.md
     - Offers and Agreements: understanding-the-map/offers-and-agreements.md
-    - Promise Weaves: understanding-the-map/promise-weaves.md
+    - Promise Weaver Protocol: understanding-the-map/promise-weaver.md
 
     # Value Flows and Governance
     - Vital Capital Flows: understanding-the-map/vital-capital-flows.md
@@ -78,7 +80,9 @@ nav:
     - Ethical AI Knowledge Assistants: understanding-the-map/ethical-ai-rag.md
 
     # Reference
-    - Glossary: understanding-the-map/glossary.md
+    - Appendices:
+      - Glossary: understanding-the-map/appendices/glossary.md
+      - Formal Definitions: understanding-the-map/appendices/formal-definitions.md
 
   - Journeys:
     - Introduction: journeys/journeys-index.md
@@ -86,6 +90,7 @@ nav:
     - Web-Conference: journeys/web-conference.md
     - Case Study -- Sharing an AirBnB: journeys/sharing-lodging.md
     - Commitment Pools Example: journeys/commitment-pools.md
+    - Regen Choice: journeys/regen-choice.md
     - Commoning Journey:
         - Prologue: journeys/commoning-journey/0.2-prologue.md
         - MAP Orientation: journeys/commoning-journey/0.5-map-orientation.md

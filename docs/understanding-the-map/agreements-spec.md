@@ -47,7 +47,7 @@ Agents extend **offers** into AgentSpaces, which include:
 
 Offers are extended into chosen AgentSpaces based on trust, visibility, and purpose. High-reach spaces (e.g., the MAP sphere) offer broad visibility but weaker alignment. Smaller, high-trust AgentSpaces allow more meaningful reciprocity.
 
-If no agents accept an offer, it may be adapted—dropping or refining promises to increase uptake. This is an area where algorithms for “region-choice” or offer optimization may apply.
+If no agents accept an offer, it may be adapted—dropping or refining promises to increase uptake. This is an area where offer optimization algorithms (such as Simon Grant's [regen-choice](https://www.simongrant.org/RegenCHOICE/)) may apply.
 
 ---
 

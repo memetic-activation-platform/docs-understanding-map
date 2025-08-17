@@ -64,7 +64,7 @@ Because every element in MAP is a **self-describing, active holon**, all request
 This means:
 
 - A single query language can retrieve a Life Code, trigger a Capital Flow, or mutate the state of a holon
-- AI agents and human Cells use the **same interface**
+- AI agents and human Agents use the **same interface**
 - DAHN visualizers can represent any interaction — because it all flows from holonic self-description
 
 ---
@@ -93,7 +93,7 @@ The Uniform API also enables MAP to serve as a **sovereign RAG (Retrieval-Augmen
 
 - All holons are self-describing and queryable
 - Trust Channels and Agreements define **information access boundaries**
-- AI agents can be embedded in Cells, Agent Spaces, or DAHN modules
+- AI agents can be embedded in Agents, Agent Spaces, or DAHN modules
 - Every response is **contextualized**, **revocable**, and **grounded in consents**
 
 MAP becomes a **trust-anchored knowledge graph interface layer** for regenerative AI — one that honors privacy, agency, and mutual meaning-making.

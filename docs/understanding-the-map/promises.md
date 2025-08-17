@@ -27,27 +27,12 @@ A **Promise** is a voluntary declaration made by one Agent (the *Promisor*) to a
 ## 🧠 MAP’s Adaptation of Promise Theory
 
 MAP extends Promise Theory in three key ways:
+
 1. **Promises are self-describing holons** — they include rich metadata, conditions, capital flows, and provenance.
 2. **Promises can flow between agents via Trust Channels**, selectively discoverable based on alignment.
-3. **Promises may carry Vital Capital** — knowledge, care, materials, social trust — not just services or tasks.
+3. **Promises may carry Vital Capital** — knowledge, care, materials, social trust — not just money or products.
 
 Systems of coordination in MAP are **networks of promises**, not chains of control.
-
----
-
-## 🔍 Promise Anatomy
-
-Each Promise holon includes:
-
-- `promisor`: The agent making the commitment
-- `promisee`: The intended recipient (optional or reflexive)
-- `promiseType`: A structured archetype (e.g., “Data Access”, “Presence Signal”)
-- `conditions`: Preconditions, timing constraints, or trust thresholds
-- `vitalCapitalFlows`: The value being contributed or received
-- `memeticSignature`: The values or LifeCode alignment expressed
-- `revocationPolicy`: Whether and how the promise may be withdrawn
-- `protocols`: The Dances that operationalize the Promise
-- `expiresAt`: Optional end date
 
 ---
 

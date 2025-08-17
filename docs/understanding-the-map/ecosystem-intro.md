@@ -22,7 +22,7 @@ To anchor that vision, this next section introduces **five interdependent ecosys
 
 Each ecosystem becomes a **self-reinforcing cycle of value**, strengthening itself and the broader MAP through feedback loops of trust, service, visibility, and meaning.
 
-![Ecosystems.png](Ecosystems.png)
+![Ecosystems.png](../assets/images/Ecosystems.png)
 
 The diagram above shows these five core ecosystems orbiting the MAP Core — the shared infrastructure for person-centric, sovereign, adaptive coordination. Let’s take a closer look.
 
@@ -99,7 +99,7 @@ Each time a visualizer is used, it can generate **usage-based micro-payments**, 
 The Global Meme Pool is the MAP’s deep cultural substrate —  
 a shared space for the ideas that **matter enough to align around**.
 
-![img.png](img.png)
+![img.png](../assets/images/imagine_a_culture.png)
 
 Much of the cultural territory we need to navigate is uncharted.Accordingly, evolutionary thought leaders, artists and storytellers can help "paint" the MAP with descriptions of the
 cultural territory they envision (i.e., they can steward new memes): new governance models, new types of reciprocal value flow agreements, new framings of the concept of money, emerging and re-discovered practices for managing the commons, re-generative agriculture, circular economies, etc.
@@ -221,5 +221,3 @@ Together, they form a **self-sustaining architecture** for cultural evolution.
 > MAP is not just about digital interaction. It’s about building the regenerative flywheels of a new planetary culture.
 
 ---
-
-Let me know if you'd like this styled for a dedicated “Ecosystems” page, embedded as contextual callouts, or abbreviated into a sidebar or tour format.

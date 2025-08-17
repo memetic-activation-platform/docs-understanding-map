@@ -116,7 +116,7 @@ Here’s how to explore them:
 - To explore how **groups come first, not apps**, and how Agreements shape the membrane of coordination — see [Spaces & Agreements](./spaces.md)
 - To learn how the MAP’s **Holonic Architecture** enables scale, nesting, and composability — see [Holons & Fractal Governance](./overview.md#holonic-architecture)
 - To see how **value flows through promises, not transactions** — enabling regenerative economics — see [Vital Capital & Promise Weaves](./vital-capital-flows.md)
-- To explore how **shared culture evolves memetically**, through remixable cultural units — see [Memes & the Global Meme Pool](./promise-weaves.md)
+- To explore how **shared culture evolves memetically**, through remixable cultural units — see [Memes & the Global Meme Pool](../../archive/promise-weaves.md)
 - To understand how the MAP supports **community-evolving interfaces**, contributed by participants — see [Visualizers & the UX Commons](./choreographer.md)
 - To dive into the **developer-facing architecture** — see [Uniform API & Type System](./uniform-api.md)
 

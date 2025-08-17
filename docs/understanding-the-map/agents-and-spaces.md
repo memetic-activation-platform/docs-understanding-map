@@ -38,7 +38,7 @@ This metaphor is inspired by Diane Tegtmeier’s *Principles of Cellular (Agent)
 5. **Senses and Responds** — adapting to signals, context, and change
 6. **Interdepends** — sustaining mutual health through cooperation and autonomy
 
-![Principles of Cellular (Agent) Interactions](cellular-interactions.png)
+![Principles of Cellular (Agent) Interactions](../assets/images/cellular-interactions.png)
 
 *Based on the “Principles of Cellular (Agent) Interactions” from*  
 **Relationships that Heal: Skillful Practice within Nature’s Web** by Diane Tegtmeier.
@@ -49,7 +49,8 @@ This metaphor is inspired by Diane Tegtmeier’s *Principles of Cellular (Agent)
 
 Each Agent is defined by a **membrane**, a **Life Code**, and a set of **internal structures and services** that support sovereign coordination and relational flow.
 
-![img_1.png](agent-anatomy.png)![Anatomy of a MAP Agent](83E53E44-855E-43E2-99AA-6C66E34CF25B.png)
+![Anatomy of a MAP Agent](../assets/images/agent-anatomy.png)
+
 
 
 - **Life Code (a.k.a., memetic signature)**: Encodes the values and identity of the Agent, distinguishing what is exhibited or inhibited in action.
@@ -60,7 +61,6 @@ Each Agent is defined by a **membrane**, a **Life Code**, and a set of **interna
 
 > The **I-Space** governs everything inside the membrane.  
 > **We-Spaces** manage the boundaries and agreements *between* membranes.
-
 
 ## From Agents to Spaces
 
@@ -88,31 +88,19 @@ Every Space is a **Holon** — a living part/whole that:
 
 Holons are **self-describing and active** — not just static data, but interactive, meaningful units in a living graph.
 
-> A Holon is not just a record —  
-> it’s a vessel of identity, interaction, and evolution in relationship.
-
 ---
 
 ## From I-Space to We-Space
 
-Every Agent begins in their **I-Space** — a private, sovereign domain.  
+Every Agent begins in their **I-Space** — a private, membraned-enclosed sovereign domain.  
 But as relationships deepen and shared purpose emerges, **We-Spaces** are born.
 
-We-Spaces are **AgentSpaces** — membrane-bound realms of shared intention, trust, and governance. They may be:
+We-Spaces are where agents interact. They are membrane-bound realms of shared intention, trust, and governance. They may be:
 
 - A project team
 - A co-op or DAO
 - A bioregional network
 - A family or movement
-
-Each We-Space is capable of:
-
-- Holding and managing **shared capital**
-- Defining its own **Life Code** and governance
-- Signing and fulfilling **Agreements**
-- Adapting, learning, and evolving over time
-
-![Core Definitions](2D785495-AE12-4480-88D8-A6994191CE15.png)
 
 ---
 
@@ -125,7 +113,7 @@ Interaction happens through **Agreements** — consent-based bundles of **Promis
 - Permissions and thresholds
 - Governance and capital flows
 
-Each Agreement forms its own **Agreement-Based AgentSpace**, opening **membrane gates** between participants.
+Each Agreement forms its own **Agreement-Based AgentSpace**, opening **trust channels** between the spaces of each party to the Agreement..
 
 > The membrane is **semi-permeable** — allowing trusted flow, while protecting sovereignty.
 

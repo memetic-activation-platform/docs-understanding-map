@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+<div class="giscus" style="margin-top: 3rem;"></div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="https://giscus.app/client.js"
+        data-repo="memetic-activation-platform/docs-understanding-map"
+        data-repo-id="R_kgDOOiaGMA"
+        data-category="Docs Comments"
+        data-category-id="DIC_kwDOOiaGMM4CtwwG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+    const updateGiscusTheme = () => {
+        const theme = document.documentElement.getAttribute("data-md-color-scheme");
+        const iframe = document.querySelector("iframe.giscus-frame");
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({
+            giscus: {
+                setConfig: {
+                    theme: theme === "default" ? "light" : "dark"
+                }
+            }
+        }, "https://giscus.app");
+    };
+
+    // Update theme on load and on palette toggle
+    document.addEventListener("DOMContentLoaded", updateGiscusTheme);
+    document.querySelectorAll("[data-md-color-toggle]").forEach((el) =>
+        el.addEventListener("click", () => {
+            // Delay to allow DOM update from MkDocs
+            setTimeout(updateGiscusTheme, 200);
+        })
+    );
+</script>
+{% endblock %}

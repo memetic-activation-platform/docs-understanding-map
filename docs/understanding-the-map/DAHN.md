@@ -1,4 +1,4 @@
-# 🌟 The Human Experience of the MAP
+# 🌟 Greet the DAHN: The Human Experience of the MAP
 ### DAHN and the Visualizer Commons
 
 The MAP is a living ecology — a space where relationships, resources, and meaning co-evolve through sovereign interaction. Your experience of the MAP is shaped by how you perceive, navigate, and interact with the holons and relationships that make up the living graph of shared meaning.

@@ -1,115 +1,118 @@
-# MAP Security Model
+> 🚧 **Draft in Progress** — This narrative holon is evolving and open for remix.
 
-## Introduction
+# MAP as a RAG-Ready Architecture for Ethical AI
 
-The Memetic Activation Platform (MAP) provides a security model grounded in the principles of data sovereignty, agent autonomy, resilient commons governance, and trust minimization. Unlike conventional cloud-based systems where users relinquish control over their data to application providers, MAP ensures that users retain physical and logical custody of their data at all times.  
+## Bringing Trust, Provenance, and Sovereignty to AI Knowledge Retrieval
 
-The MAP relies on the strong, agent-centric foundations provided by [Holochain](https://www.holochain.org) as its storage layer.
+The **Memetic Activation Platform (MAP)** offers a novel foundation for AI systems that rely on Retrieval-Augmented Generation (RAG). Unlike traditional RAG pipelines that scrape unstructured data from opaque or ungoverned sources, MAP offers a **governance-aware, permissioned knowledge graph** designed from the ground up to support sovereign, ethical AI.
 
-This document formalizes the MAP security model for developers, contributors, and auditors.
+---
 
-## 1. Physical Custody and Data Sovereignty
+## Why MAP is Ideal for RAG
 
-**Custody Principle**: *My data on my devices.*
+### 1. **Graph-Native Infrastructure (OpenCypher / GQL)**
+MAP exposes all information and interactions through a **self-describing knowledge graph**, accessible via standard **OpenCypher** and the emerging **GQL** ISO standard. This allows RAG systems to:
 
-Data within MAP is physically stored on devices controlled by the user or the user’s community (family, intentional community, co-op, bioregion, watershed, etc.). Data is not transmitted to centralized cloud services outside the user’s custodial perimeter.
+- Query MAP as a **live, structured, semantically rich data source**
+- Leverage relational context, memetic signatures, and governed scopes
+- Integrate seamlessly with other graph-native systems (e.g. Neo4j)
 
-Each user maintains a resilient **Agent Space** composed of authorized computing devices, operating similarly to a biological cell with a **semi-permeable membrane**.
+### 2. **Governance-Scoped Retrieval**
+In MAP, **every query is scoped to a specific Agent Space**. This guarantees:
 
-## 2. Membrane Structures
+- Retrieval occurs only within the bounds of explicit consent and governance
+- No cross-organizational inference leakage
+- Fine-grained control over what AI sees, when, and why
 
-### 2.1 Join Membrane
-Controls the admission and removal of agents and devices into and out of an Agent Space.
+### 3. **Data Sovereignty, Provenance & Licensing**
+Each holon in MAP is:
 
-- Membership protocols (e.g., invitation, nomination, approval workflows) are drawn from the **Global Meme Pool** and implemented via the **Global Services Registry**.
-- Groups can select tested, community-curated protocols, minimizing the need for ad hoc, insecure, or amateur implementations.
+- **Signed, permissioned, and licensed**
+- Traceable to its contributor with attached usage conditions (Creative Commons or other)
+- Accessed via **revocable Information Access Agreements**, not open data dumps
 
-### 2.2 Information Access Membrane
-Controls the flow of data into and out of an Agent Space.
+This ensures AI systems can **retrieve without appropriating**, honoring the rights and context of data originators.
 
-- Based on the **self-describing nature** of MAP data structures (Holons), information access policies are defined in terms of data types and access conditions.
-- Enables fine-grained, type-specific control over what information is shared, with whom, and under what agreements.
+### 4. **Federated Knowledge Commons as Rich RAG Source**
+MAP supports a **global Memetic Commons**, where contributors publish frameworks, models, and narratives with licensing, lineage, and memetic intent. For AI systems, this becomes a **rich, federated library of high-trust, re-usable knowledge assets** — curated by humans, not scraped from the web.
 
-## 3. Inverted Authentication Model
+---
 
-In conventional systems, users authenticate to applications.  
-In MAP, **applications authenticate to users**.
+## Optional Protocol: Model Context Protocol (MCP) for External Interoperability
 
-- Applications' codebases (source or compiled, e.g., Wasm libraries) are hashed and signed by the publishing agent.
-- All data and code in MAP are **cryptographically signed, provenanced, and non-repudiable**.
-- Agents verify app authenticity before authorizing apps to interact with their data.
+While MAP defines its own native mechanisms for scope, access, and provenance (via **Agent Spaces**, **Promises**, and **Information Access Agreements**), it can also expose governed knowledge to external agents via the **Model Context Protocol (MCP)**.
 
-## 4. Controlled Data Exchange: Offers, Agreements, and Requests
+The MCP is a sharable, HTTP-based protocol for context retrieval, designed to:
+- Deliver **explicit, traceable knowledge bundles** to external RAG systems
+- Include **usage constraints, provenance, and license terms**
+- Operate only under **membrane-bound Agreements** that specify it as an allowable protocol
 
-### 4.1 Offer-Agreement Model
-- Agents extend **Offers** proposing reciprocal data or service exchanges.
-- **Agreements** arise when Offers are accepted.
-- Agreements are digitally signed, immutable, and non-repudiable.
+By declaring MCP as a supported protocol in specific MAP Agreements, Agent Spaces can selectively expose their knowledge to external AI agents — without compromising trust, privacy, or sovereignty.
 
-### 4.2 Request-Response Flow
-- All information requests must reference a valid Agreement.
-- Requests are:
-    - Signed by the requesting agent.
-    - Validated against the Agreement's terms.
-    - Logged for auditability.
+> This makes MAP not just a RAG source for native apps — but a **gateway to federated, consent-based context exchange across systems**.
 
-- If authorized, requested data is:
-    - Retrieved.
-    - Filtered as needed.
-    - Encrypted with the requestor’s public encryption key.
-    - Signed and sent back.
+### MCP for Downstream Protection: Preventing Sovereignty Collapse
 
-- Agents verify incoming data authenticity and integrity by checking signatures and digests.
+MAP secures data at the point of retrieval — but once that data is sent to a third-party LLM for inference, its sovereignty may be lost. The **Model Context Protocol** plays a critical role in **carrying forward data protection constraints into the inference layer**, mitigating this vulnerability.
 
-## 5. Post-Access Data Handling
+MCP context bundles can embed constraints that govern how the model must treat the data it receives.
 
-After retrieval, Agreements specify the permissible uses of data:
-- Whether the data may be decrypted.
-- Whether it may be persisted.
-- Whether it may be shared or redistributed.
+#### Sample Constraints Carried by MCP
 
-MAP enforces as much as is technically feasible.  
-However, perfect enforcement (e.g., preventing screenshots or photography) is recognized as impractical in general-purpose computing environments. Thus:
+- **Use Constraints**
+  - `useFor`: inference-only
+  - `trainingProhibited`: true
+  - `retainUntil`: timestamp or session-end
+  - `mustDeleteAfter`: "single-use"
 
-### Three-Tier Agreement Structure
-MAP formalizes agreements in three complementary forms:
-- **Human-readable form**: Clear, legible commitments understandable by participants.
-- **Machine-readable form**: Technically enforceable by MAP infrastructure.
-- **Legal-readable form**: Legally enforceable by courts under a specified jurisdiction.
+- **Protection Requirements**
+  - `requiresConfidentialChannel`: true
+  - `requiresEncryptedPrompt`: true
+  - `auditableByAgent`: true
 
-Each form is signed, hashed, and provenanced for immutability and trust.
+- **Attribution and Licensing**
+  - `license`: CC-BY-NC or MAP-specific codes
+  - `sourceAgent`: identity of original contributor
+  - `originAgreement`: hash or ID of authorizing agreement
 
-## 6. Role-Based and Attribute-Based Access Control
+- **Optional Model Use Policy Matching**
+  - Linkage to acceptable model policies or execution environments
+  - Enables runtime filtering (e.g., “only send to compliant inference engines”)
 
-Within each Agent Space:
-- **Roles** determine what actions agents can perform and what data they can access.
-- **Attribute-based rules** allow dynamic role assignment based on agent properties.
+#### Example MCPContextBundle (illustrative only)
 
-Across spaces:
-- **Dance Access Control** governs what Dances (standard API actions) an agent can invoke across Agent Spaces, as specified in Agreements.
+{
+"context_id": "cx-3827492",
+"source": "agent:eco.design.space",
+"data": [...],
+"constraints": {
+"use_for": ["inference-only"],
+"training_prohibited": true,
+"retain_duration": "ephemeral",
+"encryption_required": true,
+"license": "CC-BY-NC",
+"source_agent": "agent:eco.design.space",
+"origin_agreement": "agreement:xyz123",
+"auditable": true
+}
+}
 
-## 7. MAP Infrastructure as Trust Anchor
+This turns MCP into a **trust boundary enforcement mechanism** — ensuring that data shared beyond MAP’s membranes continues to carry its rights, purposes, and integrity conditions into any LLM interaction.
 
-MAP’s core protocols and services (the "infrastructure layer") provide the trust foundation:
-- All Offer, Agreement, Request, and Response operations are scaffolded and verified by this infrastructure.
-- Application developers operate above this layer without redefining or bypassing its core security guarantees.
+MAP can thus serve as a secure, transparent context source — even in multi-agent or federated AI architectures — without compromising its core commitments to sovereignty, consent, and traceability.
 
-The MAP infrastructure is open source, and subject to independent security audits and progressive hardening.
 
-## 8. Threat Protections Summary
+## Strategic Advantage for AI Builders
 
-| Threat | MAP Security Mechanisms |
-|:-------|:-------------------------|
-| Unauthorized access | Join Membranes, Access Control |
-| App impersonation | Code Digest Signatures, Provenance |
-| Data exfiltration | Information Access Membranes, Agreements |
-| Repudiation | Digital Signatures, Immutable Logs |
-| App vulnerabilities | Provenanced Code and Global Meme Pool |
-| Device compromise | Strict Device Authorization |
-| Human factors | Clear Agreements, Legal Recourse |
+Integrating with MAP offers:
 
-## Conclusion
+- A future-proof, **values-aligned RAG source**
+- A pathway toward **legal and ethical defensibility** in knowledge retrieval
+- The ability to serve domains where **trust, attribution, and governance** are non-negotiable
 
-The MAP security model restores agency, autonomy, and sovereignty over digital life. It builds a layered defense architecture rooted in biological analogies, proven cryptographic techniques, cooperative protocols, and the centuries-long tradition of human legal systems.
+And because MAP uses standard interfaces like OpenCypher, building an adapter for MAP **unlocks access to other graph systems** as well — without vendor lock-in.
 
-By inverting traditional trust assumptions and by grounding trust in transparent, verifiable infrastructure, MAP enables regenerative digital societies to emerge and thrive.
+---
+
+*MAP is more than a data source. It’s an ecosystem of intentional knowledge — designed to be queried, trusted, and respected.
+And when external systems need to access that knowledge, MAP can expose context via governed protocols — including the emerging Model Context Protocol (MCP) — to ensure trust and consent travel with the data.*

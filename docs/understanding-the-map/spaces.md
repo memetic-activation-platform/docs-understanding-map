@@ -143,7 +143,7 @@ They let us:
 
 To go deeper, explore:
 
-- [Agreements and Trust Channels](promise-weaves-1)
+- [Agreements and Trust Channels](../../archive/promise-weaves-1.md)
 - [Membranes and Security](security-model.md)
-- [LifeCode and Identity](glossary.md#lifecode)
+- [LifeCode and Identity](appendices/glossary.md#lifecode)
 - [DAHN and the Experience Layer](DAHN.md)

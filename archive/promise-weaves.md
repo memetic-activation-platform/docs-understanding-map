@@ -5,9 +5,9 @@
 
 ---
 
-## 🌱 1. Individual Cells: Living Units with Membranes
+## 🌱 1. Individual Spaces: Living Units with Membranes
 
-Each **Cell** in the MAP:
+Each **Agent** in the MAP:
 
 - Has a **Life Code** (memetic signature) — its DNA-equivalent.
 - Contains a **Data Grove** — its internal memory, experience, and resources.
@@ -23,14 +23,14 @@ Each **Cell** in the MAP:
 
 **Biological metaphor**: A Cell signals its intent via chemical markers or emitted proteins. In MAP, a **Promise** acts similarly.
 
-- Cell A emits a **Promise** into the environment.
+- Agent A emits a **Promise** into the environment.
 - This Promise is broadcast selectively through **Trust Channels**, or publicly to the MAP discovery layer.
 - The Promise includes:
     - The **Vital Capital flows** (incoming and outgoing)
     - The **Promise Type** (e.g., “Data Collaboration”, “Skill Sharing”)
     - **Conditions** (e.g., trust levels, geography, Life Code alignment)
 
-🧪 *This is the signaling step. Other Cells can “detect” these promises based on receptor-like criteria: memetic resonance, thresholds, affinity.*
+🧪 *This is the signaling step. Other Agents can “detect” these promises based on receptor-like criteria: memetic resonance, thresholds, affinity.*
 
 ---
 
@@ -38,17 +38,17 @@ Each **Cell** in the MAP:
 
 **Biologically**: Cells recognize compatible signals and initiate inter-cellular bonding. In MAP:
 
-- Cell B detects Cell A’s Promise and responds with:
+- Agent B detects Agent A’s Promise and responds with:
     - An **Acceptance**
     - Possibly a **counter-Promise** or **reciprocal Promise**
 
 This creates a **Promise Pair**, forming a two-way trust loop — a **micro-weave**.
 
-🔗 *This forms the simplest unit of a weave — two Cells exchanging compatible Vital Capital in agreed patterns.*
+🔗 *This forms the simplest unit of a weave — two Agents exchanging compatible Vital Capital in agreed patterns.*
 
-As more Cells make and accept compatible Promises, the weave grows:
+As more Agents make and accept compatible Promises, the weave grows:
 
-- Cell C connects to A and B through its own Promise.
+- Agent C connects to A and B through its own Promise.
 - Some Promises may be **public offers**, some **targeted via Trust Channels**, others **respondent Promises**.
 - The **Promise Weave** is the mesh of Promise-Pairs or triads, linked by compatible flows and aligned Codes.
 
@@ -65,13 +65,13 @@ Once a Promise Weave has sufficient:
 
 …it can form a new membrane — a **Agent Space**.
 
-This new Cell:
+This new Space:
 
-- Inherits a **Collective Life Code** — synthesized from contributing Cells’ codes
+- Inherits a **Collective Life Code** — synthesized from contributing Agents’ codes
 - Has a new **Data Grove**, composed of linked, permissioned data nodes from the members
-- Can itself **make Promises**, and interact with other Cells — it’s now an **agent**
+- Can itself **make Promises**, and interact with other Agents — it’s now an **agent**
 
-🧫 *Like tissues forming an organ, Cells self-organize into larger functional wholes with new emergent capabilities.*
+🧫 *Like tissues forming an organ, Spaces self-organize into larger functional wholes with new emergent capabilities.*
 
 ---
 
@@ -94,10 +94,10 @@ Here’s how it can evolve:
 
 Imagine a visual like this:
 
-- Individual Cells **glowing** with distinct Life Codes, surrounded by membranes
+- Individual Spaces **glowing** with distinct Life Codes, surrounded by membranes
 - Colored threads representing **Vital Capital Promises** linking them
 - Overlapping zones where Promise **density and alignment** create membrane folds — the beginning of a **Agent Space**
-- A **living, breathing network** where flows pulse, membranes flex, and Cells evolve
+- A **living, breathing network** where flows pulse, membranes flex, and Spaces evolve
 
 ---
 
@@ -110,7 +110,7 @@ Imagine a visual like this:
   Shows current Promise Weaves forming in real time
 
 - **Membrane Synthesizer**  
-  Algorithmically proposes when a set of Cells is ready to “gel” into an Agent Space
+  Algorithmically proposes when a set of Agents is ready to “gel” into an Agent Space
 
 - **Weave Health Metrics**  
   Track balance, depletion, trust breakdowns, or flow interruptions

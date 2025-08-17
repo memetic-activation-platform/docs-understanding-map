@@ -18,7 +18,7 @@ An **Offer** is a structured proposal composed of reciprocal **Promises**, organ
 Each Offer defines:
 
 - A set of **roles** that participating Agents may occupy (e.g., provider, recipient, funder)
-- For each role, a set of **Promises** — specific commitments expected from Agents in that role
+- For each role, a set of **required Promises** (a.k.a., requirements) — specific commitments expected from Agents in that role
 - **Aspirational Promises** that express values or alignment criteria (e.g., "Fair Trade Certified")
 - **Vital Capital Flow Promises** — detailing the kinds of capital that will move (e.g., data, care, money, knowledge)
 - Optional constraints — timing, thresholds, or conditional triggers
@@ -31,7 +31,7 @@ This role-based structure allows Offers to support **multi-party Agreements**. F
 
 Offers can span diverse types of value and coordination. A Promise might track a flow of care, reputation, presence, funds, or shared data — and do so differently for each participant.
 
-Importantly, **each Agent defines the terms of their own Offers**. This supports MAP’s commitment to **empowered agency** — enabling participants to express and exchange value on their own terms. At the same time, a shared pool of reusable **Promise Types** and **Offer Templates** (see: [Promise Weaves](promise-weaves.md)) allows new Offers to build on proven structures.
+Importantly, **each Agent defines the terms of their own Offers**. This supports MAP’s commitment to **empowered agency** — enabling participants to express and exchange value on their own terms. At the same time, a shared pool of reusable **Promise Types** and **Offer Templates** (see: [Promise Weaves](../../archive/promise-weaves.md)) allows new Offers to build on proven structures.
 
 ---
 
@@ -177,4 +177,8 @@ The entire bundle — for both Offers and Agreements — is **cryptographically 
 
 ---
 
-*Let me know when you're ready to weave this into the Agreement-Based AgentSpaces section, or if you'd like the remaining portions regenerated with the updated flow.*
+## Promise Weaves as the Offer to Agreement Protocol
+
+The _MAP's [Promise Weaver sub-system](promise-weaver.md)_ supports a coordination protocol by which Offers can become Agreements. If you are curious how this process could work in practice, Promise Weaver may be worth a look.
+
+But you can also safely skip this section and [go directly to Vital Capital Flows](vital-capital-flows.md).

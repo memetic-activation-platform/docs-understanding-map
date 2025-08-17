@@ -27,7 +27,7 @@ Each Promise Weave is a **self-describing holon**, containing:
 - `componentPromises`: References to the individual Promises comprising the weave
 - `sharedMemeticSignature`: Aggregated values and intentions
 - `governanceScaffold`: Agreed decision-making and participation model
-- `vitalCapitalFlows`: Flow map across Cells
+- `vitalCapitalFlows`: Flow map across Spaces
 - `thresholds`: Optional sustainability or trust bounds
 - `protocols`: Interaction methods (e.g. MAPNative, Scuttlebutt, social ritual)
 - `status`: Proposed, Active, Dormant, Dissolving, Archived
@@ -38,7 +38,7 @@ The Weave is **dynamic**: it can grow, split, merge, evolve, or dissolve based o
 
 ## 🧬 How a Promise Weave Forms
 
-1. **Initial Promises** are made by Cells (individual or collective)
+1. **Initial Promises** are made by Spaces (individual or collective)
 2. **Offers** are extended and **Agreements** are signed
 3. **Trust Channels** open and capital begins to flow
 4. If:
@@ -71,7 +71,7 @@ Weaves may be **public**, **semi-permeable**, or **private**, based on governanc
 |---------------------|----------------------------------------------------------------|
 | **Emergence**       | Sufficient trust, alignment, and active Promises trigger formation |
 | **Activation**      | Weave becomes coherent: flows are live, governance is in effect |
-| **Growth / Mutation** | Promises are added, roles evolve, new Cells join or split off |
+| **Growth / Mutation** | Promises are added, roles evolve, new Spaces join or split off |
 | **Reflection**      | Periodic reviews, Life Code updates, realignment efforts       |
 | **Dissolution**     | Flows end or diverge, agreements conclude, Weave archives itself |
 
@@ -111,7 +111,7 @@ This allows Weaves to **self-manage** while remaining open to **evolution and di
 
 | **MAP Structure**      | **Relation to Weave**                                          |
 |------------------------|----------------------------------------------------------------|
-| **Cell**               | Cells are the agents making Promises within the Weave          |
+| **Space**               | Spaces are the agents making Promises within the Weave          |
 | **Agent Space**    | Emerges from sustained Weave coherence                         |
 | **Agreement**          | Each Promise in the Weave is backed by one or more Agreements  |
 | **Trust Channel**      | Controls visibility and flow permissions across Weave members  |
@@ -178,7 +178,7 @@ The Promise Weave Protocol specifies how Weaves:
 | **Element**            | **Description** |
 |------------------------|-----------------|
 | **Promise**            | A unilateral declaration of intent by an Agent, possibly referencing services, capital flows, or access. |
-| **Agreement**          | A consent-based contract between two or more Cells that activates one or more Promises. |
+| **Agreement**          | A consent-based contract between two or more Spaces that activates one or more Promises. |
 | **Weave**              | A holonic structure containing interconnected Promises, shared capital flows, governance scaffolds, and active relationships. |
 | **Agent Space**    | A higher-order holon that can emerge from a sufficiently cohesive and governed Promise Weave. |
 | **Governance Scaffold**| A formalized structure for decision-making, participation, role assignment, and amendment within the Weave. |
@@ -189,16 +189,16 @@ The Promise Weave Protocol specifies how Weaves:
 ## 🧬 Weave Formation Protocol
 
 1. **Promise Origination**  
-   One or more Cells issue Promises (e.g. service offers, contributions, invitations) with compatible capital types and memetic signatures.
+   One or more Agents issue Promises (e.g. service offers, contributions, invitations) with compatible capital types and memetic signatures.
 
 2. **Offer & Agreement**  
-   Other Cells respond, forming Agreements that define access, expectations, and terms of fulfillment.
+   Other Agents respond, forming Agreements that define access, expectations, and terms of fulfillment.
 
 3. **Capital Flow Activation**  
    If reciprocal or networked capital flows are initiated (e.g. time-for-tools, care-for-space), the system qualifies for Weave formation.
 
 4. **Governance Scaffold Adoption**  
-   Cells adopt a shared governance pattern to steward the emerging relationship.
+   Agents adopt a shared governance pattern to steward the emerging relationship.
 
 5. **Weave Holon Instantiation**  
    A `PromiseWeave` holon is created — self-describing, queryable, and visible through the DAHN.
@@ -300,7 +300,7 @@ Promise Weaves respect sovereignty through **membrane policies**:
 - **Access rights**: Defined in Agreements or governance rules
 - **Trust Channels**: Used to filter visibility and access to Weave elements
 
-DAHN may allow Cells to:
+DAHN may allow Agents to:
 
 - Discover nearby or aligned Weaves
 - Request observation or participation roles

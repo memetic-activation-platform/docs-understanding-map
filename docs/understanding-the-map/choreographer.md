@@ -1,6 +1,6 @@
 ## The MAP Choreographer
 
-The **Choreographer** is the MAP’s native coordination engine. It manages the invocation and sequencing of modular dances across agents, spaces, and roles using **declarative [Dance Flows](glossary.md#dance-flow)** that respect sovereignty, promise boundaries, and contextual cues.
+The **Choreographer** is the MAP’s native coordination engine. It manages the invocation and sequencing of modular dances across agents, spaces, and roles using **declarative [Dance Flows](appendices/glossary.md#dance-flow)** that respect sovereignty, promise boundaries, and contextual cues.
 
 Each dance performs a single task and emits a completion signal. The Choreographer listens for these signals and, based on the active flow specification and local context, invokes the next appropriate step. By keeping sequencing logic outside of individual dances, MAP enables complex behaviors to be composed from simple, intelligible parts.
 

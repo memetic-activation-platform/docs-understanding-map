@@ -96,7 +96,7 @@ The MAP serves those living the questions — offering a space to explore, proto
 The MAP is not an app — it’s an **ecosystem enabler**.  
 It seeds, sustains, and amplifies **regenerative ecosystems**: living cycles of participation built on trust, service, cultural meaning, and ecological stewardship.
 
-![MAP Ecosystem Cycles](../Ecosystems.png)
+![MAP Ecosystem Cycles](../../docs/assets/images/Ecosystems.png)
 
 
 

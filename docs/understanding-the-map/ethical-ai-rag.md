@@ -38,6 +38,70 @@ MAP supports a **global Memetic Commons**, where contributors publish frameworks
 
 ---
 
+## Optional Protocol: Model Context Protocol (MCP) for External Interoperability
+
+While MAP defines its own native mechanisms for scope, access, and provenance (via **Agent Spaces**, **Promises**, and **Information Access Agreements**), it can also expose governed knowledge to external agents via the **Model Context Protocol (MCP)**.
+
+The MCP is a sharable, HTTP-based protocol for context retrieval, designed to:
+- Deliver **explicit, traceable knowledge bundles** to external RAG systems
+- Include **usage constraints, provenance, and license terms**
+- Operate only under **membrane-bound Agreements** that specify it as an allowable protocol
+
+By declaring MCP as a supported protocol in specific MAP Agreements, Agent Spaces can selectively expose their knowledge to external AI agents — without compromising trust, privacy, or sovereignty.
+
+> This makes MAP not just a RAG source for native apps — but a **gateway to federated, consent-based context exchange across systems**.
+
+### MCP for Downstream Protection: Preventing Sovereignty Collapse
+
+MAP secures data at the point of retrieval — but once that data is sent to a third-party LLM for inference, its sovereignty may be lost. The **Model Context Protocol** plays a critical role in **carrying forward data protection constraints into the inference layer**, mitigating this vulnerability.
+
+MCP context bundles can embed constraints that govern how the model must treat the data it receives.
+
+#### Sample Constraints Carried by MCP
+
+- **Use Constraints**
+    - `useFor`: inference-only
+    - `trainingProhibited`: true
+    - `retainUntil`: timestamp or session-end
+    - `mustDeleteAfter`: "single-use"
+
+- **Protection Requirements**
+    - `requiresConfidentialChannel`: true
+    - `requiresEncryptedPrompt`: true
+    - `auditableByAgent`: true
+
+- **Attribution and Licensing**
+    - `license`: CC-BY-NC or MAP-specific codes
+    - `sourceAgent`: identity of original contributor
+    - `originAgreement`: hash or ID of authorizing agreement
+
+- **Optional Model Use Policy Matching**
+    - Linkage to acceptable model policies or execution environments
+    - Enables runtime filtering (e.g., “only send to compliant inference engines”)
+
+#### Example MCPContextBundle (illustrative only)
+
+{
+"context_id": "cx-3827492",
+"source": "agent:eco.design.space",
+"data": [...],
+"constraints": {
+"use_for": ["inference-only"],
+"training_prohibited": true,
+"retain_duration": "ephemeral",
+"encryption_required": true,
+"license": "CC-BY-NC",
+"source_agent": "agent:eco.design.space",
+"origin_agreement": "agreement:xyz123",
+"auditable": true
+}
+}
+
+This turns MCP into a **trust boundary enforcement mechanism** — ensuring that data shared beyond MAP’s membranes continues to carry its rights, purposes, and integrity conditions into any LLM interaction.
+
+MAP can thus serve as a secure, transparent context source — even in multi-agent or federated AI architectures — without compromising its core commitments to sovereignty, consent, and traceability.
+
+
 ## Strategic Advantage for AI Builders
 
 Integrating with MAP offers:
@@ -50,4 +114,5 @@ And because MAP uses standard interfaces like OpenCypher, building an adapter fo
 
 ---
 
-*MAP is more than a data source. It’s an ecosystem of intentional knowledge — designed to be queried, trusted, and respected.*
+*MAP is more than a data source. It’s an ecosystem of intentional knowledge — designed to be queried, trusted, and respected.
+And when external systems need to access that knowledge, MAP can expose context via governed protocols — including the emerging Model Context Protocol (MCP) — to ensure trust and consent travel with the data.*
