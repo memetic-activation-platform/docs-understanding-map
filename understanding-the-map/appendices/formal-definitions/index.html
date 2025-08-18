@@ -14,7 +14,7 @@
         <link rel="prev" href="../glossary/">
       
       
-        <link rel="next" href="../../../journeys/journeys-index/">
+        <link rel="next" href="../vital-capital-lineage/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -816,6 +816,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🔁 RelationshipTypes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-trustchannel-validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 MAP TrustChannel Validation Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary-for-formal-expressions" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Glossary for Formal Expressions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -891,6 +924,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vital-capital-lineage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why Vital Capitals?
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1389,6 +1445,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🔁 RelationshipTypes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-trustchannel-validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 MAP TrustChannel Validation Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary-for-formal-expressions" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Glossary for Formal Expressions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1486,6 +1575,7 @@
 
 
 <h1 id="map-schema-definitions-skeletal">MAP Schema Definitions (skeletal)<a class="headerlink" href="#map-schema-definitions-skeletal" title="Permanent link">&para;</a></h1>
+<p><img alt="L1CoreSchema.png" src="../../../assets/images/L1CoreSchema.png" /></p>
 <h2 id="holontypes">🧩 HolonTypes<a class="headerlink" href="#holontypes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1520,16 +1610,23 @@
 <td>A general-purpose container holon that defines a boundary for Holons. All Spaces in the MAP are HolonSpaces.</td>
 </tr>
 <tr>
-<td><strong>Space</strong></td>
-<td>A membraned HolonSpace for agents and interactions. May be an I-Space (HAS_I_SPACE) or a We-Space (if unanchored).</td>
+<td><strong>AgentSpace</strong></td>
+<td>A membraned HolonSpace for agents and interactions. May be an I-Space (HAS_I_SPACE) or a We-Space (if unanchored) (a.k.a., Space).</td>
 </tr>
 <tr>
 <td><strong>Dance</strong></td>
 <td>A unit of action that can be invoked in a Space, typically governed by a Promise from one Role to another.</td>
 </tr>
+<tr>
+<td><strong>TrustChannel</strong></td>
+<td>A TrustChannel is a membrane-bound communication interface, owned by an Agent, that acts in a specific Role within a specific Agreement. It is executed by the Agent’s ComputingNodes and inherits its authority via a RoleAssignment.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<hr />
 <h2 id="relationshiptypes">🔁 RelationshipTypes<a class="headerlink" href="#relationshiptypes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1547,26 +1644,26 @@
 <td>RoleAssignment</td>
 <td>Persona</td>
 <td>The Persona acting in a Role within an Agreement</td>
-<td>ROLE_ASSIGNMENTS</td>
+<td>ASSIGNMENTS</td>
 </tr>
 <tr>
 <td><strong>ASSIGNED_ROLE</strong></td>
 <td>RoleAssignment</td>
 <td>Role</td>
 <td>Indicates the Role the Persona is fulfilling</td>
-<td>ROLE_ASSIGNMENTS</td>
+<td>ASSIGNMENTS</td>
 </tr>
 <tr>
 <td><strong>IN_AGREEMENT</strong></td>
 <td>RoleAssignment</td>
 <td>Agreement</td>
 <td>Indicates the Agreement the RoleAssignment is part of</td>
-<td>ROLE_ASSIGNMENTS</td>
+<td>ASSIGNMENTS</td>
 </tr>
 <tr>
 <td><strong>CONTEXT_SPACE</strong></td>
 <td>Agreement</td>
-<td>Space</td>
+<td>AgentSpace</td>
 <td>Indicates the Space in which the Agreement is valid or applied</td>
 <td>AGREEMENTS</td>
 </tr>
@@ -1587,7 +1684,7 @@
 <tr>
 <td><strong>HAS_I_SPACE</strong></td>
 <td>Agent</td>
-<td>Space</td>
+<td>AgentSpace</td>
 <td>Declares that a Space is the private I-Space of an Agent</td>
 <td>IS_I_SPACE_OF</td>
 </tr>
@@ -1604,6 +1701,96 @@
 <td>Space</td>
 <td>Declares the canonical home Space for a given Holon</td>
 <td>HOME_FOR</td>
+</tr>
+<tr>
+<td>DEPENDS_ON</td>
+<td>AgentSpace</td>
+<td>TrustChannel</td>
+<td>The AgentSpace relies on this TrustChannel to communicate with the outside world via a subagent.</td>
+<td>SUPPORTS</td>
+</tr>
+<tr>
+<td>EXPOSES</td>
+<td>AgentSpace</td>
+<td>TrustChannel</td>
+<td>This TrustChannel is visible and accessible at the AgentSpace's membrane boundary.</td>
+<td>EXPOSED_BY</td>
+</tr>
+<tr>
+<td>ASSIGNMENTS</td>
+<td>TrustChannel</td>
+<td>RoleAssignment</td>
+<td>This TrustChannel is authorized to play the role assigned via this assignment.</td>
+<td>ASSIGNED_TRUST_CHANNELS`</td>
+</tr>
+</tbody>
+</table>
+<h3 id="validation-rules">Validation Rules<a class="headerlink" href="#validation-rules" title="Permanent link">&para;</a></h3>
+<h3 id="map-trustchannel-validation-rules">🔒 MAP TrustChannel Validation Rules<a class="headerlink" href="#map-trustchannel-validation-rules" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Rule ID</strong></th>
+<th><strong>Scope</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Formal Constraint</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>trust-channel-assignments-must-share-agent</code></td>
+<td><code>TrustChannel</code></td>
+<td>All <code>RoleAssignment</code>s that assign this <code>TrustChannel</code> must reference the same <code>Persona</code> as their <code>ASSIGNED_AGENT</code>.</td>
+<td>∀ ra₁, ra₂ ∈ RA_TC, A(ra₁) = A(ra₂)<br>or equivalently:<br> </td>
+</tr>
+<tr>
+<td><code>trust-channel-exposed-by-owning-agentspace</code></td>
+<td><code>TrustChannel</code></td>
+<td>The <code>AgentSpace</code> that exposes this <code>TrustChannel</code> must be the same as the one assigned to the Agent that the channel’s <code>Persona</code> belongs to.</td>
+<td>If RA.ASSIGNED_TRUST_CHANNEL = TC,<br> P = RA.ASSIGNED_AGENT,<br> A = P.PERSONA_OF,<br> then TC.EXPOSED_BY = A.ISPACE_FOR</td>
+</tr>
+</tbody>
+</table>
+<h3 id="glossary-for-formal-expressions">📘 Glossary for Formal Expressions<a class="headerlink" href="#glossary-for-formal-expressions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Symbol / Variable</strong></th>
+<th><strong>Meaning</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TC</code></td>
+<td>A <code>TrustChannel</code> being validated</td>
+</tr>
+<tr>
+<td><code>RA</code></td>
+<td>A <code>RoleAssignment</code> that references the <code>TrustChannel</code></td>
+</tr>
+<tr>
+<td><code>RA_TC</code></td>
+<td>The set of all <code>RoleAssignment</code>s such that <code>ASSIGNED_TRUST_CHANNEL = TC</code></td>
+</tr>
+<tr>
+<td><code>A(ra)</code></td>
+<td>The <code>ASSIGNED_AGENT</code> (a <code>Persona</code>) of a given <code>RoleAssignment</code> <code>ra</code></td>
+</tr>
+<tr>
+<td><code>P</code></td>
+<td>A <code>Persona</code> that is the <code>ASSIGNED_AGENT</code> of a <code>RoleAssignment</code></td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td>The <code>Agent</code> that <code>P</code> is a <code>PERSONA_OF</code></td>
+</tr>
+<tr>
+<td><code>S_actual</code></td>
+<td>The <code>AgentSpace</code> that <code>EXPOSES</code> the <code>TrustChannel</code> (<code>TC.EXPOSED_BY</code>)</td>
+</tr>
+<tr>
+<td><code>S_expected</code></td>
+<td>The <code>AgentSpace</code> that <code>ISPACE_FOR</code> the <code>Agent</code> <code>A</code> (<code>A.ISPACE_FOR</code>)</td>
 </tr>
 </tbody>
 </table>
@@ -1929,13 +2116,13 @@ Then:
         
         
           
-          <a href="../../../journeys/journeys-index/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction">
+          <a href="../vital-capital-lineage/" class="md-footer__link md-footer__link--next" aria-label="Next: Why Vital Capitals?">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Introduction
+                Why Vital Capitals?
               </div>
             </div>
             <div class="md-footer__button md-icon">
