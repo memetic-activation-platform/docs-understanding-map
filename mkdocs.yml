@@ -2,6 +2,7 @@ site_name: Understanding the Memetic Activation Platform
 site_url: https://memetic-activation-platform.github.io/docs-understanding-map/
 repo_url: https://github.com/memetic-activation-platform/docs-understanding-map
 edit_uri: edit/main/docs/
+use_directory_urls: true  # (default is true unless overridden)
 
 theme:
   name: material
