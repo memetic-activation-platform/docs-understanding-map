@@ -24,32 +24,36 @@ A **Promise** is a voluntary declaration made by one Agent (the *Promisor*) to a
 
 ---
 
-## 🧠 MAP’s Adaptation of Promise Theory
+# 🧠 MAP’s Adaptation of Promise Theory
 
-MAP extends Promise Theory in three key ways:
+MAP builds on Promise Theory, embedding it within a dynamic architecture of agent-centric coordination. Key adaptations include:
 
-1. **Promises are self-describing holons** — they include rich metadata, conditions, capital flows, and provenance.
-2. **Promises can flow between agents via Trust Channels**, selectively discoverable based on alignment.
-3. **Promises may carry Vital Capital** — knowledge, care, materials, social trust — not just money or products.
+1. **Offers bundle Promises** — Each Offer is a holon that contains one or more Promises, along with conditions, roles, and expectations. Once accepted, these Promises are crystallized into Agreements.
 
-Systems of coordination in MAP are **networks of promises**, not chains of control.
+2. **Agreements govern fulfillment** — An Agreement defines the reciprocal commitments between agents and governs when and how Promises must be honored.
+
+3. **DanceRequests and DanceResponses flow through TrustChannels** — These are the actual units of interaction. They carry references to Agreements and include Vital Capital — such as knowledge, care, effort, or digital resources — as payloads.
+
+4. **TrustChannels serve as membrane-bound interfaces** — They expose specific roles within Agreements, allowing agents to engage through defined protocols while preserving sovereignty.
+
+MAP shifts the foundation of coordination away from control hierarchies and toward **networks of reciprocal Promises, formalized in Agreements, and enacted through Dances.**
 
 ---
 
 ## 🔠 Example Promise Types
 
-| **Promise Type**         | **Description**                                                                         |
-|--------------------------|-----------------------------------------------------------------------------------------|
-| **Data Access Promise**  | “I promise to allow access to this type of information, under stated conditions.”       |
-| **Service Availability** | “I promise to offer this service when invoked via a Dance, respecting flow rules.”      |
-| **Presence Signal**      | “I promise to be discoverable in this context (e.g. locality, interest group).”         |
-| **Reciprocity Pattern**  | “I promise to reciprocate a flow of capital if I receive another.”                      |
+| **Promise Type**             | **Description**                                                                    |
+|------------------------------|------------------------------------------------------------------------------------|
+| **Data Access Promise**      | “I promise to allow access to this type of information, under stated conditions.”  |
+| **Service Availability**     | “I promise to offer this service when invoked via a Dance, respecting flow rules.” |
+| **Presence Signal**          | “I promise to be discoverable in this context (e.g. locality, interest group).”    |
+| **Reciprocity Pattern**      | “I promise to reciprocate a flow of capital if I receive another.”                 |
 | **Governance Participation** | “I promise to participate in decisions, votes, or rituals under this scaffold.”    |
-| **Contribution Offer**   | “I promise to contribute time, labor, or knowledge to an Agent Space.”                 |
-| **Trust Declaration**    | “I promise to recognize another Agent in a specific role or domain.”                    |
-| **Co-Creation Commitment**| “I promise to help create a shared output, resource, or experience.”                  |
+| **Contribution Offer**       | “I promise to contribute time, labor, or knowledge to an Agent Space.”             |
+| **Trust Declaration**        | “I promise to recognize another Agent in a specific role or domain.”               |
+| **Co-Creation Commitment**   | “I promise to help create a shared output, resource, or experience.”               |
 
-> Promise Types are reusable archetypes drawn from the [Global Meme Pool](../glossary.md#global-meme-pool), enabling semantic clarity and shared interpretation across agents.
+> Promise Types are reusable archetypes drawn from the [Global Meme Pool](../appendices/glossary.md#global-meme-pool), enabling semantic clarity and shared interpretation across agents.
 
 ---
 

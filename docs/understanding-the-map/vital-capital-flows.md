@@ -3,14 +3,55 @@
 
 ---
 
-## 🌱 What are Vital Capitals?
+## 🌱 Why Vital Capitals?
 
-In the MAP, **Vital Capitals** refer to the **core forms of value that sustain and regenerate life** — across human, ecological, social, and technological systems.
+In the MAP, any **agent can offer services** to other agents —  
+and they can define their own terms by specifying reciprocal **promises**  
+about what flows between the participants through the act of engaging in that service.
 
-Rather than reducing value to money or static assets, MAP enables the **flow** of diverse capital types between agents — through **Promises**, **Agreements**, and **Consent-Based Coordination**.
+In most systems of coordination, value is flattened into narrow forms — usually financial.  
+This reduces our capacity to name, honor, or exchange the full range of what we care about.
 
-> **Vital Capitals are the lifeblood of the MAP.**  
-> They are what move when Cells make Promises, activate Dances, and join Agent Spaces.
+The MAP takes a different approach.
+
+> We aim to support the richest possible spectrum of human and ecological value —  
+> without collapsing it into a single metric or logic.
+
+To do this, we introduce the concept of **Vital Capitals**:
+- A **plural**, extensible way to represent what matters
+- A **layered abstraction** that supports meaning, coordination, and measurement
+- A **foundation for promises, offers, thresholds, and sustainability quotients (SQs)**
+
+Vital Capitals make it possible to:
+
+- Model **gifts, services, commitments, or contributions** — from **relational to transactional**
+- Express **value flows** across **multiple dimensions** simultaneously
+- Coordinate with **symbolic** or **quantitative** logic — or both
+- Sustain **local ecosystems** through stock/flow dashboards and threshold awareness
+- Extend value expression to **rituals, meaning, care, attention, trust, and presence**
+
+MAP does **not** enforce one fixed ontology of value. Instead, it offers a scaffold:
+
+- General enough for emergent use
+- Specific enough for software coordination
+- Extensible enough for diverse cultural, economic, and spiritual paradigms
+
+> By minimizing ontological imposition, we **maximize expressive freedom** —  
+> empowering communities to define, steward, and regenerate what they value most.
+
+To support this, MAP introduces a layered abstraction of value —  
+rooted in real-world flows, inspired by regenerative economics,  
+and extensible enough to include both measurable assets and symbolic presence.
+
+---
+
+## 💧 What Are Vital Capitals?
+
+**Vital Capitals** are the core forms of value that sustain and regenerate life —  
+across human, ecological, social, and technological systems.
+
+Rather than reducing value to money or static assets, MAP enables the **flow and recognition**  
+of diverse capital types between agents — through **Promises**, **Agreements**, and **Consent-Based Coordination**.
 
 MAP’s capital model draws from — and extends — the work of:
 
@@ -19,7 +60,20 @@ MAP’s capital model draws from — and extends — the work of:
 - **Doughnut Economics** – *Kate Raworth*
 - **Regenerative Economics** – *John Fullerton*, *Capital Institute*
 
-These models offer a **multi-capital lens** for understanding value beyond financial metrics. The MAP evolves this into a **holon-native, flow-oriented implementation** where value is not just stored or measured — it is actively flowed, replenished, and aligned with context.
+These models offer a **multi-capital lens** for understanding value beyond financial metrics.  
+MAP evolves this into a **holon-native, flow-aware model** that honors both **stock and flow**,  
+**symbol and quantity**, **freely given and formally promised**.
+
+In the MAP, every **Service Offer** expresses a form of value being made available —  
+and that value is always described in terms of one or more **Vital Capitals**.  
+Whether the service is a gift, a trade, a ritual act, or a formal delivery,  
+it derives its meaning and coordination logic from the **capital(s) involved**.
+
+📚 Curious about where the term *Vital Capitals* came from and how it found its way into MAP’s core vocabulary?  
+See the [Appendix: Vital Capitals Lineage](appendices/vital-capitals-lineage.md) for more context.
+
+👉 For more on how services and offers are structured, see:  
+[📄 Promises and Offers](promises.md)
 
 ---
 
@@ -35,7 +89,9 @@ MAP organizes value across several layers to honor different forms of meaning, c
 | **Assets / Resources**               | Specific, instantiable representations of value (where applicable).                           | Enables flow logic and operational roles   |
 
 > Some Vital Capitals can be directly flowed or exchanged.
-Others, like love, trust, or presence, are not diminished by sharing — they are **amplified through participation.**.
+Others, like love or trust, can flow without depletion — they are amplified through sharing.
+Still others, like presence or silence, may not flow in the traditional sense,
+but can be held, invoked, or honored within coordination.
 
 ---
 
@@ -62,7 +118,7 @@ MAP defines a common set of **Vital Capital Types** to get started. Communities 
 
 ## 🧩 Functional Dimensions of Vital Capitals
 
-Each **Vital Capital Type** can optionally declare **functional dimensions** — flags that determine which affordances are available within MAP.
+Each **Vital Capital Type** can optionally declare **functional dimensions** — flags that trigger specific capabilities in the extensible set of services offered by your fellow Travelers.
 
 These dimensions are used by DAHN, Agreements, Protocols, and Dashboards to dynamically offer appropriate behaviors.
 
