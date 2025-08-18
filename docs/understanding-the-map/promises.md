@@ -53,7 +53,7 @@ MAP shifts the foundation of coordination away from control hierarchies and towa
 | **Trust Declaration**        | “I promise to recognize another Agent in a specific role or domain.”               |
 | **Co-Creation Commitment**   | “I promise to help create a shared output, resource, or experience.”               |
 
-> Promise Types are reusable archetypes drawn from the [Global Meme Pool](../appendices/glossary.md#global-meme-pool), enabling semantic clarity and shared interpretation across agents.
+> Promise Types are reusable archetypes drawn from the [Global Meme Pool](/docs-understanding-map/understanding-the-map/appendices/glossary/), enabling semantic clarity and shared interpretation across agents.
 
 ---
 

@@ -2,7 +2,7 @@
 
 In the Memetic Activation Platform (MAP), **every agent**—whether a person, a group, or a network of groups—begins with their own **I-Space**.
 
-You can think of your I-Space as your own **private _[Data Grove](/docs-understanding-map/understanding-the-map/glossary/#data-grove)_**:  
+You can think of your I-Space as your own **private _[Data Grove](/docs-understanding-map/understanding-the-map/appendices/glossary/#data-grove)_**:  
 A living, sovereign place where **only you** can plant, shape, or harvest what grows.
 
 ---
