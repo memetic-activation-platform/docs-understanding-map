@@ -35,7 +35,7 @@ Criteria defined by each Agent to control when and how matches proceed (e.g., ho
 
 ## 🔄 Matching Protocol Overview
 
-1. **Author Offer** — An Agent creates an _[Offer](/docs-understanding-map/understanding-the-map/glossary/#offer)_ containing Required Promises and private Promises
+1. **Author Offer** — An Agent creates an _[Offer](/docs-understanding-map/understanding-the-map/appendices/glossary/#offer)_ containing Required Promises and private Promises
 2. **Broadcast Requirements** — The Required Promises are sent to selected AgentSpaces
 3. **Local Matching** — Other Agents evaluate the Requirements against their private Promises
 4. **Respond** — If threshold criteria are met, they respond with:

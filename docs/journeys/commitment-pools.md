@@ -25,29 +25,29 @@ The community needs a **commitment pool** — a way to conditionally pledge valu
 
 ## The Solution: A MAP-Based Commitment Pool
 
-MAP allows the community to create an Offer: a digitally signed declaration of intent from a project initiator (e.g., Asha, a respected local coordinator), inviting others to contribute value under [clearly defined conditions](/docs-understanding-map/understanding-the-map/glossary/#promise).
+MAP allows the community to create an Offer: a digitally signed declaration of intent from a project initiator (e.g., Asha, a respected local coordinator), inviting others to contribute value under [clearly defined conditions](/docs-understanding-map/understanding-the-map/appendices/glossary/#promise).
 
 ### Here's how it works:
 
-1. **Asha creates a [digitally signed Offer](/docs-understanding-map/understanding-the-map/glossary/#offer)**, stating:
+1. **Asha creates a [digitally signed Offer](/docs-understanding-map/understanding-the-map/appendices/glossary/#offer)**, stating:
     - The goal: fund a water tank installation.
     - The conditions: 10,000 SARAFU must be pledged, and the installation must be verified by a group of trusted neighbors.
     - The reciprocation: contributors gain recognition and trust in future projects.
 
-2. Asha places the offer in a [digital community space](/docs-understanding-map/understanding-the-map/glossary/#agentspace).
+2. Asha places the offer in a [digital community space](/docs-understanding-map/understanding-the-map/appendices/glossary/#agentspace).
 
-3. **[Community members](/docs-understanding-map/understanding-the-map/glossary/#agent)** “accept” the Offer, by digitally signing their own commitments:
+3. **[Community members](/docs-understanding-map/understanding-the-map/appendices/glossary/#agent)** “accept” the Offer, by digitally signing their own commitments:
     - _“I will withhold 500 SARAFU for 30 days, contingent on the tank being installed.”_
 
-4. As enough commitments come in, the system [forms an Agreement](/docs-understanding-map/understanding-the-map/glossary/#agreement) — a mutually acknowledged and digitally verifiable contract — and [creates a shared space](/docs-understanding-map/understanding-the-map/glossary/#agreement-based-agentspacee) where all participants in the Agreement interact, track progress, and eventually trigger outcomes.
+4. As enough commitments come in, the system [forms an Agreement](/docs-understanding-map/understanding-the-map/appendices/glossary/#agreement) — a mutually acknowledged and digitally verifiable contract — and [creates a shared space](/docs-understanding-map/understanding-the-map/appendices/glossary/#agreement-based-agentspacee) where all participants in the Agreement interact, track progress, and eventually trigger outcomes.
 
 5. **Validation of the milestone** (e.g., the tank being built) comes from **designated community validators** — neighbors who inspect the site and log their verification by signing a digital declaration.
 
-6. Optionally, a [collective memetic signal](/docs-understanding-map/understanding-the-map/glossary/#meme) acts as a soft consensus layer:
+6. Optionally, a [collective memetic signal](/docs-understanding-map/understanding-the-map/appendices/glossary/#meme) acts as a soft consensus layer:
     - A community meme like _#WaterIsLife_ is “activated” once 75% of contributors signal emotional and social readiness — a digital ritual for cultural closure.
 
 7. Once all conditions are met, the system:
-    - Releases the committed [value](/docs-understanding-map/understanding-the-map/glossary/#vital-capital) to Asha.
+    - Releases the committed [value](/docs-understanding-map/understanding-the-map/appendices/glossary/#vital-capital) to Asha.
     - Logs the success.
     - Updates reputations of participants based on fulfilled commitments.
     - Publishes a narrative to the community’s shared storytelling space.
@@ -76,7 +76,7 @@ This is not just digital infrastructure. It’s a **commons logic expressed in p
 - **Mutual recognition**, not algorithmic control: agents acknowledge each other’s commitments, backed by signatures, not surveillance.
 - **Narrative and reputation**, not scarcity: when the tank is installed, the community doesn’t just check a box — they activate a story, anchored in shared symbols and reinforced by public recognition.
 - **Forkable governance**: if a group wants to run a similar pool for a school roof instead of a water tank, they can fork the Offer and modify the conditions — the software supports **composability and pluralism**, not monoculture.
-  [Proven Offer Types](/docs-understanding-map/understanding-the-map/glossary/#offer-type) and [Governance Scaffolds](/docs-understanding-map/understanding-the-map/glossary/#governance-scaffold) can be stewarded in the [Global Meme Pool](/docs-understanding-map/understanding-the-map/glossary/#meme-pool). This promotes "one-click" reuse of proven patterns that allow the collective wisdom of the group to be preserved and leveraged.
+  [Proven Offer Types](/docs-understanding-map/understanding-the-map/appendices/glossary/#offer-type) and [Governance Scaffolds](/docs-understanding-map/understanding-the-map/appendices/glossary/#governance-scaffold) can be stewarded in the [Global Meme Pool](/docs-understanding-map/understanding-the-map/appendices/glossary/#meme-pool). This promotes "one-click" reuse of proven patterns that allow the collective wisdom of the group to be preserved and leveraged.
 
 ---
 

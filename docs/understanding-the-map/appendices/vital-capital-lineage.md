@@ -157,14 +157,14 @@ MAP builds directly on CBS, while synthesizing the full lineage above into a **h
 
 ### ✅ MAP Evolves the Concept by Introducing:
 
-| Feature | MAP Innovation |
-|--------|----------------|
-| **Holonized Capital** | Every capital type is a **self-describing holon** |
-| **Flow-Centric Model** | Capital moves via **Promises and Agreements** |
-| **Threshold-Awareness** | CBS-style thresholds & **Sustainability Quotients** embedded |
-| **Consent-Based Governance** | Capital flow is permissioned and trust-scaffolded |
-| **Extended Capital Types** | Includes Memetic, Experiential, Temporal, and Spiritual capital |
-| **Capital Dashboards** | Agents can track balances, SQs, and impacts via DAHN tools |
+| Feature                      | MAP Innovation                                                  |
+|------------------------------|-----------------------------------------------------------------|
+| **Holonized Capital**        | Every capital type is a **self-describing holon**               |
+| **Flow-Centric Model**       | Capital moves via **Promises and Agreements**                   |
+| **Threshold-Awareness**      | CBS-style thresholds & **Sustainability Quotients** embedded    |
+| **Consent-Based Governance** | Capital flow is permissioned and trust-scaffolded               |
+| **Extended Capital Types**   | Includes Memetic, Experiential, Temporal, and Spiritual capital |
+| **Capital Dashboards**       | Agents can track balances, SQs, and impacts via DAHN tools      |
 
 > In MAP, capital is **relational**, **memetic**, and **context-sensitive** — governed through self-awareness and mutual trust.
 
@@ -172,14 +172,14 @@ MAP builds directly on CBS, while synthesizing the full lineage above into a **h
 
 ## 📚 Summary Arc
 
-| Era | Capital as... | Governing Logic |
-|------|----------------------|-----------------------------|
-| Classical | Means of production | Ownership, accumulation |
-| Natural Capital | Ecological asset | Preservation or pricing |
-| Multi-Capital | Diverse inputs | Accounting |
-| CBS | Shared dependency | Contextual thresholds |
-| Regenerative | Living capacity | Systemic health |
-| **MAP** | Relational flow | Consent, alignment, regeneration |
+| Era             | Capital as...       | Governing Logic                  |
+|-----------------|---------------------|----------------------------------|
+| Classical       | Means of production | Ownership, accumulation          |
+| Natural Capital | Ecological asset    | Preservation or pricing          |
+| Multi-Capital   | Diverse inputs      | Accounting                       |
+| CBS             | Shared dependency   | Contextual thresholds            |
+| Regenerative    | Living capacity     | Systemic health                  |
+| **MAP**         | Relational flow     | Consent, alignment, regeneration |
 
 ---
 
