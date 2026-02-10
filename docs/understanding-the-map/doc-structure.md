@@ -13,7 +13,7 @@ This structure organizes the MAP documentation into six core sections, each with
 - The I-Space as sovereign computing and coordination environment
 - Sub-agents (devices), membranes, and the role of Holochain
 - LifeCode as personal memetic encoding
-- The Data Grove as private knowledge and app data store
+- The Sovereign Data Sphere as private knowledge and app data store
 - Mapps and the MAP Store
 - Global Service Registry and inverted authentication
 - Example: Personal journaling mapp

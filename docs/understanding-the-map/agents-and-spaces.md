@@ -54,7 +54,7 @@ Each Agent is defined by a **membrane**, a **Life Code**, and a set of **interna
 
 
 - **Life Code (a.k.a., memetic signature)**: Encodes the values and identity of the Agent, distinguishing what is exhibited or inhibited in action.
-- **Data Grove**: Includes private keys, personas, app logic, sub-agents, and notification logic — all managed internally by the Agent's I-Space.
+- **Sovereign Data Sphere**: Includes private keys, personas, app logic, sub-agents, and notification logic — all managed internally by the Agent's I-Space.
 - **Assets**: Holons representing forms of **Vital Capital** (e.g., money, attention, trust, food) temporarily stewarded by the Agent.
 - **Service Implementation**: The internal logic or capacity that enables the Agent to transform or route Vital Capital.
 - **Service Offering**: What is exposed to others — the flows and promises the Agent is willing to participate in through Agreements.

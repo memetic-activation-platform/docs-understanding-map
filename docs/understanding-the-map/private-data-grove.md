@@ -1,15 +1,15 @@
-# MAP: From Private Data Grove to Exosphere - A Gradient of Trust
+# MAP: From Private Sovereign Data Sphere to Exosphere - A Gradient of Trust
 
 In the Memetic Activation Platform (MAP), **every agent**—whether a person, a group, or a network of groups—begins with their own **I-Space**.
 
-You can think of your I-Space as your own **private _[Data Grove](/docs-understanding-map/understanding-the-map/appendices/glossary/#data-grove)_**:  
+You can think of your I-Space as your own **private _[Sovereign Data Sphere](/docs-understanding-map/understanding-the-map/appendices/glossary/#data-grove)_**:  
 A living, sovereign place where **only you** can plant, shape, or harvest what grows.
 
 ---
 
 ## Connecting Groves with Information Access Agreements
 
-When you want to connect your Data Grove with someone else’s, you don’t expose your garden or hand over your tools.  
+When you want to connect your Sovereign Data Sphere with someone else’s, you don’t expose your garden or hand over your tools.  
 Instead, you form an **Information Access Agreement**—a kind of **gated path** between groves.
 
 Each agreement defines:
@@ -68,7 +68,7 @@ And you don’t need to manage technical complexity.
 
 ## In Summary
 
-With MAP, your data lives in your **own private Data Grove**.  
+With MAP, your data lives in your **own private Sovereign Data Sphere**.  
 You grow it, you guard it, and you decide—**if, when, and how** anything is shared.
 
 - **Private by default**

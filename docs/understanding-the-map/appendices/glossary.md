@@ -13,7 +13,7 @@ This glossary defines key concepts and terms used throughout the MAP architectur
 
 An **Agent** is any entity capable of sensing and responding to its environment. It may be biological (e.g., a person, whale, or tree), technical (e.g., a computing process), or social (e.g., a family, cooperative, or commons).
 
-- Every Agent has a unique identity and a corresponding [I-Space](#i-space) — a private AgentSpace that houses its [LifeCode](#lifecode), [Data Grove](#data-grove), and core affordances. 
+- Every Agent has a unique identity and a corresponding [I-Space](#i-space) — a private AgentSpace that houses its [LifeCode](#lifecode), [Sovereign Data Sphere](#data-grove), and core affordances. 
 - Agents can make [offers](#offer) and accept _offers_ made by others to form [Agreements](#agreement).
 
 Agents are expressed as [Holons](#holon) that belong to one or more [AgentSpaces](#agentspace). Every Agent belongs to the [Exosphere](#exosphere) and typically one or more additional _AgentSpaces_.
@@ -47,7 +47,7 @@ An **Agreement-Based AgentSpace** is a bounded interaction context that emerges 
 It includes:
 - All participating [Agents](#agent)
 - A [LifeCode](#lifecode) derived from the shared promises and intent of the Agreement
-- A scoped [Data Grove](#data-grove) of relevant Holons and references
+- A scoped [Sovereign Data Sphere](#data-grove) of relevant Holons and references
 - The governance and coordination logic encoded in the Agreement, including optional roles for verification, mediation, or escalation
 
 While agreements may **expire**, be **revoked**, or become **inactive**, the AgentSpace itself — like all entities in the MAP — is **immutable and persistent**. Its history, structure, and prior interactions remain verifiable and accessible, preserving both accountability and lineage.
@@ -187,9 +187,9 @@ Like the `DanceRequest`, the `DanceResponse` is a fully self-describing Holon an
 
 ---
 
-## Data Grove
+## Sovereign Data Sphere
 
-A **Data Grove** is the sovereign, Holochain-based data storage area. Each [AgentSpace](#agentspace) has its own private Data Grove.  All of the [mapps](#mapps) that are imported into an Agent Space store their information in the Data Grove of that Space.
+A **Sovereign Data Sphere** is the sovereign, Holochain-based data storage area. Each [AgentSpace](#agentspace) has its own private Sovereign Data Sphere.  All of the [mapps](#mapps) that are imported into an Agent Space store their information in the Sovereign Data Sphere of that Space.
 
 ---
 
@@ -353,6 +353,40 @@ The LifeCode is the symbolic "membrane" of an AgentSpace and plays a foundationa
 
 ---
 
+## Meaningful Value
+<!-- summary:start -->
+**Any form of value that is significant enough to be recognized, honored, or serve as the focus of coordination by one or more agents — whether or not it is quantifiable, transferable, or transactional.**
+
+In the MAP, **Meaningful Value** is the foundational category used to describe **what matters** — what agents care about, promise, honor, share, withhold, or coordinate around. It includes everything from attention, presence, and care to knowledge, tools, water, trust, and time.
+<!-- summary:end -->
+
+Unlike many systems that reduce value to financial metrics or commodified goods, the MAP embraces a **pluralistic** and **relational** perspective. Meaningful Value may be symbolic, emotional, ecological, cultural, or spiritual — and may or may not be stewarded, measured, or exchanged.
+
+> **Meaningful Value** is the MAP’s umbrella term for all recognizable forms of significance and worth —  
+> including those that flow, accumulate, invite ritual, or simply deserve to be held.
+
+---
+
+### Functional Profile
+
+Each form of Meaningful Value may declare a **functional profile**: a set of boolean dimensions that describe how it behaves in coordination systems. These dimensions inform how the value can be promised, tracked, exchanged, visualized, or ritualized within the MAP.
+
+| **Dimension**   | **Definition**                                                            | **Example Values** | **Enables...**                                      |
+|-----------------|---------------------------------------------------------------------------|--------------------|-----------------------------------------------------|
+| `quantifiable`  | Can this value be measured or counted?                                    | `true` / `false`   | SQs, thresholds, dashboards, audits                 |
+| `transferable`  | Can it be passed from one agent to another?                               | `true` / `false`   | Exchange, delegation, offers                        |
+| `durable`       | Does it persist over time, like a stock or long-lived condition?          | `true` / `false`   | Stewardship, dashboards, sustainability tracking    |
+| `replenishable` | Can it be restored, cultivated, or regenerated after use?                 | `true` / `false`   | Restoration flows, regenerative protocols           |
+| `formalizable`  | Can it be governed through explicit agreements, policies, or smart logic? | `true` / `false`   | Agreements, access control, protocol design         |
+| `tangible`      | Is it materially embodied or physical?                                    | `true` / `false`   | Logistics, inventory, storage                       |
+| `observable`    | Can others perceive, attest to, or validate its presence?                 | `true` / `false`   | Trust modeling, social validation                   |
+| `symbolic_only` | Exists purely in narrative, ritual, or symbolic space                     | `true` / `false`   | Role enactment, presence rituals, memetic resonance |
+| `consumable`    | Is it depleted or altered through use or sharing?                         | `true` / `false`   | Scarcity modeling, use-based flows                  |
+| `identifiable`  | Can specific instances of it be uniquely recognized or distinguished?     | `true` / `false`   | Serialization, inventory precision, tracking        |
+
+
+---
+
 ## Meme
 <!-- summary:start -->
 A **Meme** is a pattern, story, value, or shared practice that carries meaning and can be passed from one person or group to another.
@@ -473,7 +507,7 @@ The bundle of [Promises](#promise) within an [Offer](#offer) that specifies the 
 
 ## Service
 
-Services support the flow and transformation of vital capitals to/from other agents for mutual benefit. Services are the focus of [Offers](#offer), [Agreements](#agreement), and [Service Invocations](#service-invocation).
+Services support the flow and transformation of value to/from other agents for mutual benefit. Services are the focus of [Offers](#offer), [Agreements](#agreement), and [Service Invocations](#service-invocation).
 
 ---
 
@@ -532,13 +566,34 @@ Because the MAP is **knowledge-graph native**, all interactions — including se
 
 ---
 
-## Vital Capital
+## Vital Capitals
 
-A core MAP holon type representing the diverse forms of value that can flow between Agents — including knowledge, care, trust, materials, attention, and more. Vital Capital is *what flows* as a result of service invocations and fulfilled Promises. While not inherently scarce or commodified, each Vital Capital holon is definable, describable, and context-aware. When under the stewardship of a particular Agent, it may be treated as an **Asset**. The concept draws from multiple sources, including **Context-Based Sustainability (McElroy)**, the **Metacurrency Project** (which defines wealth as *"the capacity to meet the needs of a living system"*), and the **8 Forms of Capital** in permaculture theory.
+A subclass of [Meaningful Value](#meaningful-value) used to represent **flows of value that are durable, stewarded, and trackable** within MAP coordination structures.
 
-The MAP concept of **Vital Capital** refers to the many forms of value — not just financial — that flow through MAP [Agreements](#agreement). These include:
+Vital capital flows are explicitly tracked via [Promises](#promise) and [Agreements](#agreement).
 
-draws heavily on the work around Context-Based Sustainability (see citation below) 
+Vital Capitals are **operationally defined** as forms of Meaningful Value that:
+
+- **Persist over time** (`durable: true`),
+- **Accumulate or deplete** through **inflows and outflows**, and
+- Are **actively stewarded** by one or more Agents or Agent Spaces.
+
+This definition aligns with and extends ideas from the **Context-Based Sustainability (CBS)** framework, while accommodating broader relational, spiritual, and symbolic flows.
+
+> Vital Capital is *what flows* in response to Promises and Agreements.
+> It may or may not be material, commodified, or scarce — but it is always context-aware.
+
+Examples of Vital Capital include:
+
+- **Water** (Natural Capital)
+- **Time** (Temporal Capital)
+- **Trust** (Social Capital)
+- **Knowledge** (Human or Memetic Capital)
+- **Presence** (Spiritual/Experiential Capital)
+
+---
+
+### Capital Types (Typical)
 
 | **Capital Type**         | **Description**                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
@@ -553,13 +608,47 @@ draws heavily on the work around Context-Based Sustainability (see citation belo
 | **Temporal Capital**     | Time, availability, scheduling of attention or actions                          |
 | **Spiritual Capital**    | Purpose, presence, connection to meaning (optional but supported dimension)     |
 
-- Social capital
-- Ecological contributions
-- Attention, care, and creativity
-- Knowledge and memetic resources
+These types serve as **guides**, not constraints — and may be extended by communities and holonic Spaces to express additional or domain-specific value flows (e.g. *Ancestral Capital*, *Ritual Space*, *Emergence*, *Silence*).
 
-Vital capital flows are explicitly tracked via [Promises](#promise) and [Agreements](#agreement).
->For more information: see 
+---
+
+### Functional Profile
+
+All Vital Capitals are a kind of [Meaningful Value](#meaningful-value) whose **functional dimensions** include at minimum:
+
+- `durable: true`
+- `transferable: true` or `replenishable: true`
+- `formalizable: true` or `observable: true`
+
+These enable participation in:
+
+- **Stewardship and resource flows**
+- **Regenerative dashboards and Sustainability Quotients (SQs)**
+- **Offer, Promise, and Agreement structures**
+
+---
+
+### Related Concepts
+
+| **Term**        | **Definition**                                                                          |
+|------------------|------------------------------------------------------------------------------------------|
+| **Meaningful Value** | Any form of value significant enough to be honored or coordinated around             |
+| **Stock**        | A quantity of Vital Capital currently held by an Agent or Agent Space                    |
+| **Resource**     | A distinguishable or enumerable unit of Vital Capital                                    |
+| **Asset**        | A Resource subject to specific rights or governance controls                             |
+
+---
+
+### Source & Inspiration
+
+The MAP’s approach to Vital Capital draws on:
+
+- **Context-Based Sustainability (CBS)** — McElroy (2008)
+- **The Metacurrency Project** — "Wealth is the capacity to meet the needs of a living system"
+- **Permaculture’s Eight Forms of Capital**
+- **Regenerative Economics** — Capital Institute, Doughnut Economics, and others
+
+>See also: 
 > **McElroy, M. W. (2008).** *Social Footprints: Measuring the Social Sustainability Performance of Organizations.*  
 > Middlebury: Center for Sustainable Innovation.  [PDF](https://pure.rug.nl/ws/portalfiles/portal/13147559/01-c1.pdf)
 > [https://www.sustainableinnovation.org](https://www.sustainableinnovation.org)

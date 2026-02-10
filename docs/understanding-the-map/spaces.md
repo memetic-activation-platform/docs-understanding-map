@@ -32,7 +32,7 @@ It has a **membrane**, through which trust, data, and value flow — governed by
 Within that membrane lies the internal anatomy of the Space:
 
 - A **Life Code** — purpose, values, governance, and identity
-- A **Data Grove** — knowledge, memories, and relationships
+- A **Sovereign Data Sphere** — knowledge, memories, and relationships
 - A set of **Holons and Dances** — what the Space can do
 - **Assets** — forms of **Vital Capital** temporarily stewarded within
 - The **Governance Logic** — roles, scaffolds, and protocols
@@ -60,7 +60,7 @@ And each AgentSpace can be a **biological, cultural, social, and technical organ
 
 ## I-Spaces and We-Spaces
 
-Every Agent has an **I-Space** — its own personal membrane, data grove, and Life Code.  
+Every Agent has an **I-Space** — its own personal membrane, Sovereign Data Sphere, and Life Code.  
 This is where it expresses identity, manages consent, and stewards its own assets.
 
 As relationships deepen and shared purpose emerges, **We-Spaces** arise.  

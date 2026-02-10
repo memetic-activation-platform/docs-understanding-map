@@ -57,12 +57,12 @@ nav:
   - Understanding the MAP:
     - Prologue: understanding-the-map/prologue.md
     - Ecosystems Overview: understanding-the-map/ecosystem-intro.md
-    - Overview: understanding-the-map/overview.md
+    - MAP Overview: understanding-the-map/overview.md
     - Principles: understanding-the-map/principles.md
 
     # Personal & Agent Foundations
     - Agents and Spaces: understanding-the-map/agents-and-spaces.md
-    - From Data Grove to Exosphere: understanding-the-map/private-data-grove.md
+    - From Sovereign Data Sphere to Exosphere: understanding-the-map/private-data-grove.md
     - MAP Promises: understanding-the-map/promises.md
     - Offers and Agreements: understanding-the-map/offers-and-agreements.md
     - Promise Weaver Protocol: understanding-the-map/promise-weaver.md
@@ -70,6 +70,8 @@ nav:
     # Value Flows and Governance
     - Vital Capital Flows: understanding-the-map/vital-capital-flows.md
     - Collective Governance Scaffolds: understanding-the-map/collective-governance.md
+    - Services Grammar: understanding-the-map/services-grammar.md
+    - Sovereign Content Distribution: understanding-the-map/sovereign-content-distribution.md
 
     # Choreography, Protocols & Platform Intelligence
     - Choreographing Dance Flows: understanding-the-map/choreographer.md
@@ -85,6 +87,7 @@ nav:
       - Glossary: understanding-the-map/appendices/glossary.md
       - Formal Definitions: understanding-the-map/appendices/formal-definitions.md
       - Why Vital Capitals?: understanding-the-map/appendices/vital-capital-lineage.md
+      - The Grammar of Meaning: understanding-the-map/appendices/grammar-of-meaning-protocol.md
 
   - Journeys:
     - Introduction: journeys/journeys-index.md
@@ -92,6 +95,8 @@ nav:
     - Web-Conference: journeys/web-conference.md
     - Case Study -- Sharing an AirBnB: journeys/sharing-lodging.md
     - Commitment Pools Example: journeys/commitment-pools.md
+    - Idea-to-Impact -- Video Creator Inspires Action: journeys/idea-to-impact.md
+    - Integral Collective and the MAP: journeys/integral-collective.md
     - Regen Choice: journeys/regen-choice.md
     - Commoning Journey:
         - Prologue: journeys/commoning-journey/0.2-prologue.md

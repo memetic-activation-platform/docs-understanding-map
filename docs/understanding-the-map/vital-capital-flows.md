@@ -131,50 +131,53 @@ MAP supports several **flow archetypes**, encoded in Agreement and Promise struc
 ---
 
 
-## 🧩 Functional Dimensions of Vital Capitals
+## 🔧 Functional Dimensions of Vital Capitals
 
-Each **Vital Capital Type** can optionally declare **functional dimensions** — flags that trigger specific capabilities in the extensible set of services offered by your fellow Travelers.
+Each **Vital Capital Type** can optionally declare **functional dimensions** —  
+flags that trigger specific capabilities in the extensible set of services offered by your fellow Travelers.
 
 These dimensions are used by DAHN, Agreements, Protocols, and Dashboards to dynamically offer appropriate behaviors.
 
-| **Dimension**       | **What it Describes**                                      | **Example Values** | **Enables...**                                         |
-|---------------------|------------------------------------------------------------|--------------------|--------------------------------------------------------|
-| `measurable`        | Can this capital be quantified?                            | `true` / `false`   | SQs, thresholds, dashboards, inventories               |
-| `transferable`      | Can it move between agents?                                | `true` / `false`   | Stewardship, offers, exchange                          |
-| `persistent`        | Does it persist over time (like a stock)?                  | `true` / `false`   | Stock/flow visualization, sustainability tracking      |
-| `observable`        | Can others witness or attest to it?                        | `true` / `false`   | Reputation, trust, third-party validation              |
-| `replenishable`     | Can it be restored or renewed after use?                   | `true` / `false`   | Regenerative flows, restoration rituals                |
-| `formalizable`      | Can it be governed through structured agreements or logic? | `true` / `false`   | Policy constraints, access conditions                  |
-| `tangible`          | Is it materially embodied or physical?                     | `true` / `false`   | Logistics, location, inventory                         |
-| `symbolic_only`     | Exists solely in narrative, ritual, or symbolic space      | `true` / `false`   | Ritual flows, role enactment, presence rituals         |
-| `depletes_with_use` | Is the capital diminished when shared or used?             | `true` / `false`   | Restoration logic, scarcity modeling, amplifying flows |
-
+| **Dimension**           | **Definition**                                                                  | **Example Values** | **Enables...**                                        |
+|-------------------------|---------------------------------------------------------------------------------|--------------------|-------------------------------------------------------|
+| `quantifiable`          | Can this capital be expressed using numbers or scalar amounts?                  | `true` / `false`   | SQs, thresholds, dashboards, quantities in agreements |
+| `transferable`          | Can this capital move between agents or be reassigned?                          | `true` / `false`   | Stewardship, offers, exchange flows                   |
+| `durable`               | Does it persist over time (like a stock) after being received or offered?       | `true` / `false`   | Stock/flow tracking, sustainability modeling          |
+| `replenishable`         | Can it be restored, renewed, or regenerated after use?                          | `true` / `false`   | Restoration flows, regenerative practice tracking     |
+| `formalizable`          | Can its use or exchange be governed by structured logic or agreements?          | `true` / `false`   | Access constraints, thresholds, smart agreements      |
+| `tangible`              | Is it materially embodied or physically instantiated?                           | `true` / `false`   | Logistics, location specificity, inventory management |
+| `observable`            | Can others perceive or attest to its presence or expression?                    | `true` / `false`   | Reputation, trust signals, witness attestations       |
+| `symbolic_only`         | Exists purely in narrative, ritual, or symbolic space (not material or digital) | `true` / `false`   | Rituals, role enactments, meaning flows               |
+| `consumable`            | Is it used up or diminished through participation or sharing?                   | `true` / `false`   | Scarcity logic, usage constraints, restoration logic  |
+| `uniquely_identifiable` | Can individual instances be tracked distinctly (e.g., books, artworks)?         | `true` / `false`   | Asset tracking, provenance, serialization             |
 
 ---
 
 ## 🧰 Example Vital Capitals Across Dimensions
 
-Below is a curated set of examples showing how different Vital Capitals vary across **multiple functional dimensions**. These examples include edge cases that clarify what it means for something to be **replenishable**, **formalizable**, or **not**.
+Below is a curated set of examples showing how different Vital Capitals vary across **multiple functional dimensions**. These examples include edge cases that clarify what it means for something to be **replenishable**, **formalizable**, or **uniquely identifiable**.
 
-| **Vital Capital**     | `measurable` | `transferable` | `persistent` | `replenishable` | `formalizable` | `tangible` | `observable` | `symbolic_only` | `depletes_with_use` | **Notes**                     |
-|------------------------|--------------|----------------|--------------|------------------|----------------|------------|---------------|------------------|----------------------|-------------------------------|
-| **Water**              | true         | true           | true         | true             | true           | true       | true          | false            | true                 | Physical, metered             |
-| **Presence**           | false        | false          | false        | false            | false          | false      | false         | true             | false                | Emergent, relational          |
-| **Reputation**         | partial      | false          | true         | partial          | false          | false      | true          | false            | false                | Attested, social              |
-| **Love**               | false        | false          | true         | true             | false          | false      | true          | true             | false                | Grows through sharing         |
-| **Time**               | true         | false          | false        | false            | true           | false      | true          | false            | true                 | Scarce, not renewable         |
-| **Labor**              | true         | true           | true         | true             | true           | true       | true          | false            | true                 | Formalizable service          |
-| **Trust**              | partial      | false          | true         | true             | false          | false      | true          | false            | false                | Built or broken relationally  |
-| **Sacred Silence**     | false        | false          | false        | false            | false          | false      | false         | true             | false                | Symbolic, emergent            |
+| **Vital Capital**  | `quantifiable` | `transferable` | `durable` | `replenishable` | `formalizable` | `tangible` | `observable` | `symbolic_only` | `consumable` | `uniquely_identifiable` | **Notes**                    |
+|--------------------|----------------|----------------|-----------|-----------------|----------------|------------|--------------|-----------------|--------------|-------------------------|------------------------------|
+| **Water**          | true           | true           | true      | true            | true           | true       | true         | false           | true         | false                   | Physical, metered            |
+| **Presence**       | false          | false          | false     | false           | false          | false      | false        | true            | false        | false                   | Emergent, relational         |
+| **Reputation**     | partial        | false          | true      | partial         | false          | false      | true         | false           | false        | false                   | Attested, social             |
+| **Love**           | false          | false          | true      | true            | false          | false      | true         | true            | false        | false                   | Grows through sharing        |
+| **Time**           | true           | false          | false     | false           | true           | false      | true         | false           | true         | false                   | Scarce, not renewable        |
+| **Labor**          | true           | true           | true      | true            | true           | true       | true         | false           | true         | false                   | Formalizable service         |
+| **Trust**          | partial        | false          | true      | true            | false          | false      | true         | false           | false        | false                   | Built or broken relationally |
+| **Sacred Silence** | false          | false          | false     | false           | false          | false      | false        | true            | false        | false                   | Symbolic, emergent           |
+| **Book (printed)** | true           | true           | true      | false           | true           | true       | true         | false           | false        | true                    | Tangible, trackable asset    |
 
 ---
 
 ### 💡 Notes on Interpretation
 
 - Some values (like **Love** or **Reputation**) are **non-rivalrous** and not depleted by sharing.
-- Others (like **Time** or **Labor**) are **rivalrous** and must be carefully allocated or replenished.
-- **Formalization** applies to resources that can be reliably governed by structured agreements (e.g. scheduling time, allocating funds).
-- **Symbolic-only** value types enable ritualized or narrative coordination without needing measurable quantities.
+- Others (like **Time** or **Labor**) are **consumable** and must be carefully allocated or replenished.
+- **Formalization** applies to resources that can be governed by agreements or policies (e.g., time, water, money).
+- **Symbolic-only** value types support meaning-making and ritual without requiring measurement or exchange.
+- The `uniquely_identifiable` dimension tracks whether distinct instances matter — e.g., serialized artifacts vs. bulk commodities.
 
 ---
 
@@ -325,3 +328,5 @@ especially the framework of **Context-Based Sustainability (CBS)**:
 
 MAP extends CBS with a holonic, flow-native, consent-based coordination layer —  
 preserving its rigor while opening to ritual, meaning, and regeneration.
+
+[The Metacurrency Project](https://metacurrency.org)
