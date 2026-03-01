@@ -3,7 +3,7 @@
 This analysis examines Peter Joseph’s *Integral Collective* vision through the **two lenses**:
 
 1. Can MAP Serve as the Technical Infrastructure Integral Requires?
-2. 
+2. Integral Tech Requires Integral-Aligned Funding Model
 
 ## Lens 1: Can MAP Serve as the Technical Infrastructure Integral Requires?
 
@@ -314,7 +314,7 @@ MAP is:
 This is not coincidence.  
 It is convergence.
 
-# 2. Lens 2: Integral Tech Requires Integral-Aligned Funding Model
+## Lens 2: Integral Tech Requires Integral-Aligned Funding Model
 
 ### LifeCode → Pool → Architecture → Projects → Outcomes
 

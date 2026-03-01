@@ -1,6 +1,5 @@
-## A Two-Part Guided Meditation -- LifeCode and PromiseWeave
+## A Guided Meditation -- Pulsing your Enquiry into the Field
 
-### Listening for Values, Gifts, and Needs
 
 Let’s begin by settling into the body.
 
@@ -20,119 +19,19 @@ Just notice.
 
 ---
 
-## Part 1 — Listening for LifeCode
 
-I’d like to begin by inviting **Mother Earth** into this space.
 
-As a facilitator, I’ll share a few draft LifeCode statements — values, principles, goals, or governance commitments that might be part of a *LifeCode for Regenerating Earth*.
+## The Pulse 
 
-As you hear each one, don’t analyze it.  
-Don’t ask whether it’s right or wrong.
-
-Instead, simply notice:
-
-- Does this resonate in my heart?
-- Does it feel alive, necessary, or true for me?
-- Or does it feel distant, uncertain, or negotiable?
-
-There is no judgment here.
-
-Some statements may not resonate at all.  
-Some may feel important, but flexible.
-
-And some may feel **non-negotiable** — the kind of commitment where you sense:
-
-> “I only want to collaborate with others who are willing to honor this, as I am.”
-
-When you feel that kind of resonance — quiet but firm — gently write it down.
-
-No explanations.  
-No justification.
-
-Just the statement itself.
-
-These are the LifeCode commitments you might choose to coordinate around — not because you should, but because something in you says yes.
-
-Take a few breaths here.  
-Let the list complete itself.
-
----
-
-## Part 2 — Sensing Your Gifts (Offered Promises)
-
-Now, gently shift attention.
-
-Instead of asking what the world needs from you, ask:
-
-**What gifts do I have to offer?**
-
-Not what you ought to give.  
-Not what you feel obligated to provide.
-
-But what you could offer **in service to these LifeCode commitments**.
-
-As each possible gift arises, pause and ask:
-
-- Does giving this bring me joy?
-- Does it feel like a genuine gift?
-- Or does it feel driven by obligation or expectation?
-
-Again — no judgment.
-
-Obligation isn’t wrong.  
-It’s just different information.
-
-For now, only write down the gifts that feel joyful in the giving — the ones you could promise freely.
-
-Write them simply.
-
-No long explanations.
-
-These are your **Offered Promises**.
-
-Take a few minutes here.  
-Let the list settle.
-
----
-
-## Part 3 — Sensing Your Needs
-
-Now we turn gently toward **Needs**.
-
-Ask yourself:
-
-**What do I need in order to offer these gifts in integrity, in service to this LifeCode?**
-
-As needs arise, you might notice thoughts like:
-
-- “I want this.”
-- “I’d really like that.”
-
-Gently ask, without judgment:
-
-- Is this a want?
-- Or is this truly a need?
-
-You don’t have to filter perfectly.  
-The protocol itself will help later.
-
-For now, simply write down what feels like it genuinely supports your capacity to give.
-
-These are your **Needed Promises**.
-
----
-
-## Part 4 — The Pulse
-
-Now imagine taking the Enquiry paper you've written.
+Now hold the Enquiry paper in your imagination. Perhaps first take one final look...
 
 - the LifeCode commitments,
 - the gifts you’re willing to offer,
 - the needs you’re asking to be met.
 
+Imagine creating a copy of only the top-half of the paper (LC + N, but not O)
 
-
-Imagine placing them together into a small capsule.  
+Imagine placing that copy into a small capsule.  
 An envelope.  
 A seed.
 
@@ -146,7 +45,7 @@ You are offering an enquiry.
 
 ---
 
-## Part 5 — Receiving Responses
+## Breathe In -- Receiving Responses
 
 On your next **in-breath**, imagine receiving responses.
 
@@ -156,7 +55,7 @@ but only from those with genuine resonance.
 Those who:
 
 - share enough of your LifeCode commitments to honor them, and
-- have gifts that meet some of your needs.
+- have gifts to offer that meet at least some of your needs.
 
 As each response arrives, notice what it contains:
 
@@ -175,7 +74,7 @@ Just information.
 
 ---
 
-## Part 6 — Reflection
+## Pause (breath naturally) — Reflection
 
 Now comes an important moment.
 
@@ -204,7 +103,7 @@ Take a few breaths here.
 
 ---
 
-## Part 7 — Refinement and Re-Pulsing
+## Refinement and Re-Pulsing
 
 If you choose, imagine refining your enquiry:
 
@@ -214,9 +113,9 @@ If you choose, imagine refining your enquiry:
 
 Now imagine gathering this revised enquiry into a new capsule.
 
-On your next out-breath, pulse it again into the field.
+On your next **out-breath**, pulse it again into the field.
 
-On the in-breath, receive what comes back.
+On the **in-breath**, receive what comes back.
 
 Notice how the field responds differently.  
 Notice how you are changing as well.
@@ -226,7 +125,7 @@ This is **co-evolving**.
 
 ---
 
-## Part 8 — Convergence and Agreement
+## Convergence and Agreement
 
 Now imagine a moment where everything aligns:
 
