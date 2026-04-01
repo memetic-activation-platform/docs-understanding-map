@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
-import re
 import json
-from pathlib import Path
+import re
 from collections import OrderedDict
+from pathlib import Path
 
-# Paths
-GLOSSARY_MD_PATH = Path("docs/understanding-the-map/glossary.md")
+GLOSSARY_MD_CANDIDATES = (
+    Path("docs/understanding-the-map/appendices/glossary.md"),
+    Path("docs/understanding-the-map/glossary.md"),
+)
 GLOSSARY_JSON_PATH = Path("docs/assets/glossary.json")
+ENTRY_PATTERN = re.compile(r"^##\s+(.+?)\n(.*?)(?=^##\s+|\Z)", re.MULTILINE | re.DOTALL)
 
 def slugify(term):
     # Use explicit anchor if present
@@ -44,28 +47,27 @@ def clean_summary(text):
             .replace('–', '-')
             .replace('—', '-')
     )
-    text = re.sub(r'$begin:math:display$([^$end:math:display$]+)\]$begin:math:text$[^)]+$end:math:text$', r'\1', text)  # strip [text](link)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+def find_glossary_md_path():
+    for path in GLOSSARY_MD_CANDIDATES:
+        if path.exists():
+            return path
+    return None
+
 def generate_tooltip_glossary(md_path):
-    text = md_path.read_text()
+    text = md_path.read_text(encoding="utf-8")
 
     # Strip frontmatter and main title
     text = re.sub(r"(?s)^---.*?---", "", text).strip()
     text = re.sub(r"^# .*?\n", "", text)
 
-    # Parse sections
-    entries = re.split(r"\n##\s+", text)
     tooltip_dict = OrderedDict()
 
-    for entry in entries:
-        if not entry.strip():
-            continue
-        lines = entry.strip().split('\n', 1)
-        if len(lines) < 2:
-            continue
-        term, body = lines
+    for match in ENTRY_PATTERN.finditer(text):
+        term, body = match.groups()
         slug = slugify(term)
         summary_raw = extract_summary(body)
         summary_clean = clean_summary(summary_raw)
@@ -74,14 +76,16 @@ def generate_tooltip_glossary(md_path):
     return tooltip_dict
 
 def main():
-    if not GLOSSARY_MD_PATH.exists():
-        print(f"❌ Could not find: {GLOSSARY_MD_PATH}")
+    glossary_md_path = find_glossary_md_path()
+    if glossary_md_path is None:
+        searched = ", ".join(str(path) for path in GLOSSARY_MD_CANDIDATES)
+        print(f"❌ Could not find a glossary source. Checked: {searched}")
         return
 
-    tooltip_data = generate_tooltip_glossary(GLOSSARY_MD_PATH)
+    tooltip_data = generate_tooltip_glossary(glossary_md_path)
     GLOSSARY_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
-    GLOSSARY_JSON_PATH.write_text(json.dumps(tooltip_data, indent=2))
-    print(f"✅ Generated {GLOSSARY_JSON_PATH} with {len(tooltip_data)} entries.")
+    GLOSSARY_JSON_PATH.write_text(json.dumps(tooltip_data, indent=2), encoding="utf-8")
+    print(f"✅ Generated {GLOSSARY_JSON_PATH} from {glossary_md_path} with {len(tooltip_data)} entries.")
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const glossaryUrl = window.location.hostname === "localhost"
-        ? "/assets/glossary.json"
-        : "/docs-understanding-map/assets/glossary.json";
     const tooltipClass = "glossary-tooltip";
+    const glossaryUrl = resolveGlossaryUrl();
 
     // Create reusable tooltip element
     const tooltip = document.createElement("div");
@@ -16,7 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
             links.forEach((link) => {
                 const hash = link.getAttribute("href").split("#")[1];
                 if (!hash) return;
-                const slug = hash.toLowerCase().replace(/[^\w]+/g, "-").replace(/(^-|-$)/g, "");
+                const normalizedHash = decodeURIComponent(hash);
+                const slug = glossary[normalizedHash]
+                    ? normalizedHash
+                    : normalizedHash.toLowerCase().replace(/[^\w]+/g, "-").replace(/(^-|-$)/g, "");
                 let def = glossary[slug];
                 if (!def) return;
 
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Attach event listeners
                 link.classList.add(tooltipClass);
-                link.addEventListener("mouseenter", (e) => {
+                link.addEventListener("mouseenter", () => {
                     tooltip.innerHTML = def.replace(/\n/g, '<br>');
                     tooltip.style.display = "block";
                     const rect = link.getBoundingClientRect();
@@ -46,6 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     tooltip.style.display = "none";
                 });
             });
+        })
+        .catch((error) => {
+            console.warn("Unable to load glossary hover data:", error);
         });
 
     injectStyles();
@@ -74,5 +78,16 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     `;
         document.head.appendChild(style);
+    }
+
+    function resolveGlossaryUrl() {
+        const script = document.querySelector("script[src*='glossary-hover.js']");
+        if (script) {
+            const src = script.getAttribute("src");
+            const glossarySrc = src.replace(/glossary-hover\.js(?:\?.*)?$/, "glossary.json");
+            return new URL(glossarySrc, window.location.href).toString();
+        }
+
+        return new URL("assets/glossary.json", window.location.href).toString();
     }
 });

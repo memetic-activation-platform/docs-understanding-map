@@ -15,6 +15,7 @@ Promises are the **building blocks of all coordination** in the MAP. They underp
 A **Promise** is a voluntary declaration made by one Agent (the *Promisor*) to another (the *Promisee*) about an intended action, contribution, or stance.
 
 **Key qualities of a MAP Promise:**
+
 - **Voluntary** — expressed freely, not imposed
 - **Autonomous** — issued by an agent with control over its own behavior
 - **Declarative** — a statement of “I will…” rather than “you must…”

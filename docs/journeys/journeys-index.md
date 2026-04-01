@@ -12,7 +12,7 @@ collaborate, cooperate, and co-create with fellow travelers.
 
 The MAP is currently in proof-of-concept prototyping. This stage is ripe for sharing -— enough is solid to demonstrate how the MAP can tangibly support a broad range of endeavors. At the same time, the system remains flexible: open to feedback and ready to evolve. 
 
-By sharing some possible journeys now, we invite others into a living co-design process—where the tools for stewarding the [commons](/docs-understanding-map/understanding-the-map/appendices/glossary/#commons) are themselves held in common.
+By sharing some possible journeys now, we invite others into a living co-design process—where the tools for stewarding the [commons](../understanding-the-map/appendices/glossary.md#commons) are themselves held in common.
 
 We've included a small sampling of journeys here. What might your first journey be?
 
@@ -20,6 +20,6 @@ We've included a small sampling of journeys here. What might your first journey 
 * [Web Conference in Flow](./web-conference.md) -- A single live meeting — grounded in shared principles, hosted within the Space membrane, captured and curated into living knowledge, and reflected back to the group in real time —  becomes a dynamic expression of collective coherence and care.
 * [A Case Study in Shared Lodging](./sharing-lodging.md) -- This journey involves a real-life case study: sharing an Airbnb at the Cascadia Bioregional Conference. A grounded story with surprising possibilities.
 * [From Idea to Impact: A Thought Leader’s Journey on the MAP](./idea-to-impact.md)-- Jordan, a cultural weaver and systems storyteller, envisions a short film titled “From Scarcity to Stewardship: Reclaiming Bioregional Sovereignty.” She wants this story to inspire regenerative action and community learning circles worldwide. Rather than posting it on a commercial platform, she wants to retain ownership, align it with her LifeCode, and make it discoverable through memetic resonance rather than algorithms.
-* [Commoning as a Process](./commoning-journey/0.2-prologue.md) -- [Commoning](/docs-understanding-map/understanding-the-map/appendices/glossary/#commoning)—rooted in shared stewardship, mutual care, and relational governance—offers pathways for communities to regenerate life, rebuild trust, and sustain shared resources in ways that markets and states have failed to do
+* [Commoning as a Process](./commoning-journey/0.2-prologue.md) -- [Commoning](../understanding-the-map/appendices/glossary.md#commoning)—rooted in shared stewardship, mutual care, and relational governance—offers pathways for communities to regenerate life, rebuild trust, and sustain shared resources in ways that markets and states have failed to do
 
 

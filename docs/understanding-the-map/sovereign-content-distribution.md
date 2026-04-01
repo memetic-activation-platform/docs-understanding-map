@@ -1,6 +1,7 @@
 ## 🧠 A Sovereign Content-Distribution Architecture
 
 Imagine a **MAP-native alternative to the content stack** that currently looks like:
+
 - YouTube/Vimeo for hosting
 - Social platforms for distribution
 - Extractive attention algorithms for reach
@@ -21,8 +22,9 @@ But in the MAP model, you invert the entire structure:
 ## 🕸️ How This Works in Practice
 
 ### 1. **A Thought Leader's Video is a Holon**
+ 
 - They record a 60–90 min talk or dialogue.
-- The file is stored in their **I-Space**, possibly mirrored through a HoliPort.
+- The file is stored in their **I-Space**, possibly mirrored through a HoloPort.
 - The Holon (representing the video) is described with:
     - A `LifeCode` alignment
     - `Promise` conditions (e.g., under CC license, or available to certain roles)
@@ -30,11 +32,13 @@ But in the MAP model, you invert the entire structure:
     - Distribution preferences (e.g., "make public," or "share with Activation Space")
 
 ### 2. **Shared into a MAP Space (e.g., Memetic Activation Space)**
+
 - That Holon is **not copied**, just **referenced** in the shared space.
 - The activation space now becomes a **coherent memetic feed** — a MAP-native YouTube channel.
 - This space can be visualized with timeline, graph, or gallery visualizers.
 
 ### 3. **Distributed via Sense Adapters**
+
 - Each space (like the Activation Series) is paired with a **Sense app** that can:
     - Announce new content to preconfigured outbound channels (e.g., Instagram, YouTube, Email, BlueSky)
     - Translate a MAP-native Promise into a shareable teaser or link

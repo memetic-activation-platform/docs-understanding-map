@@ -58,7 +58,7 @@ While agreements may **expire**, be **revoked**, or become **inactive**, the Age
 ---
 ## Choreographer
 
-The **Choreographer** is the MAP’s native coordination engine. It manages the invocation and sequencing of modular dances across agents, spaces, and roles using **declarative [Dance Flows](glossary.md#dance-flow)**. 
+The **Choreographer** is the MAP’s native coordination engine. It manages the invocation and sequencing of modular dances across agents, spaces, and roles using **declarative [Dance Flows](#dance-flow)**. 
 
 Each dance performs a single task and emits a completion signal. The Choreographer listens for these signals and, based on the active flow specification and local context, invokes the next appropriate step. By keeping sequencing logic outside of individual dances, MAP enables complex behaviors to be composed from simple, intelligible parts.
 
@@ -122,7 +122,7 @@ And the `DanceResponse` returns:
 
 ---
 
-### Dance Flow
+## Dance Flow
 
 A **Dance Flow** is a named, context-aware sequence of individual dances that collectively coordinate a process across agents, promises, or Agent Spaces.
 
@@ -163,7 +163,7 @@ Each `DanceRequest` contains:
 Like all things in the MAP, the DanceRequest is itself a [Holon](#holon) — with its own type descriptor, provenance, access policy, and potential for visual representation.
 
 DanceRequests can be created by:
-- Human users interacting through [DAHN](#dahn-dynamic-adaptive-holon-navigator) 
+- Human users interacting through [DAHN](#dahn) 
 - Other Holons (e.g., service Holons triggering dances)
 - External systems interfacing through the MAP Uniform API
 
@@ -187,9 +187,9 @@ Like the `DanceRequest`, the `DanceResponse` is a fully self-describing Holon an
 
 ---
 
-## Sovereign Data Sphere
+## Sovereign Data Sphere {#data-grove}
 
-A **Sovereign Data Sphere** is the sovereign, Holochain-based data storage area. Each [AgentSpace](#agentspace) has its own private Sovereign Data Sphere.  All of the [mapps](#mapps) that are imported into an Agent Space store their information in the Sovereign Data Sphere of that Space.
+A **Sovereign Data Sphere** is the sovereign, Holochain-based data storage area. Each [AgentSpace](#agentspace) has its own private Sovereign Data Sphere. All of the mapps that are imported into an Agent Space store their information in the Sovereign Data Sphere of that Space.
 
 ---
 
@@ -222,7 +222,7 @@ Echo Weights enable more nuanced interpretation of social signals by:
 - Informing access decisions, [Agreement](#agreement) thresholds, and trust scores
 - Supporting evaluative logic in [AgentSpaces](#agentspace) and across social holarchies
 
-Weights may be numeric (e.g., 0.9), categorical (e.g., “strong,” “light”), or policy-defined by a [GroupAgent](#group-agent).
+Weights may be numeric (e.g., 0.9), categorical (e.g., “strong,” “light”), or policy-defined by a stewarding agent or group.
 
 > ✳️ While optional, Echo Weights help MAP spaces distinguish between weak support and strong verification—without requiring rigid central scoring systems.
 
@@ -338,6 +338,14 @@ The set of rules defined by an [AgentSpace's](#agentspace) [Life Code](#lifecode
 
 ---
 
+## Individual Sovereignty
+
+**Individual Sovereignty** is the principle that each agent retains authority over their own identity, data, commitments, boundaries, and participation.
+
+In the MAP, sovereignty does not mean isolation. It means that collaboration, visibility, and exchange arise through consent, shared agreements, and stewarded membranes rather than coercion or platform capture.
+
+---
+
 ## LifeCode
 <!-- summary:start -->
 A **LifeCode** (also known as a [Memetic Signature](#memetic-signature)) is the values-and-identity encoding of an [Agent](#agent), [AgentSpace](#agentspace), [Offer](#offer) or [Agreement](#agreement). It defines:
@@ -384,6 +392,14 @@ Each form of Meaningful Value may declare a **functional profile**: a set of boo
 | `consumable`    | Is it depleted or altered through use or sharing?                         | `true` / `false`   | Scarcity modeling, use-based flows                  |
 | `identifiable`  | Can specific instances of it be uniquely recognized or distinguished?     | `true` / `false`   | Serialization, inventory precision, tracking        |
 
+
+---
+
+## MAP {#map}
+
+The **Memetic Activation Platform (MAP)** is the broader coordination framework described throughout these docs.
+
+It combines sovereign data stewardship, promise-based coordination, memetic pattern sharing, and agent-centered interaction into a common substrate for collaboration across people, groups, and tools.
 
 ---
 
@@ -452,7 +468,7 @@ Every Promise has an implicit or explicit observability profile, which may be:
 - **Indirect** — fulfillment is verifiable through roles, logs, or trusted intermediaries
 - **Unobservable** — fulfillment is private or unverifiable (e.g., internal state, intentions)
 
-Spaces may define [Observability Profiles](#observability-profiles) that specify the kinds of promises they accept, echo, or require in [Agreements](#agreement).
+Spaces may define observability profiles that specify the kinds of promises they accept, echo, or require in [Agreements](#agreement).
 
 > ✳️ Observability governs the **memetic legibility** of a promise—what others can trust, echo, or build upon.
 
@@ -496,6 +512,14 @@ A **Promise** is a voluntary, sovereign commitment made by one [Agent](#agent). 
 Promises may be formal (e.g., I promise to transfer 10 units of water in exchange for 5 units of labor) or informal (e.g., I promise to show up with care and attention).
 
 All [Offers](#offer) and [Agreements](#agreement) are built from bundles of Promises.
+
+---
+
+## Promise Weave
+
+A **Promise Weave** is a coordinated mesh of interrelated [Promises](#promise) spanning multiple agents, roles, or spaces.
+
+Where a single promise captures one commitment, a Promise Weave describes how many commitments reinforce one another over time to form a resilient social fabric of coordination, reciprocity, and trust.
 
 ---
 
@@ -544,6 +568,14 @@ Stewardship emphasizes care, consent, and accountability.
 
 ---
 
+## Fractal Governance
+
+**Fractal Governance** is the idea that governance patterns can repeat across scales without becoming centrally uniform.
+
+In the MAP, spaces can inherit, adapt, and remix governance scaffolds so that small groups, larger commons, and nested sub-spaces remain coherent while still preserving local autonomy.
+
+---
+
 ## Uniform API
 
 The **Uniform API** is the singular interface through which all interactions with the MAP take place. It is based on the metaphor of the [Dance](#dance), framing every invocation — from data queries to service calls — as a shared, consensual interaction.
@@ -566,7 +598,7 @@ Because the MAP is **knowledge-graph native**, all interactions — including se
 
 ---
 
-## Vital Capitals
+## Vital Capitals {#vital-capital}
 
 A subclass of [Meaningful Value](#meaningful-value) used to represent **flows of value that are durable, stewarded, and trackable** within MAP coordination structures.
 
@@ -660,7 +692,7 @@ The MAP’s approach to Vital Capital draws on:
 
 A **Visualizer** is a Holon that describes how another Holon should be rendered and interacted with — in 2D, 3D, text, graph, gallery, immersive environment, or any other format.
 
-Visualizers are contributed to the [Visualizer Commons](#visualizer-commons) and selected at runtime by [DAHN](#dahn-dynamic-adaptive-holon-navigator) based on:
+Visualizers are contributed to the [Visualizer Commons](#visualizer-commons) and selected at runtime by [DAHN](#dahn) based on:
 - The type of Holon
 - The preferences of the Agent viewing it
 - The popularity and contextual fit of available visualizers
@@ -673,7 +705,7 @@ Every Holon can reference one or more Visualizers, allowing radically different 
 
 ## Visualizer Commons
 
-A federated network of stewarded sets of [Visualizers](#visualizer). [DAHN](#dahn-dynamic-adaptive-holon-navigator) dynamically selects and configures visualizers from the _Visualizer Commons_ to present and enable interaction with the MAP' self-describing, active [Holons](#holon)
+A federated network of stewarded sets of [Visualizers](#visualizer). [DAHN](#dahn) dynamically selects and configures visualizers from the _Visualizer Commons_ to present and enable interaction with the MAP' self-describing, active [Holons](#holon)
 
 ---
 
