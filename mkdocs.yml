@@ -80,6 +80,8 @@ nav:
     # Security, AI, and Experience
     - MAP Security Model: understanding-the-map/security-model.md
     - Greet the DAHN: understanding-the-map/DAHN.md
+    - Delegated Agency Model: understanding-the-map/delegated-agency-model.md
+    - Tiered AI Architecture: understanding-the-map/tiered-ai-arch.md
     - Ethical AI Knowledge Assistants: understanding-the-map/ethical-ai-rag.md
 
     # Reference
