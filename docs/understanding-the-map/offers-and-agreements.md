@@ -37,7 +37,7 @@ Importantly, **each Agent defines the terms of their own Offers**. This supports
 
 ## 🛰 Where Offers Are Placed
 
-Each Offer must be extended into a specific **AgentSpace** — the context in which it is discoverable and interpretable.
+To be matched, an Offer must be placed into a specific **AgentSpace** — the context in which it is discoverable and interpretable.
 
 AgentSpaces vary widely in:
 
@@ -63,6 +63,7 @@ When an Agent posts an Offer into an AgentSpace, they specify:
 - **Which roles they seek others to fulfill** (i.e., which Promises they expect to be met)
 
 > You can think of these as:
+> 
 > - The **requirements** of the Offer — Promises you are looking for others to fulfill
 > - The **contributions** or **attributes** of the Offer — Promises you’re committing to fulfill yourself
 
